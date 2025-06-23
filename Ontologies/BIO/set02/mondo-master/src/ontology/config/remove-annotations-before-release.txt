@@ -1,0 +1,2 @@
+http://purl.obolibrary.org/obo/mondo#excluded_from_qc_check
+http://purl.obolibrary.org/obo/mondo#confidence

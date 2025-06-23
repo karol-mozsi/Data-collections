@@ -1,0 +1,2211 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/doid/subsets/DO_CFDE_slim.json",
+    "meta" : {
+      "version" : "http://purl.obolibrary.org/obo/doid/releases/2025-05-30/subsets/DO_CFDE_slim.json"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0014667",
+      "lbl" : "disease of metabolism",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that involves errors in metabolic processes of building or degradation of molecules.",
+          "xrefs" : [ "url:http://www.ncbi.nlm.nih.gov/books/NBK22259/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "metabolic disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:E88.9"
+        }, {
+          "val" : "ICD9CM:277.9"
+        }, {
+          "val" : "MESH:D008659"
+        }, {
+          "val" : "NCI:C3235"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:75934005"
+        }, {
+          "val" : "UMLS_CUI:C0025517"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0050117",
+      "lbl" : "disease by infectious agent",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that is the consequence of the presence of pathogenic microbial agents, including pathogenic viruses, pathogenic bacteria, fungi, protozoa, multicellular parasites, and aberrant proteins known as prions.",
+          "xrefs" : [ "url:https://ncit.nci.nih.gov/ncitbrowser/ConceptReport.jsp?dictionary=NCI_Thesaurus&ns=ncit&code=C26726" ]
+        },
+        "comments" : [ "DO:wk" ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "infectious disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM:079.0"
+        }, {
+          "val" : "UMLS_CUI:C0001485"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://purl.obolibrary.org/obo/OBI_9991118",
+          "val" : "infectious disease"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10115"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:11078"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1304"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1321"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2040"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2288"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3099"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4120"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4620"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:5256"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:945"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:95"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9532"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9696"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0050155",
+      "lbl" : "sensory system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system disease which is located in a part of the nervous system responsible for processing sensory information that consists of sensory receptors, neural pathways, and parts of the brain involved in sensory perception. Commonly recognized sensory systems are those for vision, hearing, somatic sensation (touch), taste and olfaction (smell).",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Sensory_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0060071",
+      "lbl" : "pre-malignant neoplasm",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of cellular proliferation that results in abnormal growths in the body, which do not invade or destroy the surrounding tissue but, given enough time, will transform into a cancer.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Neoplasm" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-05-11T12:18:41Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0060072",
+      "lbl" : "benign neoplasm",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of cellular proliferation that results in abnormal growths in the body which lack the ability to metastasize.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Benign_neoplasm", "url:http://www.nlm.nih.gov/medlineplus/benigntumors.html" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-05-11T12:18:41Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0060118",
+      "lbl" : "thoracic disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the thoracic cavity.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Thoracic_cavity" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-07-25T02:23:47Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0080015",
+      "lbl" : "physical disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that has_material_basis_in a genetic abnormality, error with embryonic development, infection or compromised intrauterine environment.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Congenital_disorder" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "congenital disorder"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_10283",
+      "lbl" : "prostate cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A male reproductive organ cancer that is located_in the prostate.",
+          "xrefs" : [ "url:http://www.cancer.gov/dictionary?CdrID=445079", "url:https://www.genome.gov/Genetic-Disorders/Prostate-Cancer" ]
+        },
+        "comments" : [ "Xref MGI. OMIM mapping confirmed by DO. [SN]." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "NGP - new growth of prostate"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hereditary prostate cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of the prostate"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "prostate cancer, familial"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "prostate neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "prostatic cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "prostatic neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the prostate"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C61"
+        }, {
+          "val" : "ICD9CM:185"
+        }, {
+          "val" : "KEGG:05215"
+        }, {
+          "val" : "MESH:D011471"
+        }, {
+          "val" : "MIM:176807"
+        }, {
+          "val" : "MIM:300147"
+        }, {
+          "val" : "MIM:300704"
+        }, {
+          "val" : "MIM:601518"
+        }, {
+          "val" : "MIM:602759"
+        }, {
+          "val" : "MIM:608656"
+        }, {
+          "val" : "MIM:608658"
+        }, {
+          "val" : "MIM:609299"
+        }, {
+          "val" : "MIM:609558"
+        }, {
+          "val" : "MIM:610321"
+        }, {
+          "val" : "MIM:610997"
+        }, {
+          "val" : "MIM:611100"
+        }, {
+          "val" : "MIM:611868"
+        }, {
+          "val" : "MIM:611928"
+        }, {
+          "val" : "MIM:611955"
+        }, {
+          "val" : "MIM:611958"
+        }, {
+          "val" : "MIM:611959"
+        }, {
+          "val" : "NCI:C3343"
+        }, {
+          "val" : "NCI:C7378"
+        }, {
+          "val" : "ORDO:1331"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126906006"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93974005"
+        }, {
+          "val" : "UMLS_CUI:C0033578"
+        }, {
+          "val" : "UMLS_CUI:C0376358"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:514"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_10534",
+      "lbl" : "stomach cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A gastrointestinal system cancer that is located_in the stomach.",
+          "xrefs" : [ "url:http://cancergenome.nih.gov/cancersselected/stomach-esophagealcancer", "url:http://en.wikipedia.org/wiki/Stomach" ]
+        },
+        "comments" : [ "OMIM mapping confirmed by DO. [SN]." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "gastric cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gastric neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:7704"
+        }, {
+          "val" : "ICD10CM:C16"
+        }, {
+          "val" : "ICD10CM:C16.2"
+        }, {
+          "val" : "ICD10CM:C16.5"
+        }, {
+          "val" : "ICD10CM:C16.6"
+        }, {
+          "val" : "ICD9CM:151"
+        }, {
+          "val" : "ICD9CM:151.4"
+        }, {
+          "val" : "ICD9CM:151.5"
+        }, {
+          "val" : "ICD9CM:151.6"
+        }, {
+          "val" : "MESH:D013274"
+        }, {
+          "val" : "MIM:613659"
+        }, {
+          "val" : "NCI:C3387"
+        }, {
+          "val" : "NCI:C9331"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126824007"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:269459004"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:269460009"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93717002"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:94074003"
+        }, {
+          "val" : "UMLS_CUI:C0024623"
+        }, {
+          "val" : "UMLS_CUI:C0038356"
+        }, {
+          "val" : "UMLS_CUI:C0153421"
+        }, {
+          "val" : "UMLS_CUI:C0153422"
+        }, {
+          "val" : "UMLS_CUI:C0153423"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10539"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10542"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10543"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4713"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_11054",
+      "lbl" : "urinary bladder cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An urinary system cancer that results_in malignant growth located_in the urinary bladder.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Bladder_cancer" ]
+        },
+        "comments" : [ "OMIM mapping confirmed by DO. [SN]." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "bladder cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the bladder"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:12210"
+        }, {
+          "val" : "ICD10CM:C67"
+        }, {
+          "val" : "ICD9CM:188"
+        }, {
+          "val" : "KEGG:05219"
+        }, {
+          "val" : "MESH:D001749"
+        }, {
+          "val" : "MIM:109800"
+        }, {
+          "val" : "NCI:C2901"
+        }, {
+          "val" : "NCI:C9334"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126885006"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:363455001"
+        }, {
+          "val" : "UMLS_CUI:C0005684"
+        }, {
+          "val" : "UMLS_CUI:C0005695"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:5428"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_11934",
+      "lbl" : "head and neck cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organ system cancer that arises in the head or neck region. This region includes the nasal cavity, sinuses, lips, mouth, salivary glands, throat, or larynx.",
+          "xrefs" : [ "url:http://apps.who.int/bookorders/anglais/detart1.jsp?sesslan=1&codlan=1&codcol=70&codcch=9", "url:http://en.wikipedia.org/wiki/Head_and_neck_cancer", "url:http://www.cancer.gov/cancertopics/factsheet/Sites-Types/head-and-neck", "url:http://www.cancer.gov/dictionary?CdrID=257519" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "head and neck neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "head and neck tumours"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "head/neck neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of head and neck"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:12425"
+        }, {
+          "val" : "MESH:D006258"
+        }, {
+          "val" : "NCI:C3077"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:255055008"
+        }, {
+          "val" : "UMLS_CUI:C0018671"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1287",
+      "lbl" : "cardiovascular system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Circulatory_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "disease of subdivision of hemolymphoid system"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM:429.2"
+        }, {
+          "val" : "MESH:D002318"
+        }, {
+          "val" : "NCI:C2931"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:266275004"
+        }, {
+          "val" : "UMLS_CUI:C0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:73"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1319",
+      "lbl" : "brain cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A central nervous system cancer that is characterized by the growth of abnormal cells in the tissues of the brain.",
+          "xrefs" : [ "url:http://www.cancer.gov/dictionary?CdrID=387264" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "BT - Brain tumour"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "adult brain tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "adult malignant brain neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "brain neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "brain neoplasm, adult"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant brain tumour"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant primary brain neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant primary brain tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of Brain"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of adult brain"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of brain"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary brain neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary brain tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary malignant neoplasm of brain"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Brain"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C71"
+        }, {
+          "val" : "ICD9CM:191"
+        }, {
+          "val" : "ICD9CM:239.6"
+        }, {
+          "val" : "MESH:D001932"
+        }, {
+          "val" : "NCI:C170814"
+        }, {
+          "val" : "NCI:C2907"
+        }, {
+          "val" : "NCI:C3568"
+        }, {
+          "val" : "NCI:C5115"
+        }, {
+          "val" : "NCI:C7710"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126952004"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:428061005"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93727008"
+        }, {
+          "val" : "UMLS_CUI:C0006118"
+        }, {
+          "val" : "UMLS_CUI:C0153633"
+        }, {
+          "val" : "UMLS_CUI:C0220624"
+        }, {
+          "val" : "UMLS_CUI:C0750974"
+        }, {
+          "val" : "UMLS_CUI:C0750979"
+        }, {
+          "val" : "UMLS_CUI:C1334557"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2125"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2126"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3543"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:6649"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:911"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1324",
+      "lbl" : "lung cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A respiratory system cancer that is located_in the lung.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Lung_cancer" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "lung neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C34.1"
+        }, {
+          "val" : "ICD10CM:C34.2"
+        }, {
+          "val" : "ICD10CM:C34.3"
+        }, {
+          "val" : "ICD9CM:162.3"
+        }, {
+          "val" : "ICD9CM:162.4"
+        }, {
+          "val" : "ICD9CM:162.5"
+        }, {
+          "val" : "ICD9CM:162.8"
+        }, {
+          "val" : "MIM:211980"
+        }, {
+          "val" : "MIM:608935"
+        }, {
+          "val" : "MIM:612571"
+        }, {
+          "val" : "MIM:612593"
+        }, {
+          "val" : "MIM:614210"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187860004"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187864008"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187868006"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187874006"
+        }, {
+          "val" : "UMLS_CUI:C0024624"
+        }, {
+          "val" : "UMLS_CUI:C0153491"
+        }, {
+          "val" : "UMLS_CUI:C0153492"
+        }, {
+          "val" : "UMLS_CUI:C0153493"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:13075"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1322"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9881"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_15",
+      "lbl" : "reproductive system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in reproductive system organs.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Reproductive_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "genital system disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "NCI:C27613"
+        }, {
+          "val" : "UMLS_CUI:C1335037"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:6309"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_150",
+      "lbl" : "disease of mental health",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Mental_disorder" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:F99"
+        }, {
+          "val" : "MESH:D001523"
+        }, {
+          "val" : "NCI:C2893"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:74732009"
+        }, {
+          "val" : "UMLS_CUI:C0004936"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1579",
+      "lbl" : "respiratory system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/File:Respiratory_system_complete_en.svg", "url:https://www.merriam-webster.com/dictionary/respiratory%20system#medicalDictionary" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:J98"
+        }, {
+          "val" : "ICD9CM:519"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:155603009"
+        }, {
+          "val" : "UMLS_CUI:C0029582"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3226"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_16",
+      "lbl" : "integumentary system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Integumentary_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1612",
+      "lbl" : "breast cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organ system cancer that originates in the mammary gland.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Breast_cancer", "url:http://en.wikipedia.org/wiki/Mammary", "url:http://www.cancer.gov/cancertopics/types/breast", "url:http://www.nlm.nih.gov/medlineplus/breastcancer.html", "url:https://www.genome.gov/Genetic-Disorders/Breast-Cancer" ]
+        },
+        "comments" : [ "Xref MGI. OMIM mapping confirmed by DO. [SN]." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "breast tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of breast"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of the breast"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mammary cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "mammary tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary breast cancer"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mammary neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C50"
+        }, {
+          "val" : "MESH:D001943"
+        }, {
+          "val" : "MIM:114480"
+        }, {
+          "val" : "NCI:C9335"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:254837009"
+        }, {
+          "val" : "UMLS_CUI:C0006142"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1648"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4241"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_162",
+      "lbl" : "cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/cancer", "url:https://www.merriam-webster.com/dictionary/cancer#medicalDictionary" ]
+        },
+        "comments" : [ "Updating out dated UMLS CUI." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary cancer"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C80.1"
+        }, {
+          "val" : "ICD9CM:199"
+        }, {
+          "val" : "ICDO:8000/3"
+        }, {
+          "val" : "MESH:D009369"
+        }, {
+          "val" : "NCI:C9305"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:269513004"
+        }, {
+          "val" : "UMLS_CUI:C0006826"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_17",
+      "lbl" : "musculoskeletal system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that occurs in the muscular and/or skeletal system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Human_musculoskeletal_system#Diseases_and_disorders" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "MESH:D009140"
+        }, {
+          "val" : "NCI:C107377"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:268047003"
+        }, {
+          "val" : "UMLS_CUI:C0026857"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1781",
+      "lbl" : "thyroid cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An endocrine gland cancer located in the thyroid gland located in the neck below the thyroid cartilage.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Thyroid_gland", "url:https://pubmed.ncbi.nlm.nih.gov/35288841/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Thyroid gland neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of thyroid gland"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumour of thyroid gland"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of thyroid gland"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid gland cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "thyroid neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C73"
+        }, {
+          "val" : "ICD9CM:193"
+        }, {
+          "val" : "KEGG:05216"
+        }, {
+          "val" : "MESH:D013964"
+        }, {
+          "val" : "NCI:C3414"
+        }, {
+          "val" : "NCI:C7510"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:127018007"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:94098005"
+        }, {
+          "val" : "UMLS_CUI:C0007115"
+        }, {
+          "val" : "UMLS_CUI:C0040136"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10008"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1793",
+      "lbl" : "pancreatic cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An endocrine gland cancer located_in the pancreas.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Pancreatic" ]
+        },
+        "comments" : [ "Xref MGI." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca body of pancreas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca head of pancreas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca tail of pancreas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of body of pancreas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of head of pancreas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of tail of pancreas"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pancreas neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pancreatic neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "pancreatic tumor"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:9364"
+        }, {
+          "val" : "ICD10CM:C25.0"
+        }, {
+          "val" : "ICD10CM:C25.1"
+        }, {
+          "val" : "ICD10CM:C25.2"
+        }, {
+          "val" : "ICD9CM:157.0"
+        }, {
+          "val" : "ICD9CM:157.1"
+        }, {
+          "val" : "ICD9CM:157.2"
+        }, {
+          "val" : "ICD9CM:157.8"
+        }, {
+          "val" : "KEGG:05212"
+        }, {
+          "val" : "MESH:D010190"
+        }, {
+          "val" : "NCI:C3305"
+        }, {
+          "val" : "ORDO:1333"
+        }, {
+          "val" : "ORDO:217074"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126859007"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187796007"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93715005"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93823001"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:94082003"
+        }, {
+          "val" : "UMLS_CUI:C0030297"
+        }, {
+          "val" : "UMLS_CUI:C0153458"
+        }, {
+          "val" : "UMLS_CUI:C0153459"
+        }, {
+          "val" : "UMLS_CUI:C0153460"
+        }, {
+          "val" : "UMLS_CUI:C0153463"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:14356"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1797"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3588"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9859"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_18",
+      "lbl" : "urinary system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in kidney, ureter, bladder and urethra.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Urinary_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Non-neoplastic urinary tract disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "urinary tract disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "NCI:C27599"
+        }, {
+          "val" : "UMLS_CUI:C1335051"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:579"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_225",
+      "lbl" : "syndrome",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease characterized by a group of signs and symptoms that occur together and characterize a particular abnormality.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/syndrome#medicalDictionary" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "MESH:D013577"
+        }, {
+          "val" : "NCI:C28193"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:64572001"
+        }, {
+          "val" : "UMLS_CUI:C0039082"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_2394",
+      "lbl" : "ovarian cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A female reproductive organ cancer that is located_in the ovary.",
+          "xrefs" : [ "url:http://www.cancer.gov/dictionary?CdrID=445074" ]
+        },
+        "comments" : [ "Xref MGI. OMIM mapping confirmed by DO. [SN]." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant Ovarian tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumour of ovary"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ovarian neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "ovary neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary ovarian cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Ovary"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:7295"
+        }, {
+          "val" : "ICD10CM:C56"
+        }, {
+          "val" : "ICD9CM:183.0"
+        }, {
+          "val" : "MESH:D010051"
+        }, {
+          "val" : "MIM:167000"
+        }, {
+          "val" : "MIM:607893"
+        }, {
+          "val" : "NCI:C4984"
+        }, {
+          "val" : "NCI:C7431"
+        }, {
+          "val" : "ORDO:213500"
+        }, {
+          "val" : "ORDO:213517"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:123843001"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:372117006"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93934004"
+        }, {
+          "val" : "UMLS_CUI:C0919267"
+        }, {
+          "val" : "UMLS_CUI:C1140680"
+        }, {
+          "val" : "UMLS_CUI:C1299247"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:0060070"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2144"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9595"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_2531",
+      "lbl" : "hematologic cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An organ system cancer located in the hematological system that is characterized by uncontrolled cellular proliferation in blood, bone marrow and lymph nodes.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Blood_cancer", "url:http://www.cancer.gov/dictionary/?CdrID=45708" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematologic malignancy"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematologic neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematological tumors"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blood cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hematopoietic and lymphoid system tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hematopoietic cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hematopoietic neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hematopoietic tumors"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant hematopoietic neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "MESH:D019337"
+        }, {
+          "val" : "NCI:C27134"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:414388001"
+        }, {
+          "val" : "UMLS_CUI:C0376544"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1034"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2532"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_263",
+      "lbl" : "kidney cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A urinary system cancer that is located_in the kidney.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Kidney_cancer" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of kidney except pelvis"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumour of kidney"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "renal cancer"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C64"
+        }, {
+          "val" : "ICD9CM:189.0"
+        }, {
+          "val" : "MESH:D007680"
+        }, {
+          "val" : "NCI:C120456"
+        }, {
+          "val" : "NCI:C3150"
+        }, {
+          "val" : "NCI:C7548"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126880001"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93849006"
+        }, {
+          "val" : "UMLS_CUI:C0022665"
+        }, {
+          "val" : "UMLS_CUI:C0494158"
+        }, {
+          "val" : "UMLS_CUI:C0740457"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:11834"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3676"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_28",
+      "lbl" : "endocrine system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Endocrine_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:E34.9"
+        }, {
+          "val" : "ICD9CM:259.9"
+        }, {
+          "val" : "MESH:D004700"
+        }, {
+          "val" : "NCI:C3009"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:67432001"
+        }, {
+          "val" : "UMLS_CUI:C0014130"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_2914",
+      "lbl" : "immune system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the immune system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Immune_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "xrefs" : [ {
+          "val" : "EFO:0000540"
+        }, {
+          "val" : "ICD10CM:D89.9"
+        }, {
+          "val" : "ICD9CM:279.9"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:154782004"
+        }, {
+          "val" : "UMLS_CUI:C0041806"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_2978",
+      "lbl" : "carbohydrate metabolic disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An inherited metabolic disorder that affect the catabolism and anabolism of carbohydrates.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Inborn_errors_of_carbohydrate_metabolism" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "disorder of carbohydrate transport and metabolism"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "inborn carbohydrate metabolism disorder"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "inborn errors of carbohydrate metabolism"
+        } ],
+        "xrefs" : [ {
+          "val" : "MESH:D002239"
+        }, {
+          "val" : "NCI:C97089"
+        }, {
+          "val" : "ORDO:79161"
+        }, {
+          "val" : "UMLS_CUI:C0007001"
+        }, {
+          "val" : "UMLS_CUI:C0149670"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9434"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "MESH:D002239"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "NCI:C97089"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "ORDO:79161"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "UMLS_CUI:C0007001"
+        }, {
+          "pred" : "http://www.w3.org/2004/02/skos/core#exactMatch",
+          "val" : "UMLS_CUI:C0149670"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_331",
+      "lbl" : "central nervous system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Central_nervous_system_disease" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:G96.9"
+        }, {
+          "val" : "MESH:D002493"
+        }, {
+          "val" : "NCI:C2934"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:267144009"
+        }, {
+          "val" : "UMLS_CUI:C0007682"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_3571",
+      "lbl" : "liver cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A hepatobiliary system cancer that is located_in the liver.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Liver" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca liver - primary"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Resectable malignant neoplasm of Liver"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hepatic cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "hepatic neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant hepato-biliary neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of liver"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of liver, not specified as primary or secondary"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of liver, primary"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of liver"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of liver"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "non-resectable primary hepatic malignant neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary liver cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary malignant neoplasm of liver"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "resectable malignant neoplasm of the liver"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C22.0"
+        }, {
+          "val" : "ICD10CM:C22.9"
+        }, {
+          "val" : "ICD9CM:155.0"
+        }, {
+          "val" : "ICD9CM:155.2"
+        }, {
+          "val" : "MESH:D008113"
+        }, {
+          "val" : "NCI:C34803"
+        }, {
+          "val" : "NCI:C7692"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126851005"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187771009"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93870000"
+        }, {
+          "val" : "UMLS_CUI:C0023903"
+        }, {
+          "val" : "UMLS_CUI:C0024620"
+        }, {
+          "val" : "UMLS_CUI:C0345904"
+        }, {
+          "val" : "UMLS_CUI:C0854795"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:12300"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:269"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:7330"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:915"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:919"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_363",
+      "lbl" : "uterine cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A female reproductive organ cancer that is located_in the uterus.",
+          "xrefs" : [ "url:http://www.cancer.gov/dictionary?CdrID=445094" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "CA - cancer of uterus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Tumour of uterus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of uterus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant uterine tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of uterus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "uterine tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "uterus neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C55"
+        }, {
+          "val" : "ICD9CM:179"
+        }, {
+          "val" : "MESH:D014594"
+        }, {
+          "val" : "NCI:C3435"
+        }, {
+          "val" : "NCI:C3552"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126908007"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:371973000"
+        }, {
+          "val" : "UMLS_CUI:C0042138"
+        }, {
+          "val" : "UMLS_CUI:C0153567"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4363"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_3953",
+      "lbl" : "adrenal gland cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An endocrine gland cancer located_in the adrenal glands which are located above the kidneys.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Adrenal_gland" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "adrenal cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "adrenal neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant Adrenal tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of adrenal gland"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of adrenal gland"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Adrenal gland"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:5751"
+        }, {
+          "val" : "ICD10CM:C74"
+        }, {
+          "val" : "ICD9CM:194.0"
+        }, {
+          "val" : "MESH:D000310"
+        }, {
+          "val" : "NCI:C2859"
+        }, {
+          "val" : "NCI:C9338"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:127021009"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93665005"
+        }, {
+          "val" : "UMLS_CUI:C0001624"
+        }, {
+          "val" : "UMLS_CUI:C0750887"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:11007"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_4159",
+      "lbl" : "skin cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "An integumentary system cancer located_in the skin that is the uncontrolled growth of abnormal skin cells.",
+          "xrefs" : [ "url:https://medlineplus.gov/skincancer.html", "url:https://www.genome.gov/Genetic-Disorders/Skin-Cancer" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "CA - skin cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of skin"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "melanoma and Non-melanoma skin cancer"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "cancer of skin"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:10421"
+        }, {
+          "val" : "MESH:D012878"
+        }, {
+          "val" : "NCI:C2920"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:94047004"
+        }, {
+          "val" : "UMLS_CUI:C0007114"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_4362",
+      "lbl" : "cervical cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A female reproductive organ cancer that is located_in the cervix.",
+          "xrefs" : [ "url:http://cancergenome.nih.gov/cancersselected/cervicalcancer", "url:http://en.wikipedia.org/wiki/Cervical_cancer", "url:http://www.cancer.gov/dictionary?CdrID=444973" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "cervical neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cervix cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "cervix uteri cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "neoplasm of uterine cervix"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "tumor of the Cervix Uteri"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "uterine cervical neoplasm"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C53"
+        }, {
+          "val" : "ICD9CM:180"
+        }, {
+          "val" : "MESH:D002583"
+        }, {
+          "val" : "MIM:603956"
+        }, {
+          "val" : "NCI:C2940"
+        }, {
+          "val" : "NCI:C9311"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:123841004"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:254885005"
+        }, {
+          "val" : "UMLS_CUI:C0007847"
+        }, {
+          "val" : "UMLS_CUI:C0007873"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4361"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_5041",
+      "lbl" : "esophageal cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A gastrointestinal system cancer that is located_in the esophagus.",
+          "xrefs" : [ "url:http://cancergenome.nih.gov/cancersselected/stomach-esophagealcancer", "url:http://en.wikipedia.org/wiki/Esophagus" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#DO_rare_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus", "http://purl.obolibrary.org/obo/doid#TopNodes_DOcancerslim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca lower third oesophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Ca middle third oesophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "esophagus cancer"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of distal third of esophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of lower third of oesophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of middle third of oesophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of proximal third of esophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm of upper third esophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of Distal Third of esophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of Proximal Third of esophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of abdominal esophagus"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor of the middle Third of the esophagus"
+        } ],
+        "xrefs" : [ {
+          "val" : "GARD:6383"
+        }, {
+          "val" : "ICD10CM:C15.3"
+        }, {
+          "val" : "ICD10CM:C15.4"
+        }, {
+          "val" : "ICD10CM:C15.5"
+        }, {
+          "val" : "ICD9CM:150.2"
+        }, {
+          "val" : "ICD9CM:150.3"
+        }, {
+          "val" : "ICD9CM:150.4"
+        }, {
+          "val" : "ICD9CM:150.5"
+        }, {
+          "val" : "ICD9CM:150.8"
+        }, {
+          "val" : "MESH:D004938"
+        }, {
+          "val" : "MIM:133239"
+        }, {
+          "val" : "NCI:C3028"
+        }, {
+          "val" : "NCI:C3533"
+        }, {
+          "val" : "NCI:C3534"
+        }, {
+          "val" : "NCI:C3535"
+        }, {
+          "val" : "NCI:C4764"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126817006"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:187729008"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93656003"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93877002"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93895004"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:94119000"
+        }, {
+          "val" : "UMLS_CUI:C0014859"
+        }, {
+          "val" : "UMLS_CUI:C0153413"
+        }, {
+          "val" : "UMLS_CUI:C0153414"
+        }, {
+          "val" : "UMLS_CUI:C0153415"
+        }, {
+          "val" : "UMLS_CUI:C0153416"
+        }, {
+          "val" : "UMLS_CUI:C0496775"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10291"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10292"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:10448"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1102"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1104"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_574",
+      "lbl" : "peripheral nervous system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system disease that affects the peripheral nervous system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/w/index.php?title=Peripheral_neuropathy&redirect=no" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "peripheral nerve disease"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "peripheral neuropathy"
+        } ],
+        "xrefs" : [ {
+          "val" : "NCI:C119734"
+        }, {
+          "val" : "NCI:C27587"
+        }, {
+          "val" : "UMLS_CUI:C0031117"
+        }, {
+          "val" : "UMLS_CUI:C1335029"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:13069"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_630",
+      "lbl" : "genetic disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that has_material_basis_in genetic variations in the human genome.",
+          "xrefs" : [ "url:http://ghr.nlm.nih.gov/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "MESH:D030342"
+        }, {
+          "val" : "NCI:C3101"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:32895009"
+        }, {
+          "val" : "UMLS_CUI:C0019247"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_74",
+      "lbl" : "hematopoietic system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that has_material_basis_in hematopoietic cells.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Hematopathology", "url:https://www.ncbi.nlm.nih.gov/books/NBK1741/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Blood disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Blood dyscrasia"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematological disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blood disorder"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "disease of haematopoietic system"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "disease of hematopoietic system"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "haematopoietic system disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:D75.9"
+        }, {
+          "val" : "ICD9CM:289.9"
+        }, {
+          "val" : "MESH:D006402"
+        }, {
+          "val" : "NCI:C26323"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:154785002"
+        }, {
+          "val" : "UMLS_CUI:C0018939"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_77",
+      "lbl" : "gastrointestinal system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the gastrointestinal tract.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Human_gastrointestinal_tract" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "GIT disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Gastroenteropathy"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alimentary system disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "digestive system disorder"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gastrointestinal disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gastrointestinal disorder"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:K92.9"
+        }, {
+          "val" : "ICD9CM:520-579.99"
+        }, {
+          "val" : "MESH:D004066"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:53619000"
+        }, {
+          "val" : "UMLS_CUI:C0012242"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:27"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:944"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_863",
+      "lbl" : "nervous system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the central nervous system or located_in the peripheral nervous system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Nervous_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:G98"
+        }, {
+          "val" : "ICD9CM:349.9"
+        }, {
+          "val" : "MESH:D009422"
+        }, {
+          "val" : "NCI:C26835"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:155262005"
+        }, {
+          "val" : "UMLS_CUI:C0027765"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_9256",
+      "lbl" : "colorectal cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A large intestine cancer that is located_in the colon and/or located_in the rectum.",
+          "xrefs" : [ "url:http://www.cancer.gov/dictionary?CdrID=444983" ]
+        },
+        "comments" : [ "Xref MGI. OMIM mapping confirmed by DO. [SN]." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C18.9"
+        }, {
+          "val" : "KEGG:05210"
+        }, {
+          "val" : "MESH:D015179"
+        }, {
+          "val" : "MIM:114500"
+        }, {
+          "val" : "NCI:C2956"
+        }, {
+          "val" : "NCI:C4978"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:126837005"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:93854002"
+        }, {
+          "val" : "UMLS_CUI:C0009404"
+        }, {
+          "val" : "UMLS_CUI:C0346629"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    } ],
+    "edges" : [ {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_0050155",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_863"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_10283",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_10534",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_11054",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_11934",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1319",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1324",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1612",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1781",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_1793",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_2394",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_2531",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_263",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_2978",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_0014667"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_331",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_863"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_3571",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_363",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_3953",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_4159",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_4362",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_5041",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_574",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_863"
+    }, {
+      "sub" : "http://purl.obolibrary.org/obo/DOID_9256",
+      "pred" : "is_a",
+      "obj" : "http://purl.obolibrary.org/obo/DOID_162"
+    } ]
+  } ]
+}

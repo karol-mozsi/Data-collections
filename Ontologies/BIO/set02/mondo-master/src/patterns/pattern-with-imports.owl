@@ -1,0 +1,3663 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/mondo/mondo-pattern.owl#"
+     xml:base="http://purl.obolibrary.org/obo/mondo/mondo-pattern.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/mondo/mondo-pattern.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/mondo/releases/2025-06-13/mondo-pattern.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000111 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000111"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000114 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000114"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000116 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000116"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000117 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000117"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000232 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000232"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000589 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000589"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001900 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001900"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/contributor -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/date"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/title"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#created_by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#created_by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#creation_date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#creation_date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0100333 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/MONDO_0100333"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700097 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/MONDO_0700097"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000052 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000052">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002314"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <obo:IAO_0000111 xml:lang="en">inheres in</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this fragility is a characteristic of this vase</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this red color is a characteristic of this apple</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">a relation between a specifically dependent continuant (the characteristic) and any other entity (the bearer), in which the characteristic depends on the bearer for its existence.</obo:IAO_0000115>
+        <obo:IAO_0000118 xml:lang="en">inheres_in</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:comment>Note that this relation was previously called &quot;inheres in&quot;, but was changed to be called &quot;characteristic of&quot; because BFO2 uses &quot;inheres in&quot; in a more restricted fashion. This relation differs from BFO2:inheres_in in two respects: (1) it does not impose a range constraint, and thus it allows qualities of processes, as well as of information entities, whereas BFO2 restricts inheres_in to only apply to independent continuants (2) it is declared functional, i.e. something can only be a characteristic of one thing.</rdfs:comment>
+        <rdfs:label xml:lang="en">characteristic of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#InverseFunctionalProperty"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000020"/>
+        <obo:IAO_0000111 xml:lang="en">bearer of</obo:IAO_0000111>
+        <obo:IAO_0000112 xml:lang="en">this apple is bearer of this red color</obo:IAO_0000112>
+        <obo:IAO_0000112 xml:lang="en">this vase is bearer of this fragility</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">Inverse of characteristic_of</obo:IAO_0000115>
+        <obo:IAO_0000116 xml:lang="en">A bearer can have many dependents, and its dependents can exist for different periods of time, but none of its dependents can exist when the bearer does not exist.</obo:IAO_0000116>
+        <obo:IAO_0000118 xml:lang="en">bearer_of</obo:IAO_0000118>
+        <obo:IAO_0000118 xml:lang="en">is bearer of</obo:IAO_0000118>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">has characteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002162 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002162">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002320"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>x is in taxon y if an only if y is an organism, and the relationship between x and y is one of: part of (reflexive), developmentally preceded by, derives from, secreted by, expressed.</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0001-9227-417X"/>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/17921072"/>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20973947"/>
+        <oboInOwl:hasNarrowSynonym xml:lang="en">life cycle stage of</oboInOwl:hasNarrowSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:comment>Connects a biological entity to its taxon of origin.</rdfs:comment>
+        <rdfs:label>in taxon</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://github.com/obophenotype/uberon/wiki/Taxon-constraints"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002200 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0016001"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002201"/>
+        <rdfs:domain>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:domain>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0001001"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>A relationship that holds between a biological entity and a phenotype. Here a phenotype is construed broadly as any kind of quality of an organism part, a collection of these qualities, or a change in quality or qualities (e.g. abnormally increased temperature). The subject of this relationship can be an organism (where the organism has the phenotype, i.e. the qualities inhere in parts of this organism), a genomic entity such as a gene or genotype (if modifications of the gene or the genotype causes the phenotype), or a condition such as a disease (such that if the condition inheres in an organism, then the organism has the phenotype).</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">has phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002201 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002201">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+        <obo:IAO_0000114 rdf:resource="http://purl.obolibrary.org/obo/IAO_0000125"/>
+        <obo:IAO_0000115>inverse of has phenotype</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/RO_0002259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">phenotype of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002314 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002314">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002502"/>
+        <obo:IAO_0000115>q characteristic of part of w if and only if there exists some p such that q inheres in p and p part of w.</obo:IAO_0000115>
+        <obo:IAO_0000116>Because part_of is transitive, inheres in is a sub-relation of characteristic of part of</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000118>inheres in part of</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:resource="http://www.ncbi.nlm.nih.gov/pubmed/20064205"/>
+        <obo:RO_0001900 rdf:resource="http://purl.obolibrary.org/obo/RO_0001901"/>
+        <rdfs:label xml:lang="en">characteristic of part of</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/ro/docs/reflexivity/"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002320 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002320">
+        <obo:IAO_0000115>A relationship that holds via some environmental process</obo:IAO_0000115>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000232>Do not use this relation directly. It is ended as a grouping for a diverse set of relations, all involving the process of evolution.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">evolutionarily related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002321 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002321">
+        <obo:IAO_0000115>A relationship that is mediated in some way by the environment or environmental feature (ENVO:00002297)</obo:IAO_0000115>
+        <obo:IAO_0000116>Awaiting class for domain/range constraint, see: https://github.com/OBOFoundry/Experimental-OBO-Core/issues/6</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving ecological interactions</obo:IAO_0000232>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/ro/subsets#ro-eco"/>
+        <rdfs:label xml:lang="en">ecologically related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002410 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002410">
+        <obo:IAO_0000115>relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause.</obo:IAO_0000115>
+        <obo:IAO_0000116>This branch of the ontology deals with causal relations between entities. It is divided into two branches: causal relations between occurrents/processes, and causal relations between material entities. We take an &apos;activity flow-centric approach&apos;, with the former as primary, and define causal relations between material entities in terms of causal relations between occurrents.
+
+To define causal relations in an activity-flow type network, we make use of 3 primitives:
+
+ * Temporal: how do the intervals of the two occurrents relate? 
+ * Is the causal relation regulatory?
+ * Is the influence positive or negative?
+
+The first of these can be formalized in terms of the Allen Interval Algebra. Informally, the 3 bins we care about are &apos;direct&apos;, &apos;indirect&apos; or overlapping. Note that all causal relations should be classified under a RO temporal relation (see the branch under &apos;temporally related to&apos;). Note that all causal relations are temporal, but not all temporal relations are causal. Two occurrents can be related in time without being causally connected. We take causal influence to be primitive, elucidated as being such that has the upstream changed, some qualities of the donwstream would necessarily be modified.
+
+For the second, we consider a relationship to be regulatory if the system in which the activities occur is capable of altering the relationship to achieve some objective. This could include changing the rate of production of a molecule.
+
+For the third, we consider the effect of the upstream process on the output(s) of the downstream process. If the level of output is increased, or the rate of production of the output is increased, then the direction is increased. Direction can be positive, negative or neutral or capable of either direction. Two positives in succession yield a positive, two negatives in succession yield a positive, otherwise the default assumption is that the net effect is canceled and the influence is neutral.
+
+Each of these 3 primitives can be composed to yield a cross-product of different relation types.</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all involving cause and effect.</obo:IAO_0000232>
+        <rdfs:label xml:lang="en">causally related to</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>relation that links two events, processes, states, or objects such that one event, process, state, or object (a cause) contributes to the production of another event, process, state, or object (an effect) where the cause is partly or wholly responsible for the effect, and the effect is partly or wholly dependent on the cause.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>https://en.wikipedia.org/wiki/Causality</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002451 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002451">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+        <obo:IAO_0000112>all dengue disease transmitted by some mosquito</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship that holds between a disease and organism</obo:IAO_0000115>
+        <obo:IAO_0000116>Add domain and range constraints</obo:IAO_0000116>
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <rdfs:label>transmitted by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002502 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002502">
+        <obo:IAO_0000117 rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <rdfs:label>depends on</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://purl.obolibrary.org/obo/BFO_0000169"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003302 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <obo:IAO_0000112>The genetic variant &apos;NM_007294.3(BRCA1):c.110C&gt;A (p.Thr37Lys)&apos; casues or contributes to the disease  &apos;familial breast-ovarian cancer&apos;.
+
+An environment of exposure to arsenic causes or contributes to the phenotype of patchy skin hyperpigmentation, and the disease &apos;skin cancer&apos;.</obo:IAO_0000112>
+        <obo:IAO_0000115>A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure) and a condition (a phenotype or disease), where the entity has some causal or contributing role that influences the condition.</obo:IAO_0000115>
+        <obo:IAO_0000116>Note that relationships of phenotypes to organisms/strains that bear them, or diseases they are manifest in, should continue to use RO:0002200 ! &apos;has phenotype&apos; and RO:0002201 ! &apos;phenotype of&apos;.</obo:IAO_0000116>
+        <rdfs:comment>Genetic variations can span any level of granularity from a full genome or genotype to an individual gene  or sequence alteration.  These variations can be represented at the physical level (DNA/RNA macromolecules or their parts, as in the ChEBI ontology and Molecular Sequence Ontology) or at the abstract level (generically dependent continuant sequence features that are carried by these macromolecules, as in the Sequence Ontology and Genotype Ontology).  The causal relations in this hierarchy can be used in linking either physical or abstract genetic variations to phenotypes or diseases they cause or contribute to.
+
+Environmental exposures include those imposed by natural environments, experimentally applied conditions, or clinical interventions.</rdfs:comment>
+        <rdfs:label xml:lang="en">causes or contributes to condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003303 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003303">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+        <obo:IAO_0000115>A relationship between an entity (e.g. a genotype, genetic variation, chemical, or environmental exposure) and a condition (a phenotype or disease), where the entity has some causal role for the condition.</obo:IAO_0000115>
+        <rdfs:label xml:lang="en">causes condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004000">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004010"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a more specific relations</obo:IAO_0000232>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T02:38:20Z</oboInOwl:creation_date>
+        <rdfs:label>condition has genetic basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004003 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004003">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004000"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004013"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T02:45:54Z</oboInOwl:creation_date>
+        <rdfs:label>has material basis in germline mutation in</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.orpha.net/ORDO/Orphanet_317343"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004010 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004010">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004018"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a more specific relations</obo:IAO_0000232>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T02:53:08Z</oboInOwl:creation_date>
+        <rdfs:label>is genetic basis for condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004013 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004013">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003303"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004010"/>
+        <obo:IAO_0000115>Relates a gene to condition, such that a mutation in this gene is sufficient to produce the condition and that can be passed on to offspring[modified from orphanet].</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T02:56:40Z</oboInOwl:creation_date>
+        <rdfs:label>is causal germline mutation in</rdfs:label>
+        <rdfs:seeAlso rdf:resource="http://www.orpha.net/ORDO/Orphanet_317343"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004017 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004017">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <owl:inverseOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004018"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:20:01Z</oboInOwl:creation_date>
+        <rdfs:label>realizable has basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004018 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004018">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:20:29Z</oboInOwl:creation_date>
+        <rdfs:label>is basis for realizable</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004019 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004019">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004017"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004023"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:26:47Z</oboInOwl:creation_date>
+        <rdfs:label>disease has basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004020 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004020">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004019"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+        <obo:IAO_0000115>A relation that holds between the disease and a material entity where the physical basis of the disease is a disorder of that material entity that affects its function.</obo:IAO_0000115>
+        <obo:IAO_0000589>disease has basis in dysfunction of (disease to anatomical structure)</obo:IAO_0000589>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:29:32Z</oboInOwl:creation_date>
+        <rdfs:label>disease has basis in dysfunction of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004021 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004021">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004019"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A relation that holds between the disease and a process where the physical basis of the disease disrupts execution of a key biological process.</obo:IAO_0000115>
+        <obo:IAO_0000589>disease has basis in disruption of (disease to process)</obo:IAO_0000589>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:37:52Z</oboInOwl:creation_date>
+        <rdfs:label>disease has basis in disruption of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004022 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004022">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004019"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UPHENO_0001001"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000115>A relation that holds between the disease and a feature (a phenotype or other disease) where the physical basis of the disease is the feature.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:46:07Z</oboInOwl:creation_date>
+        <rdfs:label>disease has basis in feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004023 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004023">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0040035"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, all of which have a disease as the subject.</obo:IAO_0000232>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:50:54Z</oboInOwl:creation_date>
+        <rdfs:label>causal relationship with disease as subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004024 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004024">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004023"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000115>A relationship between a disease and a process where the disease process disrupts the execution of the process.</obo:IAO_0000115>
+        <obo:IAO_0000589>disease causes disruption of (disease to process)</obo:IAO_0000589>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T03:51:09Z</oboInOwl:creation_date>
+        <rdfs:label>disease causes disruption of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004026 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004026">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0040035"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000466"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000115>A relationship between a disease and an anatomical entity where the disease has one or more features that are located in that entity.</obo:IAO_0000115>
+        <obo:IAO_0000116>TODO: complete range axiom once more of CARO has been mireoted in to this ontology</obo:IAO_0000116>
+        <obo:IAO_0000232>This relation is intentionally very general, and covers isolated diseases, where the disease is realized as a process occurring in the location, and syndromic diseases, where one or more of the features may be present in that location. Thus any given disease can have multiple locations in the sense defined here.</obo:IAO_0000232>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-11-05T04:06:02Z</oboInOwl:creation_date>
+        <rdfs:label>disease has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004027 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004027">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000004"/>
+        <rdfs:range>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0000466"/>
+                </owl:unionOf>
+            </owl:Class>
+        </rdfs:range>
+        <obo:IAO_0000115>A relationship between a disease and an anatomical entity where the disease is triggered by an inflammatory response to stimuli occurring in the anatomical entity</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-26T19:37:31Z</oboInOwl:creation_date>
+        <rdfs:label>disease has inflammation site</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004028 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004028">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+        <obo:IAO_0000115>A relationship between a realizable entity R (e.g. function or disposition) and a material entity M where R is realized in response to a process that has an input stimulus of M.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-26T19:45:49Z</oboInOwl:creation_date>
+        <rdfs:label>realized in response to stimulus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004030 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004030">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004019"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+        <obo:IAO_0000115>A relationship between a disease and an anatomical structure where the material basis of the disease is some pathological change in the structure. Anatomical structure includes cellular and sub-cellular entities, such as chromosome and organelles.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2017-12-26T19:58:44Z</oboInOwl:creation_date>
+        <rdfs:label>disease arises from alteration in structure</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0009501 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0009501">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000112>A drought sensitivity trait that inheres in a whole plant is realized in a systemic response process in response to exposure to drought conditions.</obo:IAO_0000112>
+        <obo:IAO_0000112>An inflammatory disease that is realized in response to an inflammatory process occurring in the gut (which is itself the realization of a process realized in response to harmful stimuli in the mucosal lining of th gut)</obo:IAO_0000112>
+        <obo:IAO_0000112>Environmental polymorphism in butterflies: These butterflies have a &apos;responsivity to day length trait&apos; that is realized in response to the duration of the day, and is realized in developmental processes that lead to increased or decreased pigmentation in the adult morph.</obo:IAO_0000112>
+        <obo:IAO_0000115>r &apos;realized in response to&apos; s iff, r is a realizable (e.g. a plant trait such as responsivity to drought), s is an environmental stimulus (a process), and s directly causes the realization of r.</obo:IAO_0000115>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0001-6996-0040"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7073-9172"/>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-8461-9745"/>
+        <oboInOwl:hasExactSynonym>triggered by process</oboInOwl:hasExactSynonym>
+        <rdfs:label xml:lang="en">realized in response to</rdfs:label>
+        <rdfs:seeAlso rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">https://docs.google.com/document/d/1KWhZxVBhIPkV6_daHta0h6UyHbjY2eIrnON1WIRGgdY/edit</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/RO_0009501"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>triggered by process</owl:annotatedTarget>
+        <oboInOwl:hasDbXref rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0014001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0014001">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004019"/>
+        <obo:IAO_0000115>A relationship between a disease and an infectious agent where the material basis of the disease is an infection with some infectious agent.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0001-5208-3432"/>
+        <rdfs:label>disease has infectious agent</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0016001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0016001">
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a set of relations regarding presentation of phenotypes and disease.</obo:IAO_0000232>
+        <terms:contributor rdf:resource="https://orcid.org/0000-0002-7463-6306"/>
+        <terms:date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2021-11-05T17:30:14Z</terms:date>
+        <rdfs:label>has phenotype or disease</rdfs:label>
+        <rdfs:seeAlso>https://github.com/oborel/obo-relations/issues/478</rdfs:seeAlso>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0040035 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040035">
+        <obo:IAO_0000115>This relation groups  relations between diseases and any other kind of entity.</obo:IAO_0000115>
+        <obo:IAO_0000232>Do not use this relation directly. It is intended as a grouping for a diverse set of relations, in which the subject or object is a disease.</obo:IAO_0000232>
+        <oboInOwl:created_by rdf:resource="https://orcid.org/0000-0002-6601-2165"/>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2018-09-26T00:00:32Z</oboInOwl:creation_date>
+        <rdfs:label>disease relationship</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#disease_has_major_feature -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/mondo#disease_has_major_feature"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo#predisposes_towards -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/mondo#predisposes_towards"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000020"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000031"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/ExO_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/ExO_0000002"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0005694 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0005694"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0016068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0016068"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GO_0098687 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0098687"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000006"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000007"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001450 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001450"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002960 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002960"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003581"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003593"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003621"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011463"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012825"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012828"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031375 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031375"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001">
+        <owl:equivalentClass rdf:resource="http://purl.obolibrary.org/obo/mondo/patterns/disease-or-disease-like.yaml"/>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000402 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000402"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000761 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000761"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0000762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0000762"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0001572 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0001572"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0002491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0002491"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0003036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0003036"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004647"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004938"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004970"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004972"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004992 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0004993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0004993"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005058"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005089 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005089"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005096"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005105"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005108 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005165 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005165"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005212 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005212"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005271"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005550 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0005583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0006074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006074"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0006500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0006500"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0007179 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0007179"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0016642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0016642"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019040 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019040"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0019496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0019496"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0020573 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0020573"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0020639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0020639"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021127"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021128 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021128"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021136"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021140 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021140"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021141"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021150 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021150"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0021152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0021152"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0024491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024491"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0024575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0024575"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0029000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0029000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0030502 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0030502"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0045036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0045036"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0100426 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0100426"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700005"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700065"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700085"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700091"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MONDO_0700096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_10239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OGMS_0000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OGMS_0000031"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0000389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0000389"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0001863 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0001863"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002096 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002096"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0002097 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0002097"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/PATO_0040025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/PATO_0040025"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000087 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000087"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000088"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001217"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000465"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0000466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0000466"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0001062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UBERON_0010000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UPHENO_0001001"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/OMIM_phenotypic_series.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/OMIM_phenotypic_series.yaml">
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021152"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+        <terms:title>OMIM_phenotypic_series</terms:title>
+        <rdfs:label>&apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/acquired.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/acquired.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021141"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An instance of &apos;disease&apos; that is acquired during the lifetime of the individual.</obo:IAO_0000115>
+        <terms:title>acquired</terms:title>
+        <oboInOwl:hasExactSynonym>acquired &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>acquired &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/acute.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/acute.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0000389"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Acute form of &apos;disease&apos;.</obo:IAO_0000115>
+        <terms:title>acute</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos;, acute</oboInOwl:hasExactSynonym>
+        <rdfs:label>acute &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/adenocarcinoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/adenocarcinoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004970"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A carcinoma that arises from glandular epithelial cells of the owl_thing</obo:IAO_0000115>
+        <terms:title>adenocarcinoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing adenocarcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>adenocarcinoma of owl_thing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing adenocarcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/adenoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/adenoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004972"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A adenoma that involves the owl_thing.</obo:IAO_0000115>
+        <terms:title>adenoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing adenoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>adenoma of owl_thing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing adenoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/adenosquamous_carcinoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/adenosquamous_carcinoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0006074"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0010000"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any carcinoma that that involves the &apos;multicellular anatomical structure&apos; and is characterized by the presence of glandular and squamous malignant epithelial components.</obo:IAO_0000115>
+        <terms:title>adenosquamous carcinoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>adenosquamous &apos;multicellular anatomical structure&apos; carcinoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;multicellular anatomical structure&apos; adenosquamous carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/adult.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/adult.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0003581"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that occurs in an adult.</obo:IAO_0000115>
+        <terms:title>adult</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; of adults</oboInOwl:hasExactSynonym>
+        <rdfs:label>adult &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/allergic_form_of_disease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/allergic_form_of_disease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0016068"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; with a basis in a pathological type I hypersensitivity reaction.</obo:IAO_0000115>
+        <terms:title>allergic_form_of_disease</terms:title>
+        <oboInOwl:hasExactSynonym>allergic form of &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>allergic &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/allergy.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/allergy.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005271"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A allergic disease involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>allergy</terms:title>
+        <oboInOwl:hasExactSynonym>allergy of owl_thing</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing allergic disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/autoimmune.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/autoimmune.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004022"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0002960"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An autoimmune form of &apos;disease&apos;.</obo:IAO_0000115>
+        <terms:title>autoimmune</terms:title>
+        <rdfs:label>autoimmune &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/autoimmune_inflammation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/autoimmune_inflammation.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0007179"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An autoimmune inflammatory disease involving a pathogenic inflammatory response in the &apos;anatomical structure&apos;.</obo:IAO_0000115>
+        <terms:title>autoimmune_inflammation</terms:title>
+        <rdfs:label>autoimmune &apos;anatomical structure&apos; inflammation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/autosomal_dominant.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/autosomal_dominant.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Autosomal dominant form of &apos;human disease&apos;.</obo:IAO_0000115>
+        <terms:title>autosomal_dominant</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;human disease&apos;, autosomal dominant</oboInOwl:hasExactSynonym>
+        <rdfs:label>autosomal dominant &apos;human disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/autosomal_recessive.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/autosomal_recessive.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Autosomal recessive form of &apos;human disease&apos;.</obo:IAO_0000115>
+        <terms:title>autosomal_recessive</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;human disease&apos;, autosomal recessive</oboInOwl:hasExactSynonym>
+        <rdfs:label>autosomal recessive &apos;human disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/basis_in_disruption_of_process.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/basis_in_disruption_of_process.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease that has its basis in the disruption of &apos;process&apos;.</obo:IAO_0000115>
+        <terms:title>basis_in_disruption_of_process</terms:title>
+        <oboInOwl:hasRelatedSynonym>disorder of &apos;process&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>&apos;process&apos; disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/benign.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/benign.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A form of &apos;neoplasm&apos; without malignant characteristics.</obo:IAO_0000115>
+        <terms:title>benign</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;neoplasm&apos;, benign</oboInOwl:hasExactSynonym>
+        <rdfs:label>benign &apos;neoplasm&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/benign_neoplasm.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/benign_neoplasm.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005165"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A benign neoplasm involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>benign_neoplasm</terms:title>
+        <oboInOwl:hasExactSynonym>benign neoplasm of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>benign owl_thing tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing benign neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing benign tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing neoplasm, benign</oboInOwl:hasExactSynonym>
+        <rdfs:label>benign owl_thing neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/cancer.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004992"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A cancer involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>cancer</terms:title>
+        <oboInOwl:hasExactSynonym>cancer of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant neoplasm of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>malignant owl_thing neoplasm</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing cancer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/carcinoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/carcinoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004993"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A carcinoma involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>carcinoma</terms:title>
+        <oboInOwl:hasExactSynonym>carcinoma of owl_thing</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/carcinoma_in_situ.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/carcinoma_in_situ.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004647"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A carcinoma in situ involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>carcinoma_in_situ</terms:title>
+        <oboInOwl:hasExactSynonym>carcinoma in situ of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>non-invasic owl_thing carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>stage 0 owl_thing carcinoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing carcinoma in situ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/childhood.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/childhood.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0011463"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that occurs during childhood.</obo:IAO_0000115>
+        <terms:title>childhood</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; of childhood</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>pediatric &apos;disease&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>childhood &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/chromosomal_region_deletion.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/chromosomal_region_deletion.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000761"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the deletion of &apos;chromosomal region&apos;.</obo:IAO_0000115>
+        <terms:title>chromosomal_region_deletion</terms:title>
+        <oboInOwl:hasExactSynonym>deletion of &apos;chromosomal region&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;chromosomal region&apos; deletion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/chromosomal_region_duplication.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/chromosomal_region_duplication.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000762"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0098687"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the duplication of &apos;chromosomal region&apos;.</obo:IAO_0000115>
+        <terms:title>chromosomal_region_duplication</terms:title>
+        <rdfs:label>&apos;chromosomal region&apos; duplication syndrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/chromosome_type.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/chromosome_type.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0019040"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder in which &apos;chromosome&apos; is affected.</obo:IAO_0000115>
+        <terms:title>chromosome_type</terms:title>
+        <rdfs:label>&apos;chromosome&apos; disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/chronic.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/chronic.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0001863"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Chronic form of &apos;disease&apos;.</obo:IAO_0000115>
+        <terms:title>chronic</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos;, chronic</oboInOwl:hasExactSynonym>
+        <rdfs:label>chronic &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/congenital.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/congenital.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021140"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An instance of &apos;disease&apos; that is present from birth.</obo:IAO_0000115>
+        <terms:title>congenital</terms:title>
+        <oboInOwl:hasExactSynonym>congenital &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>congenital &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/consequence_of_infectious_disease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/consequence_of_infectious_disease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004022"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease that arises as a consequence of &apos;infectious disease&apos;.</obo:IAO_0000115>
+        <terms:title>consequence_of_infectious_disease</terms:title>
+        <rdfs:label>&apos;infectious disease&apos; disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/dependence_on_substance.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/dependence_on_substance.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0004938"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A substance dependence on &apos;chemical&apos;.</obo:IAO_0000115>
+        <terms:title>dependence_on_substance</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;chemical&apos; dependence</oboInOwl:hasExactSynonym>
+        <rdfs:label>dependence on &apos;chemical&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/disease-or-disease-like.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/disease-or-disease-like.yaml">
+        <obo:IAO_0000115>A disease that presents as a &apos;disease&apos; or &apos;disease&apos;.</obo:IAO_0000115>
+        <terms:title>disease or disease-like</terms:title>
+        <rdfs:label>&apos;disease&apos; or &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/disease_by_dysfunctional_structure.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/disease_by_dysfunctional_structure.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004020"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any disease in which the causes of the disease is a perturbation of the &apos;anatomical structure&apos; leading to its dysfunction.</obo:IAO_0000115>
+        <terms:title>disease_by_dysfunctional_structure</terms:title>
+        <oboInOwl:hasExactSynonym>disease of &apos;anatomical structure&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;anatomical structure&apos; disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/disease_has_major_feature.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/disease_has_major_feature.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/mondo#disease_has_major_feature"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <terms:title>disease_has_phenotype</terms:title>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/disease_series_by_gene.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/disease_series_by_gene.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000005"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any &apos;disease&apos; in which the cause of the disease is a mutation in the &apos;gene&apos; gene, and has &apos;mode of inheritance&apos;.</obo:IAO_0000115>
+        <obo:IAO_0000115>Any &apos;disease&apos; in which the cause of the disease is a variation in the &apos;gene&apos; gene.</obo:IAO_0000115>
+        <terms:title>OMIM_disease_series_by_gene</terms:title>
+        <terms:title>disease_series_by_gene</terms:title>
+        <terms:title>disease_series_by_gene_and_inheritance</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; caused by mutation in &apos;gene&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; &apos;disease&apos;, &apos;mode of inheritance&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; related &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; related &apos;disease&apos;, &apos;mode of inheritance&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease&apos; caused by mutation in &apos;gene&apos;, &apos;mode of inheritance&apos;</rdfs:label>
+        <rdfs:label>&apos;disease&apos; caused by variation in &apos;gene&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/disrupts_process.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/disrupts_process.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease that has its basis in the disruption of owl_thing.</obo:IAO_0000115>
+        <terms:title>disease or disorder disease caused by disruption of X</terms:title>
+        <oboInOwl:hasExactSynonym>disorder of owl_thing</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/environmental_stimulus.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/environmental_stimulus.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that is caused by exposure to &apos;material entity&apos;.</obo:IAO_0000115>
+        <terms:title>environmental_stimulus</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;material entity&apos; &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease&apos; from &apos;material entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/hemangioma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/hemangioma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0006500"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A hemangioma that involves the &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title>hemangioma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical entity&apos; hemangioma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>angioma of &apos;anatomical entity&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>hemangioma of &apos;anatomical entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/hereditary.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/hereditary.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021152"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An instance of &apos;disease&apos; that is caused by an inherited genomic modification in an individual.</obo:IAO_0000115>
+        <terms:title>hereditary</terms:title>
+        <oboInOwl:hasExactSynonym>hereditary &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>hereditary &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/iatrogenic.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/iatrogenic.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0100426"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that has an iatrogenic cause.</obo:IAO_0000115>
+        <terms:title>iatrogenic</terms:title>
+        <rdfs:label>iatrogenic &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/idiopathic.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/idiopathic.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700005"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Idiopathic form of &apos;disease&apos;.</obo:IAO_0000115>
+        <terms:title>idiopathic</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos;, idiopathic</oboInOwl:hasExactSynonym>
+        <rdfs:label>idiopathic &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/inborn_metabolic.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/inborn_metabolic.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0019052"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An inherited metabolic disease that is has its basis in the disruption of &apos;process&apos;.</obo:IAO_0000115>
+        <terms:title>inborn_metabolic</terms:title>
+        <oboInOwl:hasExactSynonym>inborn error of &apos;process&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>rare inborn error of &apos;process&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>inborn &apos;process&apos; disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/inborn_metabolic_disrupts.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/inborn_metabolic_disrupts.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0019052"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004021"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An acquired metabolic disease that is has its basis in the disruption of &apos;owl_thing&apos;.</obo:IAO_0000115>
+        <terms:title>inborn errors of metabolism disease caused by disruption of X</terms:title>
+        <oboInOwl:hasExactSynonym>inborn error of &apos;owl_thing&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>rare inborn error of &apos;owl_thing&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>inborn disorder of &apos;owl_thing&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/infantile.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/infantile.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0003593"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that occurs between 28 days to one year of life..</obo:IAO_0000115>
+        <terms:title>infantile</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; of infancy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>infantile onset &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>infantile &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/infectious_disease_by_agent.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/infectious_disease_by_agent.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0014001"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease caused by infection with &apos;organism&apos;.</obo:IAO_0000115>
+        <terms:title>infectious_disease_by_agent</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;organism&apos; infection</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>infection due to &apos;organism&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;organism&apos; infectious disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/infectious_inflammation.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/infectious_inflammation.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An inflammatory disease involving a pathogenic inflammatory response in the &apos;anatomical structure&apos; caused by infection with &apos;organism&apos;.</obo:IAO_0000115>
+        <terms:title>infectious_inflammation</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical structure&apos; &apos;organism&apos; inflammation</oboInOwl:hasExactSynonym>
+        <rdfs:label>inflammation of &apos;anatomical structure&apos; due to &apos;organism&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/inflammatory_disease_by_site.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/inflammatory_disease_by_site.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An inflammatory disease involving a pathogenic inflammatory response in the &apos;anatomical structure&apos;.</obo:IAO_0000115>
+        <terms:title>inflammatory_disease_by_site</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical structure&apos; inflammation</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;anatomical structure&apos;itis</oboInOwl:hasExactSynonym>
+        <rdfs:label>inflammation of &apos;anatomical structure&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/inherited_susceptibility.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/inherited_susceptibility.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0020573"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/mondo#predisposes_towards"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An inherited susceptibility or predisposition to developing &apos;disease or disorder&apos;.</obo:IAO_0000115>
+        <terms:title>inherited_susceptibility</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease or disorder&apos;, susceptibility</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;disease or disorder&apos;, susceptibility to</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease or disorder&apos; susceptibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/isolated.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/isolated.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021128"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that is not part of a larger syndrome.</obo:IAO_0000115>
+        <terms:title>isolated</terms:title>
+        <oboInOwl:hasExactSynonym>nonsyndromic &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>isolated &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/juvenile.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/juvenile.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0003621"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An instance of &apos;disease&apos; that has a juvenile onset.</obo:IAO_0000115>
+        <terms:title>juvenile</terms:title>
+        <oboInOwl:hasExactSynonym>juvenile &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>juvenile &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/latent_virus_reactivation_disease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/latent_virus_reactivation_disease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005108"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MONDO_0100333"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_10239"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A viral infection caused by the reactivation of &apos;virus&apos; from a latent phase.</obo:IAO_0000115>
+        <terms:title>latent_virus_reactivation_disease</terms:title>
+        <oboInOwl:hasExactSynonym>disorder due to reactivation of &apos;virus&apos; from latent phase</oboInOwl:hasExactSynonym>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/leiomyoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/leiomyoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0001572"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A benign smooth muscle neoplasm arising from the &apos;anatomical entity&apos;. It is characterized by the presence of spindle cells with cigar-shaped nuclei, interlacing fascicles, and a whorled pattern.</obo:IAO_0000115>
+        <terms:title>leiomyoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical entity&apos; leiomyoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;anatomical entity&apos; leiomyoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/leiomyosarcoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/leiomyosarcoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005058"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An aggressive malignant smooth muscle neoplasm, arising from the owl_thing. It is characterized by a proliferation of neoplastic spindle cells.</obo:IAO_0000115>
+        <terms:title>leiomyosarcoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing leiomyosarcoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing leiomyosarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/lesioned.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/lesioned.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0040025"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Lesioned form of &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title>lesioned</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical entity&apos;, lesioned</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;anatomical entity&apos; lesion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/lipoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/lipoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005106"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A benign adipose tissue neoplasm of the owl_thing.</obo:IAO_0000115>
+        <terms:title>lipoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing lipoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing lipoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/location.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/location.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:unionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000"/>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:unionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that involves the &apos;anatomical entity&apos; or &apos;cell&apos;.</obo:IAO_0000115>
+        <terms:title>location</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical entity&apos; or &apos;cell&apos; &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease&apos; of &apos;anatomical entity&apos; or &apos;cell&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/location_top.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease involving the owl_thing.</obo:IAO_0000115>
+        <terms:title>location_top</terms:title>
+        <oboInOwl:hasExactSynonym>disease of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>disorder of owl_thing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/lymphoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/lymphoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005062"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A lymphoma that involves the owl_thing.</obo:IAO_0000115>
+        <terms:title>lymphoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing lymphoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing lymphoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/malignant.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/malignant.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://www.w3.org/2002/07/owl#Thing"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/PATO_0002097"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A malignant form of owl_thing.</obo:IAO_0000115>
+        <terms:title>malignant</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing, malignant</oboInOwl:hasExactSynonym>
+        <rdfs:label>malignant owl_thing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/melanoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/melanoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005105"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A melanoma that involves the owl_thing.</obo:IAO_0000115>
+        <terms:title>melanoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing melanoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing melanoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/meningioma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/meningioma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0016642"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A meningioma that affects the &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title>meningioma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical entity&apos; meningioma</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;anatomical entity&apos; meningioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/mild.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/mild.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0012825"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An instance of &apos;disease&apos; in which the disease presentation is mild in severity.</obo:IAO_0000115>
+        <terms:title>mild</terms:title>
+        <rdfs:label>mild &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/mitochondrial_subtype.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/mitochondrial_subtype.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004020"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000088"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that has a defect in a mitochondrial gene.</obo:IAO_0000115>
+        <terms:title>mitochondriaal_subtype</terms:title>
+        <rdfs:label>&apos;disease&apos;, mitochondrial type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/monosomy.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/monosomy.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0020639"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the absence of one &apos;chromosome&apos;.</obo:IAO_0000115>
+        <terms:title>monosomy</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;chromosome&apos; deletion</oboInOwl:hasExactSynonym>
+        <rdfs:label>monosomy &apos;chromosome&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/mucoepidermoid_carcinoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/mucoepidermoid_carcinoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0003036"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0001062"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A mucoepidermoid carcinoma that involves the &apos;anatomical entity&apos;.</obo:IAO_0000115>
+        <terms:title>mucoepidermoid carcinoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;anatomical entity&apos; mucoepidermoid carcinoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;anatomical entity&apos; mucoepidermoid carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/neoplasm.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/neoplasm.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A neoplasm involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>neoplasm</terms:title>
+        <oboInOwl:hasExactSynonym>neoplasm of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing tumor</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tumor of owl_thing</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/neoplasm_by_origin.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/neoplasm_by_origin.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005070"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004022"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A neoplasm involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>neoplasm</terms:title>
+        <oboInOwl:hasExactSynonym>malignant owl_thing neoplasm</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>neoplasm of owl_thing</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/neuroendocrine_neoplasm.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/neuroendocrine_neoplasm.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0019496"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A neuroendocrine neoplasm involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>neoendocrine_neoplasm</terms:title>
+        <oboInOwl:hasExactSynonym>neuroendocrine neoplasm of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing NET</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing neuroendocrine tumor, well differentiated, low or intermediate grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>owl_thing neuroendocrine tumor</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing neuroendocrine neoplasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/neuroendocrine_neoplasm_grade1.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/neuroendocrine_neoplasm_grade1.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0019496"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0024491"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A well differentiated, low grade tumor with neuroendocrine differentiation that arises from the owl_thing.</obo:IAO_0000115>
+        <terms:title>neoendocrine_neoplasm_grade1</terms:title>
+        <oboInOwl:hasExactSynonym>grade 1 neuroendocrine neoplasm of owl_thing</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing NET G1</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>owl_thing neuroendocrine tumor, well differentiated, low grade</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>owl_thing carcinoid tumor</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing neuroendocrine neoplasm G1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_autosomal_dominant.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_autosomal_dominant.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000006"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Autosomal dominant form of &apos;non-human animal disease&apos;.</obo:IAO_0000115>
+        <terms:title>non_human_animal_autosomal_dominant</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;non-human animal disease&apos;, autosomal dominant</oboInOwl:hasExactSynonym>
+        <rdfs:label>autosomal dominant &apos;non-human animal disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_autosomal_recessive.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_autosomal_recessive.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0000007"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Autosomal recessive form of &apos;non-human animal disease&apos;.</obo:IAO_0000115>
+        <terms:title>non_human_animal_autosomal_recessive</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;non-human animal disease&apos;, autosomal recessive</oboInOwl:hasExactSynonym>
+        <rdfs:label>autosomal recessive &apos;non-human animal disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_x_linked.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_x_linked.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001417"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>X-linked form of &apos;non-human animal disease&apos;.</obo:IAO_0000115>
+        <terms:title>non_human_animal_x_linked</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;non-human animal disease&apos;, X-linked</oboInOwl:hasExactSynonym>
+        <rdfs:label>X-linked &apos;non-human animal disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_y_linked.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/non_human_animal_y_linked.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001450"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Y-linked form of &apos;non-human animal disease&apos;.</obo:IAO_0000115>
+        <terms:title>non_human_animal_y_linked</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;non-human animal disease&apos;, Y-linked</oboInOwl:hasExactSynonym>
+        <rdfs:label>Y-linked &apos;non-human animal disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/nonhuman_disease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/nonhuman_disease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700097"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>&apos;human disease or disorder&apos; that occurs in non-human animals</obo:IAO_0000115>
+        <terms:title>nonhuman_disease</terms:title>
+        <rdfs:label>&apos;human disease or disorder&apos;, non-human animal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/nonhuman_disease_series_by_gene.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/nonhuman_disease_series_by_gene.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any &apos;disease&apos;, occuring in &apos;taxon&apos;, in which the cause of the disease is a variation in the &apos;gene&apos; gene.</obo:IAO_0000115>
+        <terms:title>nonhuman_disease_series_by_gene</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; caused by mutation in &apos;gene&apos;, &apos;taxon&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; &apos;disease&apos;, &apos;taxon&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; related &apos;disease&apos;, &apos;taxon&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease&apos; caused by variation in &apos;gene&apos;, &apos;taxon&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/nonhuman_disease_taxon.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/nonhuman_disease_taxon.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005583"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700097"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002162"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>&apos;human disease or disorder&apos; that occurs in &apos;taxon&apos;</obo:IAO_0000115>
+        <terms:title>nonhuman_disease_taxon</terms:title>
+        <rdfs:label>&apos;human disease or disorder&apos;, &apos;taxon&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/nuclear_subtype.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/nuclear_subtype.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000087"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that has a defect in a nuclear gene.</obo:IAO_0000115>
+        <terms:title>nuclear_subtype</terms:title>
+        <rdfs:label>&apos;disease&apos;, nuclear type</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/partial_chromosomal_deletion.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/partial_chromosomal_deletion.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000761"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the partial deletion of &apos;chromosome&apos;.</obo:IAO_0000115>
+        <terms:title>partial_chromosomal_deletion</terms:title>
+        <oboInOwl:hasExactSynonym>deletion of part of &apos;chromosome&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>partial deletion of &apos;chromosome&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/pentasomy.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/pentasomy.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700085"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the presence of 3 extra chromosomes &apos;chromosome&apos;.</obo:IAO_0000115>
+        <terms:title>pentasomy</terms:title>
+        <rdfs:label>pentasomy &apos;chromosome&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/poisoning.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/poisoning.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0029000"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A poisoning that is caused by exposure to &apos;material entity&apos;.</obo:IAO_0000115>
+        <terms:title>poisoning</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;material entity&apos; poisoning</oboInOwl:hasExactSynonym>
+        <rdfs:label>poisoning from &apos;material entity&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/polygenic_disorder.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/polygenic_disorder.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any &apos;disease&apos; in which the cause of the disease is a variation in the &apos;gene&apos; gene.</obo:IAO_0000115>
+        <terms:title>polygenic_disorder</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; caused by mutation in &apos;gene&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>&apos;gene&apos; related &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease&apos; caused by variation in &apos;gene&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/post_infectious_disease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/post_infectious_disease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004022"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disorder caused by the infection in &apos;infectious disease&apos; and manifesting after the original infection.</obo:IAO_0000115>
+        <terms:title>post_infectious_disease</terms:title>
+        <oboInOwl:hasExactSynonym>disorder due to consequences of &apos;infectious disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>post-&apos;infectious disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/postinfectious_disease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/postinfectious_disease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004022"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A post-infectious form of &apos;organism&apos; that arises as a result on an initial &apos;infectious disease&apos;.</obo:IAO_0000115>
+        <terms:title>postinfectious_disease</terms:title>
+        <oboInOwl:hasExactSynonym>post-&apos;infectious disease&apos; &apos;organism&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>&apos;organism&apos; secondary to &apos;infectious disease&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>postinfectious &apos;organism&apos; arising from &apos;infectious disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/pregnancy_form_of_disorder.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/pregnancy_form_of_disorder.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0024575"/>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any instance of &apos;disease&apos; that is associated with pregnancy.</obo:IAO_0000115>
+        <terms:title>pregnancy_form_of_disorder</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos;, pregnancy induced</oboInOwl:hasExactSynonym>
+        <rdfs:label>pregnancy associated &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/primary_infectious.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/primary_infectious.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0045036"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease&apos; that arises from infection in an immunologically normal host.</obo:IAO_0000115>
+        <terms:title>primary infectious</terms:title>
+        <rdfs:label>primary &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/rare.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/rare.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021136"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any of the forms of &apos;disease&apos; that have a rare incidence.</obo:IAO_0000115>
+        <terms:title>rare</terms:title>
+        <oboInOwl:hasExactSynonym>rare &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>rare &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/rare_genetic.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/rare_genetic.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021136"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021150"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A form of &apos;disease&apos; that is both rare and genetic.</obo:IAO_0000115>
+        <terms:title>rare_genetic</terms:title>
+        <oboInOwl:hasExactSynonym>rare constitutional &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>rare inborn &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>rare genetic &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/realized_in_response_to_evironmental_exposure.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/realized_in_response_to_evironmental_exposure.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0009501"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/ExO_0000002"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any &apos;disease&apos; that is realized in response to a &apos;exposure event&apos;</obo:IAO_0000115>
+        <terms:title>disease realized in response to environmental exposure</terms:title>
+        <rdfs:label>&apos;disease&apos; realized in response to &apos;exposure event&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/refractory.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/refractory.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0031375"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A disease that is difficult to treat or cure.</obo:IAO_0000115>
+        <terms:title>refractory</terms:title>
+        <oboInOwl:hasExactSynonym>disease, refractory</oboInOwl:hasExactSynonym>
+        <rdfs:label>refractory disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/rhabdomyosarcoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/rhabdomyosarcoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005212"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A malignant mesenchymal tumor with skeletal muscle differentiation affecting the owl_thing.</obo:IAO_0000115>
+        <terms:title>rhabdomyosarcoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing rhabdomyosarcoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>rhabdomyosarcoma of the owl_thing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing rhabdomyosarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/ring_chromosome_anomaly.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/ring_chromosome_anomaly.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700091"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the presence of ring chromosome &apos;chromosome&apos;.</obo:IAO_0000115>
+        <terms:title>ring_chromosome_anomaly</terms:title>
+        <rdfs:label>ring chromosome &apos;chromosome&apos; disorder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/sarcoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/sarcoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005089"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A sarcoma involving a owl_thing.</obo:IAO_0000115>
+        <terms:title>sarcoma</terms:title>
+        <oboInOwl:hasExactSynonym>sarcoma of owl_thing</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing sarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/severe.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/severe.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0012828"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An instance of &apos;disease&apos; in which the disease presentation is severe in severity.</obo:IAO_0000115>
+        <terms:title>severe</terms:title>
+        <rdfs:label>severe &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/small_cell_carcinoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/small_cell_carcinoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000402"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An aggressive, high-grade and poorly differentiated carcinoma with neuroendocrine differentiation that arises from the owl_thing. It is characterized by the presence of malignant small cells.</obo:IAO_0000115>
+        <terms:title>small cell carcinoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing small cell carcinoma</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>small cell cancer of the owl_thing</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>owl_thing small cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_disrupted_process.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_disrupted_process.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004024"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any &apos;disease&apos; that disrupts &apos;owl_thing&apos;</obo:IAO_0000115>
+        <terms:title>X disease disrupts X</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;owl_thing&apos; &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;owl_thing&apos; &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_dysfunctional_structure.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/specific_disease_by_dysfunctional_structure.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004020"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Any &apos;disease&apos; in which the causes of the disease is a perturbation of the &apos;owl_thing&apos; leading to its dysfunction.</obo:IAO_0000115>
+        <terms:title>X disease has basis in dysfunction of X</terms:title>
+        <rdfs:label>&apos;owl_thing&apos; &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/specific_infectious_disease_by_agent.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/specific_infectious_disease_by_agent.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCBITaxon_1"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An &apos;disease&apos; caused by infection with &apos;organism&apos;.</obo:IAO_0000115>
+        <terms:title>specific_inflammatory_disease_by_site</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;organism&apos; caused &apos;disease&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;organism&apos; &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/specific_infectious_disease_by_location.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/specific_infectious_disease_by_location.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An &apos;disease&apos; involving a pathogenic inflammatory response in the &apos;anatomical structure&apos;.</obo:IAO_0000115>
+        <terms:title>specific_infectious_disease_by_location</terms:title>
+        <rdfs:label>&apos;anatomical structure&apos; &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/specific_inflammatory_disease_by_site.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/specific_inflammatory_disease_by_site.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004027"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/UBERON_0000061"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>An &apos;disease&apos; involving a pathogenic inflammatory response in the &apos;anatomical structure&apos;.</obo:IAO_0000115>
+        <terms:title>specific_inflammatory_disease_by_site</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease&apos; &apos;anatomical structure&apos;itis</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;anatomical structure&apos; &apos;disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/squamous_cell_carcinoma.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/squamous_cell_carcinoma.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004026"/>
+                        <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A squamous cell carcinoma that involves the owl_thing.</obo:IAO_0000115>
+        <terms:title>squamous cell carcinoma disease has location X</terms:title>
+        <oboInOwl:hasExactSynonym>owl_thing squamous cell carcinoma</oboInOwl:hasExactSynonym>
+        <rdfs:label>owl_thing squamous cell carcinoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/substance_abuse.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/substance_abuse.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0002491"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004028"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>The abuse or overuse of &apos;material entity&apos;.</obo:IAO_0000115>
+        <terms:title>substance_abuse</terms:title>
+        <oboInOwl:hasExactSynonym>abuse of &apos;material entity&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;material entity&apos; abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/susceptibility_by_gene.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/susceptibility_by_gene.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0020573"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004003"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/mondo#predisposes_towards"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A susceptibility or predisposition to &apos;disease or disorder&apos; in which the cause of the disease is a mutation in the &apos;gene&apos; gene.</obo:IAO_0000115>
+        <terms:title>susceptibility_by_gene</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;disease or disorder&apos; susceptibility caused by &apos;gene&apos;</oboInOwl:hasExactSynonym>
+        <rdfs:label>&apos;disease or disorder&apos; susceptibility, &apos;gene&apos; form</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/syndromic.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/syndromic.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0000001"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MONDO_0021127"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A &apos;disease or disorder&apos; that is part of a larger syndrome.</obo:IAO_0000115>
+        <terms:title>syndromic</terms:title>
+        <oboInOwl:hasExactSynonym>syndromic &apos;disease or disorder&apos;</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasRelatedSynonym>syndrome associated with &apos;disease or disorder&apos;</oboInOwl:hasRelatedSynonym>
+        <rdfs:label>syndromic &apos;disease or disorder&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/tetrasomy.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/tetrasomy.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0030502"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the presence of 2 extra chromosome &apos;chromosome&apos;.</obo:IAO_0000115>
+        <terms:title>tetrasomy</terms:title>
+        <rdfs:label>tetrasomy &apos;chromosome&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/trisomy.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/trisomy.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700065"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0004030"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/GO_0005694"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>A chromosomal disorder consisting of the presence of an extra &apos;chromosome&apos;.</obo:IAO_0000115>
+        <terms:title>trisomy</terms:title>
+        <rdfs:label>trisomy &apos;chromosome&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/vectorBorneDisease.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/vectorBorneDisease.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0005550"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002451"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>&apos;organism&apos;-borne &apos;infectious disease&apos;.</obo:IAO_0000115>
+        <terms:title>vectorBorneDisease</terms:title>
+        <rdfs:label>&apos;infectious disease&apos; transmitted by &apos;organism&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/x_linked.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/x_linked.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001417"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>X-linked form of &apos;human disease&apos;.</obo:IAO_0000115>
+        <terms:title>x_linked</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;human disease&apos;, X-linked</oboInOwl:hasExactSynonym>
+        <rdfs:label>X-linked &apos;human disease&apos;</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/mondo/patterns/y_linked.yaml -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/mondo/patterns/y_linked.yaml">
+        <owl:equivalentClass>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/MONDO_0700096"/>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+                        <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/HP_0001450"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </owl:equivalentClass>
+        <obo:IAO_0000115>Y-linked form of &apos;human disease&apos;.</obo:IAO_0000115>
+        <terms:title>y_linked</terms:title>
+        <oboInOwl:hasExactSynonym>&apos;human disease&apos;, Y-linked</oboInOwl:hasExactSynonym>
+        <rdfs:label>Y-linked &apos;human disease&apos;</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.29) https://github.com/owlcs/owlapi -->
+

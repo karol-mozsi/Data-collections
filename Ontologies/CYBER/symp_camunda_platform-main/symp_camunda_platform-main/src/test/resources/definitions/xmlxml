@@ -1,0 +1,20 @@
+<bpmn:serviceTask id="ApacheJenaTask1" name="Apache Jena Task" implementation="Expression" camunda:type="external"
+                  camunda:topic="jena">
+    <bpmn:extensionElements>
+        <camunda:properties>
+            <camunda:property id="fraunhofer-type" name="type" value="JENA"/>
+        </camunda:properties>
+        <camunda:inputOutput>
+            <camunda:inputParameter name="rule">Test123</camunda:inputParameter>
+            <camunda:inputParameter name="rules_$$_ApacheJenaTask1">
+                <camunda:map>
+                    <camunda:entry key="firstRule">[testrule: (?d1 rdf:type ICS-Security:HardwareDevice),(?d2 rdf:type
+                        ICS-Security:HardwareDevice),notEqual(?d1, ?d2)-&gt;(?d1 ICS-Security:notRedundant ?d2)]
+                    </camunda:entry>
+                </camunda:map>
+            </camunda:inputParameter>
+        </camunda:inputOutput>
+    </bpmn:extensionElements>
+    <bpmn:incoming>SequenceFlow_10rhz8q</bpmn:incoming>
+    <bpmn:outgoing>SequenceFlow_10tenqx</bpmn:outgoing>
+</bpmn:serviceTask>

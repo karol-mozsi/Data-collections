@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_196x8rg" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.4.1">
+  <bpmn:process id="ruleEngineExternal" name="Testing the External Task Engine" isExecutable="true">
+    <bpmn:startEvent id="StartEvent_1" name="Rule engine start">
+      <bpmn:outgoing>SequenceFlow_10rhz8q</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:serviceTask id="ApacheJenaTask1" name="Apache Jena Task" implementation="Expression" camunda:type="external" camunda:topic="jena">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="rule">Test123</camunda:inputParameter>
+          <camunda:inputParameter name="rules_$$_ApacheJenaTask1">
+            <camunda:map>
+              <camunda:entry key="firstRule">[testrule: (?d1 rdf:type ICS-Security:HardwareDevice),(?d2 rdf:type ICS-Security:HardwareDevice),notEqual(?d1, ?d2)-&gt;(?d1 ICS-Security:notRedundant ?d2)]</camunda:entry>
+            </camunda:map>
+          </camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_10rhz8q</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_10tenqx</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_10rhz8q" sourceRef="StartEvent_1" targetRef="ApacheJenaTask1" />
+    <bpmn:endEvent id="EndEvent_1u9sd01" name="Rule engine end">
+      <bpmn:incoming>SequenceFlow_02769w2</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:serviceTask id="ServiceTask_0iabib5" name="Apache Jena Task" implementation="Expression" camunda:type="external" camunda:topic="jena">
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+        <camunda:inputOutput>
+          <camunda:inputParameter name="rule">Test123</camunda:inputParameter>
+          <camunda:inputParameter name="rules_$$_ServiceTask_0iabib5">
+            <camunda:map>
+              <camunda:entry key="secondRule">[testrule: (?d1 rdf:type ICS-Security:HardwareDevice),(?d2 rdf:type ICS-Security:HardwareDevice),notEqual(?d1, ?d2)-&gt;(?d1 ICS-Security:notRedundant ?d2)]</camunda:entry>
+            </camunda:map>
+          </camunda:inputParameter>
+        </camunda:inputOutput>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_10tenqx</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_02769w2</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_10tenqx" sourceRef="ApacheJenaTask1" targetRef="ServiceTask_0iabib5" />
+    <bpmn:sequenceFlow id="SequenceFlow_02769w2" sourceRef="ServiceTask_0iabib5" targetRef="EndEvent_1u9sd01" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="ruleEngineExternal">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="99" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="155" y="142" width="85" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_0kyn4ww_di" bpmnElement="ApacheJenaTask1">
+        <dc:Bounds x="380" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_10rhz8q_di" bpmnElement="SequenceFlow_10rhz8q">
+        <di:waypoint x="215" y="117" />
+        <di:waypoint x="380" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_1u9sd01_di" bpmnElement="EndEvent_1u9sd01">
+        <dc:Bounds x="822" y="99" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="800" y="142" width="81" height="14" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_0iabib5_di" bpmnElement="ServiceTask_0iabib5">
+        <dc:Bounds x="580" y="77" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_10tenqx_di" bpmnElement="SequenceFlow_10tenqx">
+        <di:waypoint x="480" y="117" />
+        <di:waypoint x="580" y="117" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_02769w2_di" bpmnElement="SequenceFlow_02769w2">
+        <di:waypoint x="680" y="117" />
+        <di:waypoint x="822" y="117" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

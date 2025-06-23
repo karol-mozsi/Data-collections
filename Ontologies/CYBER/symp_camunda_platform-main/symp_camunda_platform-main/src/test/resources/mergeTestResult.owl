@@ -1,0 +1,130 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://iosb.fraunhofer.de/ICS-Security#"
+     xml:base="http://iosb.fraunhofer.de/ICS-Security"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:vann="http://purl.org/vocab/vann/">
+    <owl:Ontology rdf:about="http://iosb.fraunhofer.de/ICS-Security">
+        <owl:versionInfo rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.0</owl:versionInfo>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2019-01-28T00:00:00</terms:created>
+        <terms:license>license should go here</terms:license>
+        <terms:creator>David Kahles</terms:creator>
+        <terms:title xml:lang="en">ICS Security Ontology</terms:title>
+        <terms:description xml:lang="en">The ICS Security Ontology represents hardware and software objects, configurations of those and their relationships within networks.</terms:description>
+        <terms:contributor>Louisa Lambrecht,
+Florian Patzer</terms:contributor>
+        <vann:preferredNamespaceUri>http://iosb.fraunhofer.de/ICS-Security#</vann:preferredNamespaceUri>
+        <terms:bibliographicCitation xml:lang="en">we can&apos;t make this field disappear</terms:bibliographicCitation>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/ICS-Security#containsInterface -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/ICS-Security#containsInterface"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/ICS-Security#parentNetwork -->
+
+    <owl:ObjectProperty rdf:about="http://iosb.fraunhofer.de/ICS-Security#parentNetwork"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/ICS-Security#ipV4Address -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/ICS-Security#ipV4Address"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/ICS-Security#prefixBits -->
+
+    <owl:DatatypeProperty rdf:about="http://iosb.fraunhofer.de/ICS-Security#prefixBits"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/ICS-Security#IpV4Interface -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/ICS-Security#IpV4Interface"/>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/ICS-Security#Network -->
+
+    <owl:Class rdf:about="http://iosb.fraunhofer.de/ICS-Security#Network">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/ICS-Security#containsInterface"/>
+                <owl:someValuesFrom rdf:resource="http://iosb.fraunhofer.de/ICS-Security#IpV4Interface"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/ICS-Security#parentNetwork"/>
+                <owl:allValuesFrom rdf:resource="http://iosb.fraunhofer.de/ICS-Security#Network"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/ICS-Security#parentNetwork"/>
+                <owl:hasSelf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:hasSelf>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/ICS-Security#ipV4Address"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#unsignedInt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://iosb.fraunhofer.de/ICS-Security#prefixBits"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onDataRange rdf:resource="http://www.w3.org/2001/XMLSchema#byte"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.4.20160202-2327) https://github.com/owlcs/owlapi -->
+

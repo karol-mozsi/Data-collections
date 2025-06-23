@@ -1,0 +1,28 @@
+defined_class	defined_class_label	disease	disease_label	structure	structure_label
+http://purl.obolibrary.org/obo/MONDO_0002245	blood platelet disease	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CL_0000233	platelet
+http://purl.obolibrary.org/obo/MONDO_0004880	bowel dysfunction	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0004907	lower digestive tract
+http://purl.obolibrary.org/obo/MONDO_0020144	cerebrovascular dementia	http://purl.obolibrary.org/obo/MONDO_0001627	dementia	http://purl.obolibrary.org/obo/UBERON_0008998	vasculature of brain
+http://purl.obolibrary.org/obo/MONDO_0005308	ciliopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005929	cilium
+http://purl.obolibrary.org/obo/MONDO_0004603	collagenopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005581	collagen trimer
+http://purl.obolibrary.org/obo/MONDO_0017750	defect in conserved oligomeric Golgi complex	http://purl.obolibrary.org/obo/MONDO_0017749	disorder of multiple glycosylation	http://purl.obolibrary.org/obo/GO_0017119	Golgi transport complex
+http://purl.obolibrary.org/obo/MONDO_0015978	functional neutrophil defect	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CL_0000775	neutrophil
+http://purl.obolibrary.org/obo/MONDO_0044348	hemoglobinopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CHEBI_35143	hemoglobin
+http://purl.obolibrary.org/obo/MONDO_0002468	hyperimmunoglobulin syndrome	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0019814	immunoglobulin complex
+http://purl.obolibrary.org/obo/MONDO_0015700	immunodeficiency due to a late component of complement deficiency	http://purl.obolibrary.org/obo/MONDO_0003832	complement deficiency	http://purl.obolibrary.org/obo/GO_0005579	membrane attack complex
+http://purl.obolibrary.org/obo/MONDO_0001343	impaired renal function disease	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0004069	inborn mitochondrial metabolism disorder	http://purl.obolibrary.org/obo/MONDO_0019052	inborn errors of metabolism	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/MONDO_0021106	laminopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005652	nuclear lamina
+http://purl.obolibrary.org/obo/MONDO_0002561	lysosomal storage disease	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005764	lysosome
+http://purl.obolibrary.org/obo/MONDO_0100133	mitochondrial complex I deficiency	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005747	mitochondrial respiratory chain complex I
+http://purl.obolibrary.org/obo/MONDO_0015448	mitochondrial complex III deficiency	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005750	mitochondrial respiratory chain complex III
+http://purl.obolibrary.org/obo/MONDO_0044970	mitochondrial disease	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/GO_0005739	mitochondrion
+http://purl.obolibrary.org/obo/MONDO_0014471	mitochondrial proton-transporting ATP synthase complex deficiency	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005753	mitochondrial proton-transporting ATP synthase complex
+http://purl.obolibrary.org/obo/MONDO_0020124	neuromuscular junction disease	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0031594	neuromuscular junction
+http://purl.obolibrary.org/obo/MONDO_0019053	peroxisomal disease	http://purl.obolibrary.org/obo/MONDO_0019052	inborn errors of metabolism	http://purl.obolibrary.org/obo/GO_0005777	peroxisome
+http://purl.obolibrary.org/obo/MONDO_0020344	postsynaptic congenital myasthenic syndrome	http://purl.obolibrary.org/obo/MONDO_0018940	congenital myasthenic syndrome	http://purl.obolibrary.org/obo/GO_0098794	postsynapse
+http://purl.obolibrary.org/obo/MONDO_0020345	presynaptic congenital myasthenic syndrome	http://purl.obolibrary.org/obo/MONDO_0018940	congenital myasthenic syndrome	http://purl.obolibrary.org/obo/GO_0098793	presynapse
+http://purl.obolibrary.org/obo/MONDO_0019169	pyruvate dehydrogenase deficiency	http://purl.obolibrary.org/obo/MONDO_0019052	inborn errors of metabolism	http://purl.obolibrary.org/obo/GO_0045254	pyruvate dehydrogenase complex
+http://purl.obolibrary.org/obo/MONDO_0016140	sarcoglycanopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0016012	sarcoglycan complex
+http://purl.obolibrary.org/obo/MONDO_0001530	secondary hyperparathyroidism of renal origin	http://purl.obolibrary.org/obo/MONDO_0006964	secondary hyperparathyroidism	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0021017	synaptopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0045202	synapse
+http://purl.obolibrary.org/obo/MONDO_0022800	type 2 collagenopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/GO_0005585	collagen type II trimer

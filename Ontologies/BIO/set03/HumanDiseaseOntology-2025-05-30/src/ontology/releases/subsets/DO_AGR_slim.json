@@ -1,0 +1,832 @@
+{
+  "graphs" : [ {
+    "id" : "http://purl.obolibrary.org/obo/doid/subsets/DO_AGR_slim.json",
+    "meta" : {
+      "version" : "http://purl.obolibrary.org/obo/doid/releases/2025-05-30/subsets/DO_AGR_slim.json"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0014667",
+      "lbl" : "disease of metabolism",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that involves errors in metabolic processes of building or degradation of molecules.",
+          "xrefs" : [ "url:http://www.ncbi.nlm.nih.gov/books/NBK22259/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "metabolic disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:E88.9"
+        }, {
+          "val" : "ICD9CM:277.9"
+        }, {
+          "val" : "MESH:D008659"
+        }, {
+          "val" : "NCI:C3235"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:75934005"
+        }, {
+          "val" : "UMLS_CUI:C0025517"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0050155",
+      "lbl" : "sensory system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system disease which is located in a part of the nervous system responsible for processing sensory information that consists of sensory receptors, neural pathways, and parts of the brain involved in sensory perception. Commonly recognized sensory systems are those for vision, hearing, somatic sensation (touch), taste and olfaction (smell).",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Sensory_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0050177",
+      "lbl" : "monogenic disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A genetic disease that is the result of one or more abnormal alleles and may be dominant, semi-dominant, or recessive.",
+          "xrefs" : [ "url:https://www.genome.gov/For-Patients-and-Families/Genetic-Disorders" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0060071",
+      "lbl" : "pre-malignant neoplasm",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of cellular proliferation that results in abnormal growths in the body, which do not invade or destroy the surrounding tissue but, given enough time, will transform into a cancer.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Neoplasm" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-05-11T12:18:41Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0060072",
+      "lbl" : "benign neoplasm",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of cellular proliferation that results in abnormal growths in the body which lack the ability to metastasize.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Benign_neoplasm", "url:http://www.nlm.nih.gov/medlineplus/benigntumors.html" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-05-11T12:18:41Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0060118",
+      "lbl" : "thoracic disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the thoracic cavity.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Thoracic_cavity" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#created_by",
+          "val" : "lschriml"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#creation_date",
+          "val" : "2011-07-25T02:23:47Z"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0080014",
+      "lbl" : "chromosomal disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A genetic disease that has_material_basis_in extra, missing, or re-arranged chromosomes.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Chromosome_abnormality", "url:https://www.genome.gov/about-genomics/fact-sheets/Chromosome-Abnormalities-Fact-Sheet" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0080015",
+      "lbl" : "physical disorder",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that has_material_basis_in a genetic abnormality, error with embryonic development, infection or compromised intrauterine environment.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Congenital_disorder" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "congenital disorder"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_0080577",
+      "lbl" : "polygenic disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A genetic disease that is characterized by the additive contributions of variants in multiple genes at different loci.",
+          "xrefs" : [ "url:https://www.ncbi.nlm.nih.gov/books/NBK5191/#IX-P" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_104",
+      "lbl" : "bacterial infectious disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease by infectious agent that results_in infection, has_material_basis_in Bacteria.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Pathogenic_bacteria" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:A49.9"
+        }, {
+          "val" : "MESH:D001424"
+        }, {
+          "val" : "NCI:C2890"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:87628006"
+        }, {
+          "val" : "UMLS_CUI:C0004623"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1287",
+      "lbl" : "cardiovascular system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity which occurs in the blood, heart, blood vessels or the lymphatic system that passes nutrients (such as amino acids and electrolytes), gases, hormones, blood cells or lymph to and from cells in the body to help fight diseases and help stabilize body temperature and pH to maintain homeostasis.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Circulatory_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "disease of subdivision of hemolymphoid system"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD9CM:429.2"
+        }, {
+          "val" : "MESH:D002318"
+        }, {
+          "val" : "NCI:C2931"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:266275004"
+        }, {
+          "val" : "UMLS_CUI:C0007222"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:73"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1398",
+      "lbl" : "parasitic infectious disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease by infectious agent that is carried out by a parasite which by definition is a pathogen that simultaneously injures and derives sustenance from its host.",
+          "xrefs" : [ "url:http://www.ncbi.nlm.nih.gov/bookshelf/br.fcgi?book=mmed&part=A4071" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Ectoparasitic disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "parasitemia"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:H44.12"
+        }, {
+          "val" : "ICD9CM:360.13"
+        }, {
+          "val" : "NCI:C34587"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:57100005"
+        }, {
+          "val" : "UMLS_CUI:C0014238"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:11681"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:13509"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1396"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1494"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2114"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2293"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:2922"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3564"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:4191"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:886"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:948"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9639"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:9644"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_15",
+      "lbl" : "reproductive system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in reproductive system organs.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Reproductive_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "genital system disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "NCI:C27613"
+        }, {
+          "val" : "UMLS_CUI:C1335037"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:6309"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_150",
+      "lbl" : "disease of mental health",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease that involves a psychological or behavioral pattern generally associated with subjective distress or disability that occurs in an individual, and which are not a part of normal development or culture.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Mental_disorder" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:F99"
+        }, {
+          "val" : "MESH:D001523"
+        }, {
+          "val" : "NCI:C2893"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:74732009"
+        }, {
+          "val" : "UMLS_CUI:C0004936"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1564",
+      "lbl" : "fungal infectious disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease by infectious agent that results_in infection, has_material_basis_in Fungi, which pass the resistance barriers of the human or animal body.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Mycoses" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "mycosis"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "mycoses"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:B49"
+        }, {
+          "val" : "ICD9CM:110-118.99"
+        }, {
+          "val" : "MESH:D009181"
+        }, {
+          "val" : "NCI:C3245"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:154393000"
+        }, {
+          "val" : "UMLS_CUI:C0026946"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_1579",
+      "lbl" : "respiratory system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that located_in the respiratory system which extends from the nasal sinuses to the diaphragm.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/File:Respiratory_system_complete_en.svg", "url:https://www.merriam-webster.com/dictionary/respiratory%20system#medicalDictionary" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:J98"
+        }, {
+          "val" : "ICD9CM:519"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:155603009"
+        }, {
+          "val" : "UMLS_CUI:C0029582"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:3226"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_16",
+      "lbl" : "integumentary system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the integumentary system comprising the skin and its appendages.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Integumentary_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_162",
+      "lbl" : "cancer",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of cellular proliferation that is malignant and primary, characterized by uncontrolled cellular proliferation, local cell invasion and metastasis.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/cancer", "url:https://www.merriam-webster.com/dictionary/cancer#medicalDictionary" ]
+        },
+        "comments" : [ "Updating out dated UMLS CUI." ],
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#DO_cancer_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant neoplasm"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "malignant tumor"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "primary cancer"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:C80.1"
+        }, {
+          "val" : "ICD9CM:199"
+        }, {
+          "val" : "ICDO:8000/3"
+        }, {
+          "val" : "MESH:D009369"
+        }, {
+          "val" : "NCI:C9305"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:269513004"
+        }, {
+          "val" : "UMLS_CUI:C0006826"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_17",
+      "lbl" : "musculoskeletal system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that occurs in the muscular and/or skeletal system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Human_musculoskeletal_system#Diseases_and_disorders" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "MESH:D009140"
+        }, {
+          "val" : "NCI:C107377"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:268047003"
+        }, {
+          "val" : "UMLS_CUI:C0026857"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_18",
+      "lbl" : "urinary system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in kidney, ureter, bladder and urethra.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Urinary_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Non-neoplastic urinary tract disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "urinary tract disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "NCI:C27599"
+        }, {
+          "val" : "UMLS_CUI:C1335051"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:579"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_225",
+      "lbl" : "syndrome",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease characterized by a group of signs and symptoms that occur together and characterize a particular abnormality.",
+          "xrefs" : [ "url:https://www.merriam-webster.com/dictionary/syndrome#medicalDictionary" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "MESH:D013577"
+        }, {
+          "val" : "NCI:C28193"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:64572001"
+        }, {
+          "val" : "UMLS_CUI:C0039082"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_28",
+      "lbl" : "endocrine system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in endocrine glands which secretes a type of hormone directly into the bloodstream to regulate the body.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Endocrine_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#DO_RAD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:E34.9"
+        }, {
+          "val" : "ICD9CM:259.9"
+        }, {
+          "val" : "MESH:D004700"
+        }, {
+          "val" : "NCI:C3009"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:67432001"
+        }, {
+          "val" : "UMLS_CUI:C0014130"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_2914",
+      "lbl" : "immune system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the immune system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Immune_system" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "xrefs" : [ {
+          "val" : "EFO:0000540"
+        }, {
+          "val" : "ICD10CM:D89.9"
+        }, {
+          "val" : "ICD9CM:279.9"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:154782004"
+        }, {
+          "val" : "UMLS_CUI:C0041806"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_331",
+      "lbl" : "central nervous system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system disease that affects either the spinal cord (myelopathy) or brain (encephalopathy) of the central nervous system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Central_nervous_system_disease" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:G96.9"
+        }, {
+          "val" : "MESH:D002493"
+        }, {
+          "val" : "NCI:C2934"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:267144009"
+        }, {
+          "val" : "UMLS_CUI:C0007682"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_574",
+      "lbl" : "peripheral nervous system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A nervous system disease that affects the peripheral nervous system.",
+          "xrefs" : [ "url:http://en.wikipedia.org/w/index.php?title=Peripheral_neuropathy&redirect=no" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasRelatedSynonym",
+          "val" : "peripheral nerve disease"
+        }, {
+          "pred" : "hasRelatedSynonym",
+          "val" : "peripheral neuropathy"
+        } ],
+        "xrefs" : [ {
+          "val" : "NCI:C119734"
+        }, {
+          "val" : "NCI:C27587"
+        }, {
+          "val" : "UMLS_CUI:C0031117"
+        }, {
+          "val" : "UMLS_CUI:C1335029"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:13069"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_74",
+      "lbl" : "hematopoietic system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that has_material_basis_in hematopoietic cells.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Hematopathology", "url:https://www.ncbi.nlm.nih.gov/books/NBK1741/" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Blood disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Blood dyscrasia"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "DISEASE OF THE BLOOD AND BLOOD-FORMING ORGANS"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Hematological disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "blood disorder"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "disease of haematopoietic system"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "disease of hematopoietic system"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "haematopoietic system disease"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:D75.9"
+        }, {
+          "val" : "ICD9CM:289.9"
+        }, {
+          "val" : "MESH:D006402"
+        }, {
+          "val" : "NCI:C26323"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:154785002"
+        }, {
+          "val" : "UMLS_CUI:C0018939"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_77",
+      "lbl" : "gastrointestinal system disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease of anatomical entity that is located_in the gastrointestinal tract.",
+          "xrefs" : [ "url:http://en.wikipedia.org/wiki/Human_gastrointestinal_tract" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_CFDE_slim", "http://purl.obolibrary.org/obo/doid#DO_GXD_slim", "http://purl.obolibrary.org/obo/doid#DO_MGI_slim" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "GIT disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Gastroenteropathy"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "alimentary system disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "digestive system disorder"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gastrointestinal disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "gastrointestinal disorder"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:K92.9"
+        }, {
+          "val" : "ICD9CM:520-579.99"
+        }, {
+          "val" : "MESH:D004066"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:53619000"
+        }, {
+          "val" : "UMLS_CUI:C0012242"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:27"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:944"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    }, {
+      "id" : "http://purl.obolibrary.org/obo/DOID_934",
+      "lbl" : "viral infectious disease",
+      "type" : "CLASS",
+      "meta" : {
+        "definition" : {
+          "val" : "A disease by infectious agent that results in infection, has_material_basis_in Viruses.",
+          "xrefs" : [ "url:http://www.merck.com/mmhe/sec17/ch198/ch198a.html" ]
+        },
+        "subsets" : [ "http://purl.obolibrary.org/obo/doid#DO_AGR_slim", "http://purl.obolibrary.org/obo/doid#DO_FlyBase_slim", "http://purl.obolibrary.org/obo/doid#DO_infectious_disease_slim", "http://purl.obolibrary.org/obo/doid#NCIthesaurus" ],
+        "synonyms" : [ {
+          "pred" : "hasExactSynonym",
+          "val" : "Viral Infection"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "Viral disease"
+        }, {
+          "pred" : "hasExactSynonym",
+          "val" : "virus infection"
+        } ],
+        "xrefs" : [ {
+          "val" : "ICD10CM:A94"
+        }, {
+          "val" : "ICD10CM:B34.9"
+        }, {
+          "val" : "ICD9CM:060-066.99"
+        }, {
+          "val" : "MESH:D001102"
+        }, {
+          "val" : "MESH:D014777"
+        }, {
+          "val" : "NCI:C3439"
+        }, {
+          "val" : "NCI:C34396"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:34014006"
+        }, {
+          "val" : "SNOMEDCT_US_2023_03_01:40610006"
+        }, {
+          "val" : "UMLS_CUI:C0003723"
+        }, {
+          "val" : "UMLS_CUI:C0042769"
+        } ],
+        "basicPropertyValues" : [ {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasAlternativeId",
+          "val" : "DOID:1329"
+        }, {
+          "pred" : "http://www.geneontology.org/formats/oboInOwl#hasOBONamespace",
+          "val" : "disease_ontology"
+        } ]
+      }
+    } ]
+  } ]
+}

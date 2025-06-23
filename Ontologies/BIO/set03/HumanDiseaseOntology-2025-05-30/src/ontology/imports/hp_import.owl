@@ -1,0 +1,5464 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/imports/hp_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/hp_import.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/imports/hp_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/releases/2025-05-30/imports/hp_import.owl"/>
+        <rdfs:comment>Sourced from http://purl.obolibrary.org/obo/hp/releases/2025-05-06/hp.owl</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
+        <rdfs:label>definition</rdfs:label>
+    </owl:AnnotationProperty>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000002</oboInOwl:id>
+        <rdfs:label>Abnormality of body height</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000812"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010460"/>
+        <oboInOwl:id>HP:0000008</oboInOwl:id>
+        <rdfs:label>Abnormal morphology of female internal genitalia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008684"/>
+        <oboInOwl:id>HP:0000013</oboInOwl:id>
+        <rdfs:label>Hypoplasia of the uterus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010936"/>
+        <oboInOwl:id>HP:0000014</oboInOwl:id>
+        <rdfs:label>Abnormality of the bladder</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025487"/>
+        <oboInOwl:id>HP:0000015</oboInOwl:id>
+        <rdfs:label>Bladder diverticulum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000035"/>
+        <oboInOwl:id>HP:0000028</oboInOwl:id>
+        <rdfs:label>Cryptorchidism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000811"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010461"/>
+        <oboInOwl:id>HP:0000032</oboInOwl:id>
+        <rdfs:label>Abnormal male external genitalia morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000032"/>
+        <oboInOwl:id>HP:0000035</oboInOwl:id>
+        <rdfs:label>Abnormal testis morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000032"/>
+        <oboInOwl:id>HP:0000036</oboInOwl:id>
+        <rdfs:label>Abnormal penis morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000039 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000039">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100627"/>
+        <oboInOwl:id>HP:0000039</oboInOwl:id>
+        <rdfs:label>Epispadias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000041 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000041">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000036"/>
+        <oboInOwl:id>HP:0000041</oboInOwl:id>
+        <rdfs:label>Chordee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000032"/>
+        <oboInOwl:id>HP:0000045</oboInOwl:id>
+        <rdfs:label>Abnormal scrotum morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100627"/>
+        <oboInOwl:id>HP:0000047</oboInOwl:id>
+        <rdfs:label>Hypospadias</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000050 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000050">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003241"/>
+        <oboInOwl:id>HP:0000050</oboInOwl:id>
+        <rdfs:label>Hypoplastic male external genitalia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000811"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010460"/>
+        <oboInOwl:id>HP:0000055</oboInOwl:id>
+        <rdfs:label>Abnormal female external genitalia morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000056 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000056">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000055"/>
+        <oboInOwl:id>HP:0000056</oboInOwl:id>
+        <rdfs:label>Abnormal clitoris morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000795"/>
+        <oboInOwl:id>HP:0000068</oboInOwl:id>
+        <rdfs:label>Urethral atresia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010935"/>
+        <oboInOwl:id>HP:0000069</oboInOwl:id>
+        <rdfs:label>Abnormality of the ureter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025633"/>
+        <oboInOwl:id>HP:0000070</oboInOwl:id>
+        <rdfs:label>Ureterocele</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006000"/>
+        <oboInOwl:id>HP:0000071</oboInOwl:id>
+        <rdfs:label>Ureteral stenosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025633"/>
+        <oboInOwl:id>HP:0000072</oboInOwl:id>
+        <rdfs:label>Hydroureter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000073 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000073">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025633"/>
+        <oboInOwl:id>HP:0000073</oboInOwl:id>
+        <rdfs:label>Ureteral duplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000071"/>
+        <oboInOwl:id>HP:0000074</oboInOwl:id>
+        <rdfs:label>Ureteropelvic junction obstruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005217"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0000075</oboInOwl:id>
+        <rdfs:label>Renal duplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000077 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000077">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010935"/>
+        <oboInOwl:id>HP:0000077</oboInOwl:id>
+        <rdfs:label>Abnormality of the kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000078">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000119"/>
+        <oboInOwl:id>HP:0000078</oboInOwl:id>
+        <rdfs:label>Abnormality of the genital system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000119"/>
+        <oboInOwl:id>HP:0000079</oboInOwl:id>
+        <rdfs:label>Abnormality of the urinary system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012211"/>
+        <oboInOwl:id>HP:0000083</oboInOwl:id>
+        <rdfs:label>Renal insufficiency</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000085 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000085">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100542"/>
+        <oboInOwl:id>HP:0000085</oboInOwl:id>
+        <rdfs:label>Horseshoe kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100542"/>
+        <oboInOwl:id>HP:0000086</oboInOwl:id>
+        <rdfs:label>Ectopic kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031263"/>
+        <oboInOwl:id>HP:0000095</oboInOwl:id>
+        <rdfs:label>Abnormal renal glomerulus morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000002"/>
+        <oboInOwl:id>HP:0000098</oboInOwl:id>
+        <rdfs:label>Tall stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0000107</oboInOwl:id>
+        <rdfs:label>Renal cyst</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+        <oboInOwl:id>HP:0000118</oboInOwl:id>
+        <rdfs:label>Phenotypic abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000119 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000119">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000119</oboInOwl:id>
+        <rdfs:label>Abnormality of the genitourinary system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000086"/>
+        <oboInOwl:id>HP:0000125</oboInOwl:id>
+        <rdfs:label>Pelvic kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010946"/>
+        <oboInOwl:id>HP:0000126</oboInOwl:id>
+        <rdfs:label>Hydronephrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000130 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000130">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000008"/>
+        <oboInOwl:id>HP:0000130</oboInOwl:id>
+        <rdfs:label>Abnormality of the uterus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000142 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000142">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000008"/>
+        <oboInOwl:id>HP:0000142</oboInOwl:id>
+        <rdfs:label>Abnormal vagina morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000142"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001827"/>
+        <oboInOwl:id>HP:0000148</oboInOwl:id>
+        <rdfs:label>Vaginal atresia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000152 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000152">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000152</oboInOwl:id>
+        <rdfs:label>Abnormality of head or neck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000271"/>
+        <oboInOwl:id>HP:0000153</oboInOwl:id>
+        <rdfs:label>Abnormality of the mouth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000159 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000159">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000163"/>
+        <oboInOwl:id>HP:0000159</oboInOwl:id>
+        <rdfs:label>Abnormal lip morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000163 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000163">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031816"/>
+        <oboInOwl:id>HP:0000163</oboInOwl:id>
+        <rdfs:label>Abnormal oral cavity morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000164 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000164">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000163"/>
+        <oboInOwl:id>HP:0000164</oboInOwl:id>
+        <rdfs:label>Abnormality of the dentition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000177 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000177">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000159"/>
+        <oboInOwl:id>HP:0000177</oboInOwl:id>
+        <rdfs:label>Abnormal upper lip morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000219">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000233"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011339"/>
+        <oboInOwl:id>HP:0000219</oboInOwl:id>
+        <rdfs:label>Thin upper lip vermilion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000159"/>
+        <oboInOwl:id>HP:0000233</oboInOwl:id>
+        <rdfs:label>Thin vermilion border</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000234 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000234">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000152"/>
+        <oboInOwl:id>HP:0000234</oboInOwl:id>
+        <rdfs:label>Abnormality of the head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000235 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000235">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000929"/>
+        <oboInOwl:id>HP:0000235</oboInOwl:id>
+        <rdfs:label>Abnormal cranial suture/fontanelle morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000240 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000240">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000929"/>
+        <oboInOwl:id>HP:0000240</oboInOwl:id>
+        <rdfs:label>Abnormality of skull size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040194"/>
+        <oboInOwl:id>HP:0000256</oboInOwl:id>
+        <rdfs:label>Macrocephaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000929"/>
+        <oboInOwl:id>HP:0000264</oboInOwl:id>
+        <rdfs:label>Abnormal mastoid morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000271 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000271">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000234"/>
+        <oboInOwl:id>HP:0000271</oboInOwl:id>
+        <rdfs:label>Abnormality of the face</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010668"/>
+        <oboInOwl:id>HP:0000272</oboInOwl:id>
+        <rdfs:label>Malar flattening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001999"/>
+        <oboInOwl:id>HP:0000274</oboInOwl:id>
+        <rdfs:label>Small face</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000275 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000275">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000274"/>
+        <oboInOwl:id>HP:0000275</oboInOwl:id>
+        <rdfs:label>Narrow face</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030791"/>
+        <oboInOwl:id>HP:0000277</oboInOwl:id>
+        <rdfs:label>Abnormal mandible morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000278 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000278">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000277"/>
+        <oboInOwl:id>HP:0000278</oboInOwl:id>
+        <rdfs:label>Retrognathia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001999"/>
+        <oboInOwl:id>HP:0000280</oboInOwl:id>
+        <rdfs:label>Coarse facial features</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000288 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000288">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000177"/>
+        <oboInOwl:id>HP:0000288</oboInOwl:id>
+        <rdfs:label>Abnormality of the philtrum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000290 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000290">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000271"/>
+        <oboInOwl:id>HP:0000290</oboInOwl:id>
+        <rdfs:label>Abnormal forehead morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000271"/>
+        <oboInOwl:id>HP:0000309</oboInOwl:id>
+        <rdfs:label>Abnormal midface morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000321 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000321">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001999"/>
+        <oboInOwl:id>HP:0000321</oboInOwl:id>
+        <rdfs:label>Square face</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000343 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000343">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000288"/>
+        <oboInOwl:id>HP:0000343</oboInOwl:id>
+        <rdfs:label>Long philtrum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009118"/>
+        <oboInOwl:id>HP:0000347</oboInOwl:id>
+        <rdfs:label>Micrognathia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031704"/>
+        <oboInOwl:id>HP:0000364</oboInOwl:id>
+        <rdfs:label>Hearing abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000271"/>
+        <oboInOwl:id>HP:0000366</oboInOwl:id>
+        <rdfs:label>Abnormality of the nose</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031703"/>
+        <oboInOwl:id>HP:0000370</oboInOwl:id>
+        <rdfs:label>Abnormality of the middle ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000478 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000478">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000478</oboInOwl:id>
+        <rdfs:label>Abnormality of the eye</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000479 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000479">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001098"/>
+        <oboInOwl:id>HP:0000479</oboInOwl:id>
+        <rdfs:label>Abnormal retinal morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004328"/>
+        <oboInOwl:id>HP:0000481</oboInOwl:id>
+        <rdfs:label>Abnormal cornea morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000488 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000488">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000479"/>
+        <oboInOwl:id>HP:0000488</oboInOwl:id>
+        <rdfs:label>Retinopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012373"/>
+        <oboInOwl:id>HP:0000496</oboInOwl:id>
+        <rdfs:label>Abnormality of eye movement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000504 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000504">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012373"/>
+        <oboInOwl:id>HP:0000504</oboInOwl:id>
+        <rdfs:label>Abnormality of vision</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000505 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000505">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000504"/>
+        <oboInOwl:id>HP:0000505</oboInOwl:id>
+        <rdfs:label>Visual impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000517 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000517">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004328"/>
+        <oboInOwl:id>HP:0000517</oboInOwl:id>
+        <rdfs:label>Abnormal lens morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000525 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000525">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000553"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004328"/>
+        <oboInOwl:id>HP:0000525</oboInOwl:id>
+        <rdfs:label>Abnormality iris morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000479"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000610"/>
+        <oboInOwl:id>HP:0000532</oboInOwl:id>
+        <rdfs:label>Abnormal chorioretinal morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000553 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000553">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012372"/>
+        <oboInOwl:id>HP:0000553</oboInOwl:id>
+        <rdfs:label>Abnormal uvea morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000563 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000563">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100689"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100692"/>
+        <oboInOwl:id>HP:0000563</oboInOwl:id>
+        <rdfs:label>Keratoconus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000580">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007703"/>
+        <oboInOwl:id>HP:0000580</oboInOwl:id>
+        <rdfs:label>Pigmentary retinopathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001098"/>
+        <oboInOwl:id>HP:0000587</oboInOwl:id>
+        <rdfs:label>Abnormal optic nerve morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000588 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000588">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000589"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012795"/>
+        <oboInOwl:id>HP:0000588</oboInOwl:id>
+        <rdfs:label>Optic disc coloboma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012372"/>
+        <oboInOwl:id>HP:0000589</oboInOwl:id>
+        <rdfs:label>Coloboma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000598</oboInOwl:id>
+        <rdfs:label>Abnormality of the ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002977"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008058"/>
+        <oboInOwl:id>HP:0000609</oboInOwl:id>
+        <rdfs:label>Optic nerve hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000610 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000553"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001098"/>
+        <oboInOwl:id>HP:0000610</oboInOwl:id>
+        <rdfs:label>Abnormal choroid morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000612 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000525"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000589"/>
+        <oboInOwl:id>HP:0000612</oboInOwl:id>
+        <rdfs:label>Iris coloboma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012547"/>
+        <oboInOwl:id>HP:0000639</oboInOwl:id>
+        <rdfs:label>Nystagmus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000707</oboInOwl:id>
+        <rdfs:label>Abnormality of the nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000722 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000722">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_5200241"/>
+        <oboInOwl:id>HP:0000722</oboInOwl:id>
+        <rdfs:label>Compulsive behaviors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002167"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002463"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012758"/>
+        <oboInOwl:id>HP:0000750</oboInOwl:id>
+        <rdfs:label>Delayed speech and language development</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009121"/>
+        <oboInOwl:id>HP:0000765</oboInOwl:id>
+        <rdfs:label>Abnormal thorax morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000765"/>
+        <oboInOwl:id>HP:0000766</oboInOwl:id>
+        <rdfs:label>Abnormal sternum morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000768 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000768">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000766"/>
+        <oboInOwl:id>HP:0000768</oboInOwl:id>
+        <rdfs:label>Pectus carinatum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000769">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000769</oboInOwl:id>
+        <rdfs:label>Abnormality of the breast</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001547"/>
+        <oboInOwl:id>HP:0000772</oboInOwl:id>
+        <rdfs:label>Abnormal rib morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000773 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000773">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006712"/>
+        <oboInOwl:id>HP:0000773</oboInOwl:id>
+        <rdfs:label>Short ribs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000774 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000774">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005257"/>
+        <oboInOwl:id>HP:0000774</oboInOwl:id>
+        <rdfs:label>Narrow chest</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000777">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000818"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100763"/>
+        <oboInOwl:id>HP:0000777</oboInOwl:id>
+        <rdfs:label>Abnormal thymus morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010936"/>
+        <oboInOwl:id>HP:0000795</oboInOwl:id>
+        <rdfs:label>Abnormality of the urethra</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000795"/>
+        <oboInOwl:id>HP:0000796</oboInOwl:id>
+        <rdfs:label>Urethral obstruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000811">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012243"/>
+        <oboInOwl:id>HP:0000811</oboInOwl:id>
+        <rdfs:label>Abnormal external genitalia morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012243"/>
+        <oboInOwl:id>HP:0000812</oboInOwl:id>
+        <rdfs:label>Abnormal internal genitalia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0000818</oboInOwl:id>
+        <rdfs:label>Abnormality of the endocrine system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000820 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000820">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000818"/>
+        <oboInOwl:id>HP:0000820</oboInOwl:id>
+        <rdfs:label>Abnormality of the thyroid gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000828 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000828">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000818"/>
+        <oboInOwl:id>HP:0000828</oboInOwl:id>
+        <rdfs:label>Abnormality of the parathyroid gland</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033127"/>
+        <oboInOwl:id>HP:0000924</oboInOwl:id>
+        <rdfs:label>Abnormality of the skeletal system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009121"/>
+        <oboInOwl:id>HP:0000925</oboInOwl:id>
+        <rdfs:label>Abnormality of the vertebral column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003312"/>
+        <oboInOwl:id>HP:0000926</oboInOwl:id>
+        <rdfs:label>Platyspondyly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011843"/>
+        <oboInOwl:id>HP:0000927</oboInOwl:id>
+        <rdfs:label>Abnormality of skeletal maturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000234"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009121"/>
+        <oboInOwl:id>HP:0000929</oboInOwl:id>
+        <rdfs:label>Abnormal skull morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000940">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002813"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011314"/>
+        <oboInOwl:id>HP:0000940</oboInOwl:id>
+        <rdfs:label>Abnormal diaphysis morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002813"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011314"/>
+        <oboInOwl:id>HP:0000944</oboInOwl:id>
+        <rdfs:label>Abnormal metaphysis morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000951 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000951">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001574"/>
+        <oboInOwl:id>HP:0000951</oboInOwl:id>
+        <rdfs:label>Abnormality of the skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000962 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000962">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011368"/>
+        <oboInOwl:id>HP:0000962</oboInOwl:id>
+        <rdfs:label>Hyperkeratosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007556"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010765"/>
+        <oboInOwl:id>HP:0000972</oboInOwl:id>
+        <rdfs:label>Palmoplantar hyperkeratosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000974">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008067"/>
+        <oboInOwl:id>HP:0000974</oboInOwl:id>
+        <rdfs:label>Hyperextensible skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000975 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000975">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025276"/>
+        <oboInOwl:id>HP:0000975</oboInOwl:id>
+        <rdfs:label>Hyperhidrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0000987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100699"/>
+        <oboInOwl:id>HP:0000987</oboInOwl:id>
+        <rdfs:label>Atypical scarring of skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <oboInOwl:id>HP:0001000</oboInOwl:id>
+        <rdfs:label>Abnormality of skin pigmentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001000"/>
+        <oboInOwl:id>HP:0001010</oboInOwl:id>
+        <rdfs:label>Hypopigmentation of the skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005599"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007513"/>
+        <oboInOwl:id>HP:0001022</oboInOwl:id>
+        <rdfs:label>Albinism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <oboInOwl:id>HP:0001072</oboInOwl:id>
+        <rdfs:label>Thickened skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000987"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004334"/>
+        <oboInOwl:id>HP:0001075</oboInOwl:id>
+        <rdfs:label>Atrophic scars</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001098 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001098">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004329"/>
+        <oboInOwl:id>HP:0001098</oboInOwl:id>
+        <rdfs:label>Abnormal fundus morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000479"/>
+        <oboInOwl:id>HP:0001103</oboInOwl:id>
+        <rdfs:label>Abnormal macular morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001153 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001153">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000142"/>
+        <oboInOwl:id>HP:0001153</oboInOwl:id>
+        <rdfs:label>Septate vagina</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002817"/>
+        <oboInOwl:id>HP:0001155</oboInOwl:id>
+        <rdfs:label>Abnormality of the hand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0001197</oboInOwl:id>
+        <rdfs:label>Abnormality of prenatal development or birth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011443"/>
+        <oboInOwl:id>HP:0001251</oboInOwl:id>
+        <rdfs:label>Ataxia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003808"/>
+        <oboInOwl:id>HP:0001252</oboInOwl:id>
+        <rdfs:label>Hypotonia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002493"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003808"/>
+        <oboInOwl:id>HP:0001257</oboInOwl:id>
+        <rdfs:label>Spasticity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012758"/>
+        <oboInOwl:id>HP:0001263</oboInOwl:id>
+        <rdfs:label>Global developmental delay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001268 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001268">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100543"/>
+        <oboInOwl:id>HP:0001268</oboInOwl:id>
+        <rdfs:label>Mental deterioration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001272 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001272">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001317"/>
+        <oboInOwl:id>HP:0001272</oboInOwl:id>
+        <rdfs:label>Cerebellar atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001273 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001273">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002500"/>
+        <oboInOwl:id>HP:0001273</oboInOwl:id>
+        <rdfs:label>Abnormal corpus callosum morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001274 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001274">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007370"/>
+        <oboInOwl:id>HP:0001274</oboInOwl:id>
+        <rdfs:label>Agenesis of corpus callosum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001317 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001317">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011283"/>
+        <oboInOwl:id>HP:0001317</oboInOwl:id>
+        <rdfs:label>Abnormal cerebellum morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001336 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001336">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004305"/>
+        <oboInOwl:id>HP:0001336</oboInOwl:id>
+        <rdfs:label>Myoclonus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <oboInOwl:id>HP:0001367</oboInOwl:id>
+        <rdfs:label>Abnormal joint morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001367"/>
+        <oboInOwl:id>HP:0001373</oboInOwl:id>
+        <rdfs:label>Joint dislocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001382 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001382">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011729"/>
+        <oboInOwl:id>HP:0001382</oboInOwl:id>
+        <rdfs:label>Joint hypermobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002012"/>
+        <oboInOwl:id>HP:0001392</oboInOwl:id>
+        <rdfs:label>Abnormality of the liver</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001397 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001397">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006561"/>
+        <oboInOwl:id>HP:0001397</oboInOwl:id>
+        <rdfs:label>Hepatic steatosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <oboInOwl:id>HP:0001438</oboInOwl:id>
+        <rdfs:label>Abnormal abdomen morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001000"/>
+        <oboInOwl:id>HP:0001480</oboInOwl:id>
+        <rdfs:label>Freckling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0001510</oboInOwl:id>
+        <rdfs:label>Growth delay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000765"/>
+        <oboInOwl:id>HP:0001547</oboInOwl:id>
+        <rdfs:label>Abnormal rib cage morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001548">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000098"/>
+        <oboInOwl:id>HP:0001548</oboInOwl:id>
+        <rdfs:label>Overgrowth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001574 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001574">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0001574</oboInOwl:id>
+        <rdfs:label>Abnormality of the integument</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001595 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001595">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011138"/>
+        <oboInOwl:id>HP:0001595</oboInOwl:id>
+        <rdfs:label>Abnormal hair morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011138"/>
+        <oboInOwl:id>HP:0001597</oboInOwl:id>
+        <rdfs:label>Abnormal nail morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001626 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0001626</oboInOwl:id>
+        <rdfs:label>Abnormality of the cardiovascular system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030680"/>
+        <oboInOwl:id>HP:0001627</oboInOwl:id>
+        <rdfs:label>Abnormal heart morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001697 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001697">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001627"/>
+        <oboInOwl:id>HP:0001697</oboInOwl:id>
+        <rdfs:label>Abnormal pericardium morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031481"/>
+        <oboInOwl:id>HP:0001718</oboInOwl:id>
+        <rdfs:label>Mitral stenosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001760">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002814"/>
+        <oboInOwl:id>HP:0001760</oboInOwl:id>
+        <rdfs:label>Abnormal foot morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001883"/>
+        <oboInOwl:id>HP:0001762</oboInOwl:id>
+        <rdfs:label>Talipes equinovarus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001789 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001789">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011032"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034058"/>
+        <oboInOwl:id>HP:0001789</oboInOwl:id>
+        <rdfs:label>Hydrops fetalis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001824 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001824">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004325"/>
+        <oboInOwl:id>HP:0001824</oboInOwl:id>
+        <rdfs:label>Weight loss</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012243"/>
+        <oboInOwl:id>HP:0001827</oboInOwl:id>
+        <rdfs:label>Genital tract atresia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0001871</oboInOwl:id>
+        <rdfs:label>Abnormality of blood and blood-forming tissues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <oboInOwl:id>HP:0001872</oboInOwl:id>
+        <rdfs:label>Abnormality of thrombocytes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001879 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001879">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001911"/>
+        <oboInOwl:id>HP:0001879</oboInOwl:id>
+        <rdfs:label>Abnormal eosinophil morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001880 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001880">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0020064"/>
+        <oboInOwl:id>HP:0001880</oboInOwl:id>
+        <rdfs:label>Increased total eosinophil count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001881 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001881">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010987"/>
+        <oboInOwl:id>HP:0001881</oboInOwl:id>
+        <rdfs:label>Abnormal leukocyte morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001883">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005656"/>
+        <oboInOwl:id>HP:0001883</oboInOwl:id>
+        <rdfs:label>Talipes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001911 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001911">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010974"/>
+        <oboInOwl:id>HP:0001911</oboInOwl:id>
+        <rdfs:label>Abnormal granulocyte morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001928 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001928">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <oboInOwl:id>HP:0001928</oboInOwl:id>
+        <rdfs:label>Abnormality of coagulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0001939</oboInOwl:id>
+        <rdfs:label>Abnormality of metabolism/homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011014"/>
+        <oboInOwl:id>HP:0001952</oboInOwl:id>
+        <rdfs:label>Glucose intolerance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001965 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001965">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000234"/>
+        <oboInOwl:id>HP:0001965</oboInOwl:id>
+        <rdfs:label>Abnormal scalp morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001966 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001966">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000095"/>
+        <oboInOwl:id>HP:0001966</oboInOwl:id>
+        <rdfs:label>Abnormal glomerular mesangium morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001967 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001967">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001966"/>
+        <oboInOwl:id>HP:0001967</oboInOwl:id>
+        <rdfs:label>Diffuse mesangial sclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0001999 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0001999">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000271"/>
+        <oboInOwl:id>HP:0001999</oboInOwl:id>
+        <rdfs:label>Abnormal facial shape</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000290"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011218"/>
+        <oboInOwl:id>HP:0002007</oboInOwl:id>
+        <rdfs:label>Frontal bossing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012639"/>
+        <oboInOwl:id>HP:0002011</oboInOwl:id>
+        <rdfs:label>Morphological central nervous system abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <oboInOwl:id>HP:0002012</oboInOwl:id>
+        <rdfs:label>Abnormality of the abdominal organs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025032"/>
+        <oboInOwl:id>HP:0002024</oboInOwl:id>
+        <rdfs:label>Malabsorption</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100547"/>
+        <oboInOwl:id>HP:0002060</oboInOwl:id>
+        <rdfs:label>Abnormal cerebral morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011813"/>
+        <oboInOwl:id>HP:0002074</oboInOwl:id>
+        <rdfs:label>Increased neuronal autofluorescent lipopigment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002086 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002086">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0002086</oboInOwl:id>
+        <rdfs:label>Abnormality of the respiratory system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002088 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002088">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012252"/>
+        <oboInOwl:id>HP:0002088</oboInOwl:id>
+        <rdfs:label>Abnormal lung morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002103 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002103">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002088"/>
+        <oboInOwl:id>HP:0002103</oboInOwl:id>
+        <rdfs:label>Abnormal pleura morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002113 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002113">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031983"/>
+        <oboInOwl:id>HP:0002113</oboInOwl:id>
+        <rdfs:label>Pulmonary infiltrates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002011"/>
+        <oboInOwl:id>HP:0002143</oboInOwl:id>
+        <rdfs:label>Abnormal spinal cord morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002157 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002157">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004364"/>
+        <oboInOwl:id>HP:0002157</oboInOwl:id>
+        <rdfs:label>Azotemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002167 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002167">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_4000072"/>
+        <oboInOwl:id>HP:0002167</oboInOwl:id>
+        <rdfs:label>Abnormal speech pattern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002209 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002209">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008070"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100037"/>
+        <oboInOwl:id>HP:0002209</oboInOwl:id>
+        <rdfs:label>Sparse scalp hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012718"/>
+        <oboInOwl:id>HP:0002242</oboInOwl:id>
+        <rdfs:label>Abnormal intestine morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001317"/>
+        <oboInOwl:id>HP:0002334</oboInOwl:id>
+        <rdfs:label>Abnormal cerebellar vermis morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002344 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002344">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001268"/>
+        <oboInOwl:id>HP:0002344</oboInOwl:id>
+        <rdfs:label>Progressive neurologic deterioration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034434"/>
+        <oboInOwl:id>HP:0002463</oboInOwl:id>
+        <rdfs:label>Language impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002493 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002493">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011442"/>
+        <oboInOwl:id>HP:0002493</oboInOwl:id>
+        <rdfs:label>Upper motor neuron dysfunction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010993"/>
+        <oboInOwl:id>HP:0002500</oboInOwl:id>
+        <rdfs:label>Abnormal cerebral white matter morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002503 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002503">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003133"/>
+        <oboInOwl:id>HP:0002503</oboInOwl:id>
+        <rdfs:label>Spinocerebellar tract degeneration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002579 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002579">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030895"/>
+        <oboInOwl:id>HP:0002579</oboInOwl:id>
+        <rdfs:label>Gastrointestinal dysmotility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002597 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002597">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001626"/>
+        <oboInOwl:id>HP:0002597</oboInOwl:id>
+        <rdfs:label>Abnormality of the vasculature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002617 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033353"/>
+        <oboInOwl:id>HP:0002617</oboInOwl:id>
+        <rdfs:label>Vascular dilatation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <oboInOwl:id>HP:0002652</oboInOwl:id>
+        <rdfs:label>Skeletal dysplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002683">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000929"/>
+        <oboInOwl:id>HP:0002683</oboInOwl:id>
+        <rdfs:label>Abnormal calvaria morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002715 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002715">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0002715</oboInOwl:id>
+        <rdfs:label>Abnormality of the immune system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000927"/>
+        <oboInOwl:id>HP:0002750</oboInOwl:id>
+        <rdfs:label>Delayed skeletal maturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002793">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002795"/>
+        <oboInOwl:id>HP:0002793</oboInOwl:id>
+        <rdfs:label>Abnormal pattern of respiration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
+        <oboInOwl:id>HP:0002795</oboInOwl:id>
+        <rdfs:label>Abnormal respiratory system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002797 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002797">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003330"/>
+        <oboInOwl:id>HP:0002797</oboInOwl:id>
+        <rdfs:label>Osteolysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003367"/>
+        <oboInOwl:id>HP:0002812</oboInOwl:id>
+        <rdfs:label>Coxa vara</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011844"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040068"/>
+        <oboInOwl:id>HP:0002813</oboInOwl:id>
+        <rdfs:label>Abnormal limb bone morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002814 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002814">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040064"/>
+        <oboInOwl:id>HP:0002814</oboInOwl:id>
+        <rdfs:label>Abnormality of the lower limb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100491"/>
+        <oboInOwl:id>HP:0002815</oboInOwl:id>
+        <rdfs:label>Abnormality of the knee</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040064"/>
+        <oboInOwl:id>HP:0002817</oboInOwl:id>
+        <rdfs:label>Abnormality of the upper limb</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002823 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002823">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040069"/>
+        <oboInOwl:id>HP:0002823</oboInOwl:id>
+        <rdfs:label>Abnormal femur morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002970">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002979"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034669"/>
+        <oboInOwl:id>HP:0002970</oboInOwl:id>
+        <rdfs:label>Genu varum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002977 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002977">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002011"/>
+        <oboInOwl:id>HP:0002977</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia involving the central nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002979 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002979">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002981"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006487"/>
+        <oboInOwl:id>HP:0002979</oboInOwl:id>
+        <rdfs:label>Bowing of the legs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002981 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002981">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002814"/>
+        <oboInOwl:id>HP:0002981</oboInOwl:id>
+        <rdfs:label>Abnormality of the calf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0002983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0002983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009826"/>
+        <oboInOwl:id>HP:0002983</oboInOwl:id>
+        <rdfs:label>Micromelia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033127"/>
+        <oboInOwl:id>HP:0003011</oboInOwl:id>
+        <rdfs:label>Abnormality of the musculature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009826"/>
+        <oboInOwl:id>HP:0003027</oboInOwl:id>
+        <rdfs:label>Mesomelia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003110 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011277"/>
+        <oboInOwl:id>HP:0003110</oboInOwl:id>
+        <rdfs:label>Abnormality of urine homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003112 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003112">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004354"/>
+        <oboInOwl:id>HP:0003112</oboInOwl:id>
+        <rdfs:label>Abnormal circulating amino acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030976"/>
+        <oboInOwl:id>HP:0003125</oboInOwl:id>
+        <rdfs:label>Reduced factor VIII activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003133 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003133">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002143"/>
+        <oboInOwl:id>HP:0003133</oboInOwl:id>
+        <rdfs:label>Abnormality of the spinocerebellar tracts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003187 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003187">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010311"/>
+        <oboInOwl:id>HP:0003187</oboInOwl:id>
+        <rdfs:label>Breast hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011805"/>
+        <oboInOwl:id>HP:0003202</oboInOwl:id>
+        <rdfs:label>Skeletal muscle atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010917"/>
+        <oboInOwl:id>HP:0003231</oboInOwl:id>
+        <rdfs:label>Hypertyrosinemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000811"/>
+        <oboInOwl:id>HP:0003241</oboInOwl:id>
+        <rdfs:label>External genital hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003256">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001928"/>
+        <oboInOwl:id>HP:0003256</oboInOwl:id>
+        <rdfs:label>Abnormality of the coagulation cascade</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010674"/>
+        <oboInOwl:id>HP:0003307</oboInOwl:id>
+        <rdfs:label>Hyperlordosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003312">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003468"/>
+        <oboInOwl:id>HP:0003312</oboInOwl:id>
+        <rdfs:label>Abnormal form of the vertebral bodies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003330">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <oboInOwl:id>HP:0003330</oboInOwl:id>
+        <rdfs:label>Abnormal bone structure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003355 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003355">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025745"/>
+        <oboInOwl:id>HP:0003355</oboInOwl:id>
+        <rdfs:label>Aminoaciduria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003366 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003366">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002823"/>
+        <oboInOwl:id>HP:0003366</oboInOwl:id>
+        <rdfs:label>Abnormal femoral neck/head morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003366"/>
+        <oboInOwl:id>HP:0003367</oboInOwl:id>
+        <rdfs:label>Abnormal femoral neck morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000925"/>
+        <oboInOwl:id>HP:0003468</oboInOwl:id>
+        <rdfs:label>Abnormal vertebral morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003498 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003498">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004322"/>
+        <oboInOwl:id>HP:0003498</oboInOwl:id>
+        <rdfs:label>Disproportionate short stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004322"/>
+        <oboInOwl:id>HP:0003508</oboInOwl:id>
+        <rdfs:label>Proportionate short stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003510 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003510">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003508"/>
+        <oboInOwl:id>HP:0003510</oboInOwl:id>
+        <rdfs:label>Severe short stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003498"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009121"/>
+        <oboInOwl:id>HP:0003521</oboInOwl:id>
+        <rdfs:label>Disproportionate short-trunk short stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003549 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003549">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033127"/>
+        <oboInOwl:id>HP:0003549</oboInOwl:id>
+        <rdfs:label>Abnormality of connective tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003577 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003577">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>A phenotypic abnormality that is present at birth.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003577</oboInOwl:id>
+        <rdfs:label>Congenital onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>Onset of disease manifestations in adulthood, defined here as at the age of 16 years or later.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003581</oboInOwl:id>
+        <rdfs:label>Adult onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003584 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003584">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003581"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>A type of adult onset with onset of symptoms after the age of 60 years.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003584</oboInOwl:id>
+        <rdfs:label>Late onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003593 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003593">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0410280"/>
+        <obo:IAO_0000115>Onset of signs or symptoms of disease between 28 days to one year of life.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003593</oboInOwl:id>
+        <rdfs:label>Infantile onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003581"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>A type of adult onset with onset of symptoms at the age of 40 to 60 years.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003596</oboInOwl:id>
+        <rdfs:label>Middle age onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0410280"/>
+        <obo:IAO_0000115>Onset of signs or symptoms of disease between the age of 5 and 15 years.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003621</oboInOwl:id>
+        <rdfs:label>Juvenile onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>Onset of signs or symptoms of disease within the first 28 days of life.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003623</oboInOwl:id>
+        <rdfs:label>Neonatal onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003674">
+        <obo:IAO_0000115>The age group in which disease manifestations appear.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0003674</oboInOwl:id>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0003808 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0003808">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011804"/>
+        <oboInOwl:id>HP:0003808</oboInOwl:id>
+        <rdfs:label>Abnormal muscle tone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001392"/>
+        <oboInOwl:id>HP:0004297</oboInOwl:id>
+        <rdfs:label>Abnormality of the biliary system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004298 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004298">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <oboInOwl:id>HP:0004298</oboInOwl:id>
+        <rdfs:label>Abnormality of the abdominal wall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004305 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004305">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011442"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100022"/>
+        <oboInOwl:id>HP:0004305</oboInOwl:id>
+        <rdfs:label>Involuntary movements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004306 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004306">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001627"/>
+        <oboInOwl:id>HP:0004306</oboInOwl:id>
+        <rdfs:label>Abnormal endocardium morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004313 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004313">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010701"/>
+        <oboInOwl:id>HP:0004313</oboInOwl:id>
+        <rdfs:label>Decreased circulating immunoglobulin concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004322 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004322">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000002"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001510"/>
+        <oboInOwl:id>HP:0004322</oboInOwl:id>
+        <rdfs:label>Short stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004323 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004323">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <oboInOwl:id>HP:0004323</oboInOwl:id>
+        <rdfs:label>Abnormality of body weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004324 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004324">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004323"/>
+        <oboInOwl:id>HP:0004324</oboInOwl:id>
+        <rdfs:label>Increased body weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004325 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004325">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004323"/>
+        <oboInOwl:id>HP:0004325</oboInOwl:id>
+        <rdfs:label>Decreased body weight</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004326 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004326">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001824"/>
+        <oboInOwl:id>HP:0004326</oboInOwl:id>
+        <rdfs:label>Cachexia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004328 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004328">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012372"/>
+        <oboInOwl:id>HP:0004328</oboInOwl:id>
+        <rdfs:label>Abnormal anterior eye segment morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012372"/>
+        <oboInOwl:id>HP:0004329</oboInOwl:id>
+        <rdfs:label>Abnormal posterior eye segment morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004334 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004334">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008065"/>
+        <oboInOwl:id>HP:0004334</oboInOwl:id>
+        <rdfs:label>Dermal atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004338 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004338">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033107"/>
+        <oboInOwl:id>HP:0004338</oboInOwl:id>
+        <rdfs:label>Abnormal circulating aromatic amino acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004340">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100508"/>
+        <oboInOwl:id>HP:0004340</oboInOwl:id>
+        <rdfs:label>Abnormality of vitamin B metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004341 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004341">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004340"/>
+        <oboInOwl:id>HP:0004341</oboInOwl:id>
+        <rdfs:label>Abnormality of vitamin B12 metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011849"/>
+        <oboInOwl:id>HP:0004348</oboInOwl:id>
+        <rdfs:label>Abnormality of bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0430071"/>
+        <oboInOwl:id>HP:0004354</oboInOwl:id>
+        <rdfs:label>Abnormal circulating carboxylic acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <oboInOwl:id>HP:0004360</oboInOwl:id>
+        <rdfs:label>Abnormality of acid-base homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0430071"/>
+        <oboInOwl:id>HP:0004364</oboInOwl:id>
+        <rdfs:label>Abnormal circulating nitrogen compound concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <oboInOwl:id>HP:0004372</oboInOwl:id>
+        <rdfs:label>Reduced consciousness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004566 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004566">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003312"/>
+        <oboInOwl:id>HP:0004566</oboInOwl:id>
+        <rdfs:label>Pear-shaped vertebrae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0004712</oboInOwl:id>
+        <rdfs:label>Renal malrotation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004736 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004736">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000086"/>
+        <oboInOwl:id>HP:0004736</oboInOwl:id>
+        <rdfs:label>Crossed fused renal ectopia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0004742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0004742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0004742</oboInOwl:id>
+        <rdfs:label>Abnormal renal collecting system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005132 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005132">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001697"/>
+        <oboInOwl:id>HP:0005132</oboInOwl:id>
+        <rdfs:label>Pericardial constriction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001438"/>
+        <oboInOwl:id>HP:0005217</oboInOwl:id>
+        <rdfs:label>Abdominal organ duplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005257 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005257">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000765"/>
+        <oboInOwl:id>HP:0005257</oboInOwl:id>
+        <rdfs:label>Thoracic hypoplasia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005368"/>
+        <oboInOwl:id>HP:0005339</oboInOwl:id>
+        <rdfs:label>Abnormality of complement system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
+        <oboInOwl:id>HP:0005368</oboInOwl:id>
+        <rdfs:label>Abnormality of humoral immunity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031409"/>
+        <oboInOwl:id>HP:0005372</oboInOwl:id>
+        <rdfs:label>Abnormality of B cell physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009887"/>
+        <oboInOwl:id>HP:0005599</oboInOwl:id>
+        <rdfs:label>Hypopigmentation of hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001760"/>
+        <oboInOwl:id>HP:0005656</oboInOwl:id>
+        <rdfs:label>Positional foot deformity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0005832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0005832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002750"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0200000"/>
+        <oboInOwl:id>HP:0005832</oboInOwl:id>
+        <rdfs:label>Dysharmonic delayed bone age</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025634"/>
+        <oboInOwl:id>HP:0006000</oboInOwl:id>
+        <rdfs:label>Ureteral obstruction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006483 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006483">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000164"/>
+        <oboInOwl:id>HP:0006483</oboInOwl:id>
+        <rdfs:label>Abnormal number of teeth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000940"/>
+        <oboInOwl:id>HP:0006487</oboInOwl:id>
+        <rdfs:label>Bowing of the long bones</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006530 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006530">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002088"/>
+        <oboInOwl:id>HP:0006530</oboInOwl:id>
+        <rdfs:label>Abnormal pulmonary interstitial morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006561 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006561">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031137"/>
+        <oboInOwl:id>HP:0006561</oboInOwl:id>
+        <rdfs:label>Lipid accumulation in hepatocytes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004306"/>
+        <oboInOwl:id>HP:0006685</oboInOwl:id>
+        <rdfs:label>Endocardial fibrosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000765"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009122"/>
+        <oboInOwl:id>HP:0006711</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia involving bones of the thorax</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000772"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006711"/>
+        <oboInOwl:id>HP:0006712</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the ribs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0006817 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0006817">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002334"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007360"/>
+        <oboInOwl:id>HP:0006817</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the cerebellar vermis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007360 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007360">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001317"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002977"/>
+        <oboInOwl:id>HP:0007360</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the cerebellum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002977"/>
+        <oboInOwl:id>HP:0007364</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the cerebrum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007367 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007367">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002011"/>
+        <oboInOwl:id>HP:0007367</oboInOwl:id>
+        <rdfs:label>Atrophy/Degeneration affecting the central nervous system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007369 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007369">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002060"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002977"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012444"/>
+        <oboInOwl:id>HP:0007369</oboInOwl:id>
+        <rdfs:label>Atrophy/Degeneration affecting the cerebrum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007364"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033725"/>
+        <oboInOwl:id>HP:0007370</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the corpus callosum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011368"/>
+        <oboInOwl:id>HP:0007431</oboInOwl:id>
+        <rdfs:label>Congenital ichthyosiform erythroderma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011354"/>
+        <oboInOwl:id>HP:0007495</oboInOwl:id>
+        <rdfs:label>Prematurely aged appearance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007513">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001010"/>
+        <oboInOwl:id>HP:0007513</oboInOwl:id>
+        <rdfs:label>Generalized hypopigmentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000962"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100872"/>
+        <oboInOwl:id>HP:0007556</oboInOwl:id>
+        <rdfs:label>Plantar hyperkeratosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004328"/>
+        <oboInOwl:id>HP:0007700</oboInOwl:id>
+        <rdfs:label>Ocular anterior segment dysgenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000479"/>
+        <oboInOwl:id>HP:0007703</oboInOwl:id>
+        <rdfs:label>Abnormality of retinal pigmentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0007858 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0007858">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000532"/>
+        <oboInOwl:id>HP:0007858</oboInOwl:id>
+        <rdfs:label>Chorioretinal lacunae</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008055 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008055">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000553"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012372"/>
+        <oboInOwl:id>HP:0008055</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia affecting the uvea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001098"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012372"/>
+        <oboInOwl:id>HP:0008057</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia affecting the fundus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000587"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008057"/>
+        <oboInOwl:id>HP:0008058</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the optic nerve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008065 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008065">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <oboInOwl:id>HP:0008065</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010647"/>
+        <oboInOwl:id>HP:0008067</oboInOwl:id>
+        <rdfs:label>Abnormally lax or hyperextensible skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011362"/>
+        <oboInOwl:id>HP:0008070</oboInOwl:id>
+        <rdfs:label>Sparse hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008609 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000370"/>
+        <oboInOwl:id>HP:0008609</oboInOwl:id>
+        <rdfs:label>Abnormal middle ear morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008665 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008665">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040253"/>
+        <oboInOwl:id>HP:0008665</oboInOwl:id>
+        <rdfs:label>Clitoral hypertrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008684 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008684">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000130"/>
+        <oboInOwl:id>HP:0008684</oboInOwl:id>
+        <rdfs:label>Aplasia/hypoplasia of the uterus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008706 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008706">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000795"/>
+        <oboInOwl:id>HP:0008706</oboInOwl:id>
+        <rdfs:label>Distal urethral duplication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008734 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008734">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000050"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010468"/>
+        <oboInOwl:id>HP:0008734</oboInOwl:id>
+        <rdfs:label>Decreased testicular size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003498"/>
+        <oboInOwl:id>HP:0008873</oboInOwl:id>
+        <rdfs:label>Disproportionate short-limb short stature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0008905 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0008905">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0008873"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009826"/>
+        <oboInOwl:id>HP:0008905</oboInOwl:id>
+        <rdfs:label>Rhizomelia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009115 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009115">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <oboInOwl:id>HP:0009115</oboInOwl:id>
+        <rdfs:label>Aplasia/hypoplasia involving the skeleton</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009116 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009116">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000929"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009122"/>
+        <oboInOwl:id>HP:0009116</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia involving bones of the skull</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009118 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000277"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009116"/>
+        <oboInOwl:id>HP:0009118</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the mandible</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <oboInOwl:id>HP:0009121</oboInOwl:id>
+        <rdfs:label>Abnormal axial skeleton morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009121"/>
+        <oboInOwl:id>HP:0009122</oboInOwl:id>
+        <rdfs:label>Aplasia/hypoplasia affecting bones of the axial skeleton</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009804">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0006483"/>
+        <oboInOwl:id>HP:0009804</oboInOwl:id>
+        <rdfs:label>Tooth agenesis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009815 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009815">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009115"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040064"/>
+        <oboInOwl:id>HP:0009815</oboInOwl:id>
+        <rdfs:label>Aplasia/hypoplasia of the extremities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009826 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009826">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009815"/>
+        <oboInOwl:id>HP:0009826</oboInOwl:id>
+        <rdfs:label>Limb undergrowth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0009887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0009887">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001595"/>
+        <oboInOwl:id>HP:0009887</oboInOwl:id>
+        <rdfs:label>Abnormality of hair pigmentation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010311 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010311">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031093"/>
+        <oboInOwl:id>HP:0010311</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the breasts</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012243"/>
+        <oboInOwl:id>HP:0010460</oboInOwl:id>
+        <rdfs:label>Abnormality of the female genitalia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012243"/>
+        <oboInOwl:id>HP:0010461</oboInOwl:id>
+        <rdfs:label>Abnormality of the male genitalia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010468 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010468">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0045058"/>
+        <oboInOwl:id>HP:0010468</oboInOwl:id>
+        <rdfs:label>Aplasia/Hypoplasia of the testes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000796"/>
+        <oboInOwl:id>HP:0010481</oboInOwl:id>
+        <rdfs:label>Urethral valve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <oboInOwl:id>HP:0010647</oboInOwl:id>
+        <rdfs:label>Abnormal elasticity of skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010668 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010668">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000309"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011821"/>
+        <oboInOwl:id>HP:0010668</oboInOwl:id>
+        <rdfs:label>Abnormal zygomatic bone morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000925"/>
+        <oboInOwl:id>HP:0010674</oboInOwl:id>
+        <rdfs:label>Abnormal curvature of the vertebral column</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010701 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010701">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005368"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0005372"/>
+        <oboInOwl:id>HP:0010701</oboInOwl:id>
+        <rdfs:label>Abnormal circulating immunoglobulin concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000962"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040211"/>
+        <oboInOwl:id>HP:0010765</oboInOwl:id>
+        <rdfs:label>Palmar hyperkeratosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010866 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010866">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004298"/>
+        <oboInOwl:id>HP:0010866</oboInOwl:id>
+        <rdfs:label>Abdominal wall defect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010884">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0009815"/>
+        <oboInOwl:id>HP:0010884</oboInOwl:id>
+        <rdfs:label>Acromelia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010917 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010917">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004338"/>
+        <oboInOwl:id>HP:0010917</oboInOwl:id>
+        <rdfs:label>Abnormal circulating tyrosine concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004364"/>
+        <oboInOwl:id>HP:0010932</oboInOwl:id>
+        <rdfs:label>Abnormal circulating nucleobase concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000079"/>
+        <oboInOwl:id>HP:0010935</oboInOwl:id>
+        <rdfs:label>Abnormality of the upper urinary tract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000079"/>
+        <oboInOwl:id>HP:0010936</oboInOwl:id>
+        <rdfs:label>Abnormality of the lower urinary tract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010944 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010944">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0010944</oboInOwl:id>
+        <rdfs:label>Abnormal renal pelvis morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010945 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010945">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010944"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011425"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034242"/>
+        <oboInOwl:id>HP:0010945</oboInOwl:id>
+        <rdfs:label>Fetal pyelectasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010946 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010946">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010944"/>
+        <oboInOwl:id>HP:0010946</oboInOwl:id>
+        <rdfs:label>Dilatation of the renal pelvis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010957">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010481"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034378"/>
+        <oboInOwl:id>HP:0010957</oboInOwl:id>
+        <rdfs:label>Congenital posterior urethral valve</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010974 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010974">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001881"/>
+        <oboInOwl:id>HP:0010974</oboInOwl:id>
+        <rdfs:label>Abnormal myeloid leukocyte morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010978 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010978">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+        <oboInOwl:id>HP:0010978</oboInOwl:id>
+        <rdfs:label>Abnormality of immune system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010987 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010987">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032251"/>
+        <oboInOwl:id>HP:0010987</oboInOwl:id>
+        <rdfs:label>Abnormal cellular immune system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010989 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010989">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003256"/>
+        <oboInOwl:id>HP:0010989</oboInOwl:id>
+        <rdfs:label>Abnormality of the intrinsic pathway</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010993 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010993">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002060"/>
+        <oboInOwl:id>HP:0010993</oboInOwl:id>
+        <rdfs:label>Abnormal cerebral subcortex morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0010995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0010995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004354"/>
+        <oboInOwl:id>HP:0010995</oboInOwl:id>
+        <rdfs:label>Abnormal circulating dicarboxylic acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004348"/>
+        <oboInOwl:id>HP:0011001</oboInOwl:id>
+        <rdfs:label>Increased bone mineral density</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <oboInOwl:id>HP:0011014</oboInOwl:id>
+        <rdfs:label>Abnormal glucose homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011014"/>
+        <oboInOwl:id>HP:0011015</oboInOwl:id>
+        <rdfs:label>Abnormal blood glucose concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025354"/>
+        <oboInOwl:id>HP:0011017</oboInOwl:id>
+        <rdfs:label>Abnormal cellular physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <oboInOwl:id>HP:0011024</oboInOwl:id>
+        <rdfs:label>Abnormality of the gastrointestinal tract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001626"/>
+        <oboInOwl:id>HP:0011025</oboInOwl:id>
+        <rdfs:label>Abnormal cardiovascular system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <oboInOwl:id>HP:0011028</oboInOwl:id>
+        <rdfs:label>Abnormality of blood circulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012337"/>
+        <oboInOwl:id>HP:0011032</oboInOwl:id>
+        <rdfs:label>Abnormality of fluid regulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0011035</oboInOwl:id>
+        <rdfs:label>Abnormal renal cortex morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011121 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011121">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000951"/>
+        <oboInOwl:id>HP:0011121</oboInOwl:id>
+        <rdfs:label>Abnormal skin morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011122 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011122">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000951"/>
+        <oboInOwl:id>HP:0011122</oboInOwl:id>
+        <rdfs:label>Abnormality of skin physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011129">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010945"/>
+        <oboInOwl:id>HP:0011129</oboInOwl:id>
+        <rdfs:label>Bilateral fetal pyelectasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011138 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011138">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001574"/>
+        <oboInOwl:id>HP:0011138</oboInOwl:id>
+        <rdfs:label>Abnormal skin adnexa morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0430000"/>
+        <oboInOwl:id>HP:0011218</oboInOwl:id>
+        <rdfs:label>Abnormal shape of the frontal region</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011220 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011220">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000290"/>
+        <oboInOwl:id>HP:0011220</oboInOwl:id>
+        <rdfs:label>Prominent forehead</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011354"/>
+        <oboInOwl:id>HP:0011276</oboInOwl:id>
+        <rdfs:label>Vascular skin abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011277 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011277">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000079"/>
+        <oboInOwl:id>HP:0011277</oboInOwl:id>
+        <rdfs:label>Abnormality of the urinary system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011282 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011282">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012443"/>
+        <oboInOwl:id>HP:0011282</oboInOwl:id>
+        <rdfs:label>Abnormal hindbrain morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011283 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011283">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011282"/>
+        <oboInOwl:id>HP:0011283</oboInOwl:id>
+        <rdfs:label>Abnormal metencephalon morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002813"/>
+        <oboInOwl:id>HP:0011297</oboInOwl:id>
+        <rdfs:label>Abnormal digit morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011314 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011314">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011844"/>
+        <oboInOwl:id>HP:0011314</oboInOwl:id>
+        <rdfs:label>Abnormal long bone morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000235"/>
+        <oboInOwl:id>HP:0011329</oboInOwl:id>
+        <rdfs:label>Abnormality of cranial sutures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000177"/>
+        <oboInOwl:id>HP:0011339</oboInOwl:id>
+        <rdfs:label>Abnormality of upper lip vermillion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <oboInOwl:id>HP:0011354</oboInOwl:id>
+        <rdfs:label>Generalized abnormality of skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011356 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011356">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011121"/>
+        <oboInOwl:id>HP:0011356</oboInOwl:id>
+        <rdfs:label>Regional abnormality of skin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011362 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011362">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001595"/>
+        <oboInOwl:id>HP:0011362</oboInOwl:id>
+        <rdfs:label>Abnormal hair quantity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001072"/>
+        <oboInOwl:id>HP:0011368</oboInOwl:id>
+        <rdfs:label>Epidermal thickening</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011389 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011389">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031704"/>
+        <oboInOwl:id>HP:0011389</oboInOwl:id>
+        <rdfs:label>Functional abnormality of the inner ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034058"/>
+        <oboInOwl:id>HP:0011425</oboInOwl:id>
+        <rdfs:label>Fetal ultrasound soft marker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <oboInOwl:id>HP:0011442</oboInOwl:id>
+        <rdfs:label>Abnormal central motor function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011442"/>
+        <oboInOwl:id>HP:0011443</oboInOwl:id>
+        <rdfs:label>Abnormality of coordination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <oboInOwl:id>HP:0011446</oboInOwl:id>
+        <rdfs:label>Abnormality of mental function</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011452">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000370"/>
+        <oboInOwl:id>HP:0011452</oboInOwl:id>
+        <rdfs:label>Functional abnormality of the middle ear</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011460 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011460">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030674"/>
+        <obo:IAO_0000115>Onset of disease at up to 8 weeks following fertilization (corresponding to 10 weeks of gestation).</obo:IAO_0000115>
+        <oboInOwl:id>HP:0011460</oboInOwl:id>
+        <rdfs:label>Embryonal onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011461 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011461">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030674"/>
+        <obo:IAO_0000115>Onset prior to birth but after 8 weeks of embryonic development (corresponding to a gestational age of 10 weeks).</obo:IAO_0000115>
+        <oboInOwl:id>HP:0011461</oboInOwl:id>
+        <rdfs:label>Fetal onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003581"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>Onset of disease at the age of between 16 and 40 years.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0011462</oboInOwl:id>
+        <rdfs:label>Young adult onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011463 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011463">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0410280"/>
+        <obo:IAO_0000115>Onset of disease at the age of between 1 and 5 years.</obo:IAO_0000115>
+        <oboInOwl:id>HP:0011463</oboInOwl:id>
+        <rdfs:label>Childhood onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011486 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011486">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000481"/>
+        <oboInOwl:id>HP:0011486</oboInOwl:id>
+        <rdfs:label>Abnormal corneal thickness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011729 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011729">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034430"/>
+        <oboInOwl:id>HP:0011729</oboInOwl:id>
+        <rdfs:label>Abnormality of joint mobility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011767 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011767">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000828"/>
+        <oboInOwl:id>HP:0011767</oboInOwl:id>
+        <rdfs:label>Abnormality of the parathyroid physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011772 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011772">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000820"/>
+        <oboInOwl:id>HP:0011772</oboInOwl:id>
+        <rdfs:label>Abnormal thyroid morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000309"/>
+        <oboInOwl:id>HP:0011800</oboInOwl:id>
+        <rdfs:label>Midface retrusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011804 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011804">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003011"/>
+        <oboInOwl:id>HP:0011804</oboInOwl:id>
+        <rdfs:label>Abnormal muscle physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011805 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011805">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003011"/>
+        <oboInOwl:id>HP:0011805</oboInOwl:id>
+        <rdfs:label>Abnormal skeletal muscle morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011813 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011813">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007367"/>
+        <oboInOwl:id>HP:0011813</oboInOwl:id>
+        <rdfs:label>Increased cerebral lipofuscin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011821 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011821">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000929"/>
+        <oboInOwl:id>HP:0011821</oboInOwl:id>
+        <rdfs:label>Abnormal facial skeleton morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011842 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011842">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000924"/>
+        <oboInOwl:id>HP:0011842</oboInOwl:id>
+        <rdfs:label>Abnormal skeletal morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011843 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011843">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033127"/>
+        <oboInOwl:id>HP:0011843</oboInOwl:id>
+        <rdfs:label>Abnormal musculoskeletal physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011844">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011842"/>
+        <oboInOwl:id>HP:0011844</oboInOwl:id>
+        <rdfs:label>Abnormal appendicular skeleton morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011849">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003330"/>
+        <oboInOwl:id>HP:0011849</oboInOwl:id>
+        <rdfs:label>Abnormal bone ossification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011873">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011875"/>
+        <oboInOwl:id>HP:0011873</oboInOwl:id>
+        <rdfs:label>Abnormal platelet count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001872"/>
+        <oboInOwl:id>HP:0011875</oboInOwl:id>
+        <rdfs:label>Abnormal platelet morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0011893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0011893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001881"/>
+        <oboInOwl:id>HP:0011893</oboInOwl:id>
+        <rdfs:label>Abnormal leukocyte count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012210 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012210">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000077"/>
+        <oboInOwl:id>HP:0012210</oboInOwl:id>
+        <rdfs:label>Abnormal renal morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000077"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011277"/>
+        <oboInOwl:id>HP:0012211</oboInOwl:id>
+        <rdfs:label>Abnormal renal physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000078"/>
+        <oboInOwl:id>HP:0012243</oboInOwl:id>
+        <rdfs:label>Abnormal reproductive system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002086"/>
+        <oboInOwl:id>HP:0012252</oboInOwl:id>
+        <rdfs:label>Abnormal respiratory system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012337 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012337">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <oboInOwl:id>HP:0012337</oboInOwl:id>
+        <rdfs:label>Abnormal homeostasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000478"/>
+        <oboInOwl:id>HP:0012372</oboInOwl:id>
+        <rdfs:label>Abnormal eye morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000478"/>
+        <oboInOwl:id>HP:0012373</oboInOwl:id>
+        <rdfs:label>Abnormal eye physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012435 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012435">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100587"/>
+        <oboInOwl:id>HP:0012435</oboInOwl:id>
+        <rdfs:label>Ventral shortening of foreskin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012443 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012443">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002011"/>
+        <oboInOwl:id>HP:0012443</oboInOwl:id>
+        <rdfs:label>Abnormal brain morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012444 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012444">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0007367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012443"/>
+        <oboInOwl:id>HP:0012444</oboInOwl:id>
+        <rdfs:label>Brain atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000496"/>
+        <oboInOwl:id>HP:0012547</oboInOwl:id>
+        <rdfs:label>Abnormal involuntary eye movements</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012575 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012575">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0012575</oboInOwl:id>
+        <rdfs:label>Abnormal nephron morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012585 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012585">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0012585</oboInOwl:id>
+        <rdfs:label>Renal atrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012638 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000707"/>
+        <oboInOwl:id>HP:0012638</oboInOwl:id>
+        <rdfs:label>Abnormal nervous system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012639 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000707"/>
+        <oboInOwl:id>HP:0012639</oboInOwl:id>
+        <rdfs:label>Abnormal nervous system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012640 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <oboInOwl:id>HP:0012640</oboInOwl:id>
+        <rdfs:label>Abnormality of intracranial pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012641 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012640"/>
+        <oboInOwl:id>HP:0012641</oboInOwl:id>
+        <rdfs:label>Decreased intracranial pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012647 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012647">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
+        <oboInOwl:id>HP:0012647</oboInOwl:id>
+        <rdfs:label>Abnormal inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012649 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012649">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012647"/>
+        <oboInOwl:id>HP:0012649</oboInOwl:id>
+        <rdfs:label>Increased inflammatory response</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025032"/>
+        <oboInOwl:id>HP:0012700</oboInOwl:id>
+        <rdfs:label>Abnormal large intestine physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012718 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012718">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025033"/>
+        <oboInOwl:id>HP:0012718</oboInOwl:id>
+        <rdfs:label>Abnormal gastrointestinal tract morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012719 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012719">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011024"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025032"/>
+        <oboInOwl:id>HP:0012719</oboInOwl:id>
+        <rdfs:label>Functional abnormality of the gastrointestinal tract</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012758 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012758">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012759"/>
+        <oboInOwl:id>HP:0012758</oboInOwl:id>
+        <rdfs:label>Neurodevelopmental delay</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012759 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012759">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <oboInOwl:id>HP:0012759</oboInOwl:id>
+        <rdfs:label>Neurodevelopmental abnormality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0012795 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0012795">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000587"/>
+        <oboInOwl:id>HP:0012795</oboInOwl:id>
+        <rdfs:label>Abnormal optic disc morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0020064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0020064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001879"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032309"/>
+        <rdfs:label>Abnormal total eosinophil count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0030680"/>
+        <rdfs:label>Abnormal vascular morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:label>Abnormality of the digestive system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <rdfs:label>Abnormality of digestive system physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025031"/>
+        <rdfs:label>Abnormal digestive system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025276 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025276">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001574"/>
+        <rdfs:label>Abnormality of skin adnexa physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:label>Abnormal cellular phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025487">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000014"/>
+        <rdfs:label>Abnormal bladder morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000069"/>
+        <rdfs:label>Abnormal ureter morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025634 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000069"/>
+        <rdfs:label>Abnormal ureter physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025745 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025745">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033354"/>
+        <rdfs:label>Abnormal urine amino acid level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025766 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025766">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <rdfs:label>Abnormal affect</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025780">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025766"/>
+        <rdfs:label>Abnormal volitional state</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0025792 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0025792">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <rdfs:label>Abnormal cognitive process</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000036"/>
+        <rdfs:label>Torsion of the penis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030264 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030264">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000036"/>
+        <rdfs:label>Webbed penis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030674 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030674">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>Onset prior to birth.</obo:IAO_0000115>
+        <rdfs:label>Antenatal onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001626"/>
+        <oboInOwl:id>HP:0030680</oboInOwl:id>
+        <rdfs:label>Abnormal cardiovascular system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030791 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030791">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011821"/>
+        <rdfs:label>Abnormal jaw morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030895 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030895">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012719"/>
+        <rdfs:label>Abnormal gastrointestinal motility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030956 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030956">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <rdfs:label>Abnormality of cardiovascular system electrophysiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0030976 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0030976">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010989"/>
+        <rdfs:label>Abnormal factor VIII activity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031093 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031093">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000769"/>
+        <rdfs:label>Abnormal breast morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031105 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031105">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000130"/>
+        <rdfs:label>Abnormal uterus morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031137 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031137">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034644"/>
+        <rdfs:label>Storage in hepatocytes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001075"/>
+        <rdfs:label>Widened atrophic scar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011035"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012575"/>
+        <rdfs:label>Abnormal renal corpuscle morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031409 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031409">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011017"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033796"/>
+        <rdfs:label>Abnormal lymphocyte physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031481 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031481">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031650"/>
+        <rdfs:label>Abnormal mitral valve physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031650 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031653"/>
+        <rdfs:label>Abnormal atrioventricular valve physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031652">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031653"/>
+        <rdfs:label>Abnormal aortic valve physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031653 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031653">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011025"/>
+        <rdfs:label>Abnormal heart valve physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031703 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031703">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000598"/>
+        <rdfs:label>Abnormal ear morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031704 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031704">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000598"/>
+        <rdfs:label>Abnormal ear physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031816 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031816">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000153"/>
+        <rdfs:label>Abnormal oral morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0031105"/>
+        <rdfs:label>Unicornuate uterus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0031983 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0031983">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012252"/>
+        <rdfs:label>Abnormal pulmonary thoracic imaging finding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032076 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032076">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000036"/>
+        <rdfs:label>Abnormal male urethral meatus morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032101 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032101">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
+        <rdfs:label>Unusual infection</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <rdfs:label>Abnormal circulating metabolite concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032243 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032243">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <rdfs:label>Abnormal tissue metabolite concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032245 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032245">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001939"/>
+        <rdfs:label>Abnormal metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+        <rdfs:label>Abnormal immune system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032251"/>
+        <rdfs:label>Granuloma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001911"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011893"/>
+        <rdfs:label>Abnormal granulocyte count</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032368 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032368">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004360"/>
+        <rdfs:label>Acidemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0032465 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0032465">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025487"/>
+        <rdfs:label>Bladder trabeculation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033095 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033095">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0033100"/>
+        <rdfs:label>Increased sulfur amino acid level in urine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003355"/>
+        <rdfs:label>Increased proteinogenic amino acid level in urine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033107 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033107">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003112"/>
+        <rdfs:label>Abnormal circulating proteinogenic amino acid concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033127 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033127">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:label>Abnormality of the musculoskeletal system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033259 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033259">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <rdfs:label>Non-motor seizure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033353 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033353">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025015"/>
+        <rdfs:label>Abnormal blood vessel morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003110"/>
+        <rdfs:label>Abnormal urine metabolite level</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033725 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033725">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001273"/>
+        <rdfs:label>Thin corpus callosum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0033796 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0033796">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001871"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0010978"/>
+        <rdfs:label>Abnormal leukocyte physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034057 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034057">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001197"/>
+        <rdfs:label>Fetal anomaly</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034057"/>
+        <rdfs:label>Abnormal fetal morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034233 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034233">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004736"/>
+        <rdfs:label>Disc kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034058"/>
+        <rdfs:label>Abnormal fetal genitourinary system morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000796"/>
+        <rdfs:label>Urethrovesical occlusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034430 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034430">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011843"/>
+        <rdfs:label>Abnormal joint physiology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034434 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034434">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0025792"/>
+        <rdfs:label>Abnormal communication</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032243"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0410042"/>
+        <rdfs:label>Abnormal liver metabolite concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0034669 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0034669">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002815"/>
+        <rdfs:label>Abnormal knee morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000118"/>
+        <rdfs:label>Abnormality of limbs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040068 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040068">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000924"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040064"/>
+        <rdfs:label>Abnormality of limb bone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040069 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040069">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002813"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002814"/>
+        <rdfs:label>Abnormal lower limb bone morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040126 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040126">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004341"/>
+        <rdfs:label>Abnormal circulating vitamin B12 concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040194 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040194">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000240"/>
+        <rdfs:label>Increased head circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040195 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040195">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000240"/>
+        <rdfs:label>Decreased head circumference</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040211 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040211">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011356"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100871"/>
+        <rdfs:label>Abnormal skin morphology of the palm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040252 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040252">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000056"/>
+        <rdfs:label>Abnormal size of the clitoris</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0040253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0040253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0040252"/>
+        <rdfs:label>Increased size of the clitoris</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0045058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0045058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000035"/>
+        <rdfs:label>Abnormality of the testis size</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012638"/>
+        <oboInOwl:id>HP:0100022</oboInOwl:id>
+        <rdfs:label>Abnormality of movement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000722"/>
+        <oboInOwl:id>HP:0100033</oboInOwl:id>
+        <rdfs:label>Tics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100033"/>
+        <oboInOwl:id>HP:0100034</oboInOwl:id>
+        <rdfs:label>Motor tics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100033"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_4000074"/>
+        <oboInOwl:id>HP:0100035</oboInOwl:id>
+        <rdfs:label>Phonic tics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100037 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100037">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001595"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001965"/>
+        <oboInOwl:id>HP:0100037</oboInOwl:id>
+        <rdfs:label>Abnormality of the scalp hair</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001367"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002814"/>
+        <oboInOwl:id>HP:0100491</oboInOwl:id>
+        <rdfs:label>Abnormality of lower limb joint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032245"/>
+        <oboInOwl:id>HP:0100508</oboInOwl:id>
+        <rdfs:label>Abnormality of vitamin metabolism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100542 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100542">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0100542</oboInOwl:id>
+        <rdfs:label>Abnormal localization of kidney</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100543 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100543">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <oboInOwl:id>HP:0100543</oboInOwl:id>
+        <rdfs:label>Cognitive impairment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100547 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100547">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012443"/>
+        <oboInOwl:id>HP:0100547</oboInOwl:id>
+        <rdfs:label>Abnormal forebrain morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100587 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100587">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000036"/>
+        <oboInOwl:id>HP:0100587</oboInOwl:id>
+        <rdfs:label>Abnormal preputium morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000036"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000045"/>
+        <oboInOwl:id>HP:0100600</oboInOwl:id>
+        <rdfs:label>Penoscrotal transposition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100627 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000795"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032076"/>
+        <oboInOwl:id>HP:0100627</oboInOwl:id>
+        <rdfs:label>Displacement of the urethral meatus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100689">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011486"/>
+        <oboInOwl:id>HP:0100689</oboInOwl:id>
+        <rdfs:label>Decreased corneal thickness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100691 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100691">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000481"/>
+        <oboInOwl:id>HP:0100691</oboInOwl:id>
+        <rdfs:label>Abnormality of the curvature of the cornea</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100692 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100692">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100691"/>
+        <oboInOwl:id>HP:0100692</oboInOwl:id>
+        <rdfs:label>Increased corneal curvature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100699 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100699">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003549"/>
+        <oboInOwl:id>HP:0100699</oboInOwl:id>
+        <rdfs:label>Scarring</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100763 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100763">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002597"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002715"/>
+        <oboInOwl:id>HP:0100763</oboInOwl:id>
+        <rdfs:label>Abnormality of the lymphatic system</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0100763"/>
+        <oboInOwl:id>HP:0100765</oboInOwl:id>
+        <rdfs:label>Abnormality of the tonsils</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001155"/>
+        <oboInOwl:id>HP:0100871</oboInOwl:id>
+        <rdfs:label>Abnormal palm morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001760"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011356"/>
+        <oboInOwl:id>HP:0100872</oboInOwl:id>
+        <rdfs:label>Abnormality of the plantar skin of foot</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100877 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100877">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000107"/>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0004742"/>
+        <oboInOwl:id>HP:0100877</oboInOwl:id>
+        <rdfs:label>Renal diverticulum</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0100957 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0100957">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0012210"/>
+        <oboInOwl:id>HP:0100957</oboInOwl:id>
+        <rdfs:label>Abnormal renal medulla morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0200000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0200000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0000927"/>
+        <oboInOwl:id>HP:0200000</oboInOwl:id>
+        <rdfs:label>Dysharmonic skeletal maturation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0410042 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0410042">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0001392"/>
+        <rdfs:label>Abnormal liver morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0410280 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0410280">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0003674"/>
+        <obo:IAO_0000115>Onset of disease manifestations before adulthood, defined here as before the age of 16 years, but excluding neonatal or congenital onset.</obo:IAO_0000115>
+        <rdfs:label>Pediatric onset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0430000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0430000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0002683"/>
+        <rdfs:label>Abnormal frontal bone morphology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0430071 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_0430071">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0032180"/>
+        <rdfs:label>Abnormal circulating organic compound concentration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_4000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_4000072">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0034434"/>
+        <rdfs:label>Abnormal language feature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_4000074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_4000074">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011442"/>
+        <rdfs:label>Involuntary vocalization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_5200241 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/HP_5200241">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/HP_0011446"/>
+        <rdfs:label>Recurrent maladaptive behavior</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

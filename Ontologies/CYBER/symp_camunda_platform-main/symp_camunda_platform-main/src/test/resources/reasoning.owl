@@ -1,0 +1,11 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:j.0="http://iosb.fraunhofer.de/ICS-Security#">
+  <rdf:Description rdf:about="http://iosb.fraunhofer.de/ICS-Security#f9b2642864a74031a59635f30811f42d">
+    <j.0:notRedundant>
+      <rdf:Description rdf:about="http://iosb.fraunhofer.de/ICS-Security#59635f30811f42df9b2642864a74031a">
+        <j.0:notRedundant rdf:resource="http://iosb.fraunhofer.de/ICS-Security#f9b2642864a74031a59635f30811f42d"/>
+      </rdf:Description>
+    </j.0:notRedundant>
+  </rdf:Description>
+</rdf:RDF>

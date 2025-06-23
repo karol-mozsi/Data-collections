@@ -1,0 +1,2 @@
+defined_class	defined_class_label	disease	disease_label	disease_match_property
+http://purl.obolibrary.org/obo/MONDO_0016091	adult Krabbe disease	http://purl.obolibrary.org/obo/MONDO_0009499	Krabbe disease	http://www.w3.org/2000/01/rdf-schema#label

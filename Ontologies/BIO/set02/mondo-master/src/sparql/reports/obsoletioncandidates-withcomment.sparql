@@ -1,0 +1,31 @@
+prefix oio: <http://www.geneontology.org/formats/oboInOwl#>
+prefix def: <http://purl.obolibrary.org/obo/IAO_0000115>
+prefix IAO: <http://purl.obolibrary.org/obo/IAO_>
+prefix owl: <http://www.w3.org/2002/07/owl#>
+prefix inSubset: <http://www.geneontology.org/formats/oboInOwl#inSubset>
+prefix obsoletion_candidate: <http://purl.obolibrary.org/obo/mondo#obsoletion_candidate>
+prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+prefix mondoSubset: <http://purl.obolibrary.org/obo/mondo#>
+prefix xsd: <http://www.w3.org/2001/XMLSchema#>
+
+SELECT DISTINCT ?mondo_id ?label (GROUP_CONCAT(DISTINCT ?comment_;SEPARATOR="|") AS ?comment) (GROUP_CONCAT(DISTINCT ?issue_;SEPARATOR="|") AS ?issue) ?obsoletion_date
+WHERE 
+{
+  ?mondo_id inSubset: obsoletion_candidate: .
+  
+  ?mondo_id rdfs:label ?label .
+  
+    OPTIONAL {
+  	?mondo_id rdfs:comment ?comment_
+  }
+  
+  OPTIONAL {
+  	?mondo_id IAO:0000233 ?issue_
+  }
+  
+ ?mondo_id <http://purl.obolibrary.org/obo/IAO_0006012> ?obsoletion_date
+
+  FILTER NOT EXISTS { ?mondo_id owl:deprecated "true"^^xsd:boolean }
+}
+GROUP BY ?mondo_id ?label ?obsoletion_date
+ORDER BY ?mondo_id

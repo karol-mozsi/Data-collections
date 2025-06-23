@@ -1,0 +1,306 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/imports/geno_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/geno_import.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/imports/geno_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/releases/2025-05-30/imports/geno_import.owl"/>
+        <rdfs:comment>Sourced from http://purl.obolibrary.org/obo/geno/releases/2023-10-08/geno.owl</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000141 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000141">
+        <rdfs:label>inheritance pattern</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000143 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000143">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000147"/>
+        <rdfs:label>co-dominant autosomal inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000144 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000144">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000147"/>
+        <rdfs:label>complete autosomal dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000145 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000145">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000147"/>
+        <rdfs:label>incomplete autosomal dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000146 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000146">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000936"/>
+        <rdfs:label>X-linked dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000147 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000147">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000934"/>
+        <rdfs:label>autosomal dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000934"/>
+        <rdfs:label>autosomal recessive inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000149 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000149">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000936"/>
+        <rdfs:label xml:lang="en">X-linked recessive inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000949"/>
+        <rdfs:label>heteroplasmic mitochondrial inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000893">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000949"/>
+        <rdfs:label>homoplasmic mitochondrial inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000929 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000929">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000141"/>
+        <rdfs:label xml:lang="en">multifactorial inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000930 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000930">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000929"/>
+        <rdfs:label xml:lang="en">digenic inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000931 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000931">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000929"/>
+        <rdfs:label xml:lang="en">oligogenic inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000932 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000932">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000929"/>
+        <rdfs:label xml:lang="en">polygenic inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000933 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000933">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000141"/>
+        <rdfs:label xml:lang="en">monogenic inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000934">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000933"/>
+        <rdfs:label xml:lang="en">autosomal inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000933"/>
+        <rdfs:label xml:lang="en">allosomal inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000936 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000936">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000935"/>
+        <rdfs:label xml:lang="en">X-linked inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000937 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000937">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000146"/>
+        <rdfs:label xml:lang="en">complete X-linked dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000938">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000146"/>
+        <rdfs:label xml:lang="en">incomplete X-linked dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000939 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000939">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000146"/>
+        <rdfs:label xml:lang="en">co-dominant X-linked inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000941 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000941">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000935"/>
+        <rdfs:label xml:lang="en">Y-linked inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000949 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000949">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000141"/>
+        <rdfs:label xml:lang="en">mitochondrial inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000952">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000147"/>
+        <rdfs:label xml:lang="en">sex-limited autosomal dominant inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000953 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000953">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000148"/>
+        <rdfs:label xml:lang="en">sex-limited autosomal recessive inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000969 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000969">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000141"/>
+        <rdfs:label xml:lang="en">chromosomal inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000970 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000970">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000969"/>
+        <rdfs:label xml:lang="en">chromosomal deletion inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000971 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000971">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000969"/>
+        <rdfs:label xml:lang="en">chromosomal duplication inheritance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/GENO_0000972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GENO_0000972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GENO_0000969"/>
+        <rdfs:label xml:lang="en">chromosomal rearrangement inheritance</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

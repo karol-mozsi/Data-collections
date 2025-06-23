@@ -1,0 +1,4831 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/releases/2025-05-30/imports/omim_susc_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#id -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003304"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050425"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050432"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050567 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050567"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050651 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050651"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050742"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050864"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0050873 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0050873"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060172 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060172"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0060250 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0060250"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080074"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_0080780 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_0080780"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10457 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10457"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10487 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10487"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10608 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10608"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10652 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10652"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10754"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_10825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_10825"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1094 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1094"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1123 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1123"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_11335 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_11335"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12129 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12129"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12205 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12205"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12361 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12361"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12365 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12365"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12554 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12554"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_12849 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_12849"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1312"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13544 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13544"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13564 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13564"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13777 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13777"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_13884 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_13884"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14004"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_14330 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_14330"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1558 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1558"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1793 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1793"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1825 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1825"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1827"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1883"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_1909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_1909"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2214 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2214"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2340 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2340"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2377 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2377"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2513 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2513"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2841 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2841"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_289 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_289"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_2986 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_2986"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_302"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3070"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3302"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3312 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3312"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_332 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_332"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_3393 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_3393"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_417 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_417"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4428 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4428"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4586 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4586"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4752 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4752"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4890 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4890"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_4972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_4972"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5052 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5052"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_540 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_540"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5683 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5683"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_580 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_580"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_5844 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_5844"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_635 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_635"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6364"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_6432 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_6432"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_769 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_769"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_811 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_811"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8398 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8398"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8469"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8545"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8632 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8632"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8689 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8689"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8893 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8893"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_8923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_8923"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9008"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9074 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9074"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9256 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9256"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9261"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9452 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9452"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DOID_9952 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DOID_9952"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_000000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_000000">
+        <rdfs:label>omim_susceptibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_102300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_102300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:102300</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_106300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_106300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1123"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:106300</oboInOwl:id>
+        <rdfs:label>susceptibility to spondyloarthropathy 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_125480 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_125480">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:125480</oboInOwl:id>
+        <rdfs:label>major affective disorder 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_126200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_126200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:126200</oboInOwl:id>
+        <rdfs:label>susceptibility to multiple sclerosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_127700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_127700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:127700</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_131200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_131200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_289"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:131200</oboInOwl:id>
+        <rdfs:label>susceptibility to endometriosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_133180 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_133180">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080780"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:133180</oboInOwl:id>
+        <rdfs:label>susceptibility to acute erythroid leukemia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_137800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_137800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:137800</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_140600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_140600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:140600</oboInOwl:id>
+        <rdfs:label>osteoarthritis susceptibility 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_142623 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_142623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:142623</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_145600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_145600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:145600</oboInOwl:id>
+        <rdfs:label>susceptibility to malignant hyperthermia 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_146500 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_146500">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4752"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:146500</oboInOwl:id>
+        <rdfs:label>susceptibility to multiple system atrophy 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_148000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_148000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8632"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:148000</oboInOwl:id>
+        <rdfs:label>susceptibility to kaposi sarcoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_155600 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_155600">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:155600</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_155601 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_155601">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:155601</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_165720 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_165720">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:165720</oboInOwl:id>
+        <rdfs:label>osteoarthritis susceptibility 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_166760 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_166760">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10754"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:166760</oboInOwl:id>
+        <rdfs:label xml:lang="en">susceptibility to otitis media</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_177900 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_177900">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:177900</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_181000 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_181000">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:181000</oboInOwl:id>
+        <rdfs:label>susceptibility to sarcoidosis 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_181800 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_181800">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:181800</oboInOwl:id>
+        <rdfs:label>susceptibility to isolated scoliosis 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_182940 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_182940">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0080074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:182940</oboInOwl:id>
+        <rdfs:label>susceptibility to neural tube defects</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_185100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_185100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_540"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:185100</oboInOwl:id>
+        <rdfs:label>susceptibility to strabismus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_188890 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_188890">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050742"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:188890</oboInOwl:id>
+        <rdfs:label>susceptibility to tobacco addiction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_212750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_212750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:212750</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_215400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_215400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3302"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:215400</oboInOwl:id>
+        <rdfs:label>susceptibility to chordoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_226400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_226400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13777"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:226400</oboInOwl:id>
+        <rdfs:label>susceptibility to epidermodysplasia verruciformis 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_235400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_235400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12554"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:235400</oboInOwl:id>
+        <rdfs:label>susceptibility to atypical hemolytic uremic syndrome 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_245300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_245300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <oboInOwl:id>MIM:245300</oboInOwl:id>
+        <rdfs:label>susceptibility to kuru</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_246300 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_246300">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:246300</oboInOwl:id>
+        <rdfs:label>susceptibility to leprosy 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_256700 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_256700">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:256700</oboInOwl:id>
+        <rdfs:label>susceptibility to neuroblastoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_258660 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_258660">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050864"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:258660</oboInOwl:id>
+        <rdfs:label>susceptibility to nonarteritic anterior ischemic optic neuropathy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300125 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300125">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_6364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300125</oboInOwl:id>
+        <rdfs:label>susceptibility to migraine with or without aura 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300351 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300351">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300351</oboInOwl:id>
+        <rdfs:label>susceptibility to Graves disease X-linked 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300425 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300425">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300425</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked autism 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300464 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300464">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300464</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300494 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300494">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050432"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300494</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked asperger syndrome 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300495 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300495">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300495</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked autism 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300496 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300496">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300496</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked autism 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300497 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300497">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050432"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300497</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked asperger syndrome 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300509 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300509">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300509</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300830 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300830">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300830</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked autism 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300847</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked autism 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300872 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300872">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300872</oboInOwl:id>
+        <rdfs:label>susceptibility to X-linked autism 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_300909 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_300909">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1558"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:300909</oboInOwl:id>
+        <rdfs:label>susceptibility to angioedema induced by ace inhibitors</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_309200 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_309200">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:309200</oboInOwl:id>
+        <rdfs:label>major affective disorder 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_600131 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_600131">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:600131</oboInOwl:id>
+        <rdfs:label>susceptibility to childhood absence epilepsy 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_600155 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_600155">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:600155</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_600156 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_600156">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:600156</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_600202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_600202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:600202</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_600807 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_600807">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2841"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:600807</oboInOwl:id>
+        <rdfs:label>susceptibility to asthma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_601484 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_601484">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:601454</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_601744 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_601744">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:601744</oboInOwl:id>
+        <rdfs:label>susceptibility to systemic lupus erythematosus 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_601887 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_601887">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8545"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:601887</oboInOwl:id>
+        <rdfs:label>susceptibility to malignant hyperthermia 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_602477 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_602477">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:602477</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_603388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_603388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12361"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:603388</oboInOwl:id>
+        <rdfs:label>susceptibility to Graves disease 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_603918 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_603918">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:603918</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_603935 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_603935">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:603935</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_604254 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_604254">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:604254</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_604316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_604316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:604316</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_604329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_604329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:604329</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_604370 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_604370">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5683"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:604370</oboInOwl:id>
+        <rdfs:label>susceptibility to familial breast-ovarian cancer 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_604827 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_604827">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:604827</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_605218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_605218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:605218</oboInOwl:id>
+        <rdfs:label>susceptibility to systemic lupus erythematosus 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_605364 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_605364">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:605364</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_605462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_605462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:605462</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_605990 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_605990">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_580"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:605990</oboInOwl:id>
+        <rdfs:label>susceptibility to uric acid nephrolithiasis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606217 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606217">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050651"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606217</oboInOwl:id>
+        <rdfs:label>susceptibility to atrioventricular septal defect 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_302"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606581</oboInOwl:id>
+        <rdfs:label>susceptibility to polysubstance abuse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606616 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606616</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606657 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606657">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13544"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606657</oboInOwl:id>
+        <rdfs:label>susceptibility to normal tension glaucoma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606788 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606788">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8689"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606788</oboInOwl:id>
+        <rdfs:label>susceptibility to anorexia nervosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606798 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606798">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <oboInOwl:id>MIM:606798</oboInOwl:id>
+        <rdfs:label>susceptibility to benign essential blepharospasm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606856 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606856">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606856</oboInOwl:id>
+        <rdfs:label>susceptibility to pancreatic cancer 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606874 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606874">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606874</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606875 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606875">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606875</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606896 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606896">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606896</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_606972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_606972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:606972</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607174 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607174">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4586"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607174</oboInOwl:id>
+        <rdfs:label>susceptibility to familial meningioma</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607202 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607202">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607202</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607248 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607248">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607248</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607329 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607329">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607329</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607339 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607339">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607339</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607354 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607354">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607354</oboInOwl:id>
+        <rdfs:label>susceptibility to isolated scoliosis 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607373 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607373">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607373</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607499 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607499">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12129"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607499</oboInOwl:id>
+        <rdfs:label>susceptibility to bulimia nervosa</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607507 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607507">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9008"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607507</oboInOwl:id>
+        <rdfs:label>psoriatic arthritis susceptibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607516 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607516">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_6364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607516</oboInOwl:id>
+        <rdfs:label>susceptibility to migraine with or without aura 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607628 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607628</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607681 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607681">
+        <oboInOwl:id>MIM:607681</oboInOwl:id>
+        <rdfs:comment>OMIM:607681 was a susceptibility moved to a phenotype[LS]</rdfs:comment>
+        <rdfs:label>obsolete susceptibility to childhood absence epilepsy 2</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607682 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607682">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607682</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607688 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607688">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607688</oboInOwl:id>
+        <rdfs:label>susceptibility to autosomal dominant parkinson disease 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607832 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607832">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607832</oboInOwl:id>
+        <rdfs:label>susceptibility to focal segmental glomerulosclerosis 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607836</oboInOwl:id>
+        <rdfs:label>susceptibility to autoimmune disease 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607850 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607850">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607850</oboInOwl:id>
+        <rdfs:label>osteoarthritis susceptibility 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_607857 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_607857">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:607857</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608035</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608049 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608049">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608049</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608316 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608316">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608316</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608318 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608318">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608318</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608391 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608391">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608391</oboInOwl:id>
+        <rdfs:label>susceptibility to autoimmune disease 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608392 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608392">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608392</oboInOwl:id>
+        <rdfs:label>susceptibility to autoimmune disease 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608446 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608446">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5844"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608446</oboInOwl:id>
+        <rdfs:label>susceptibility to myocardial infarction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608462 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608462">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608462</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608556 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608556">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10457"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608556</oboInOwl:id>
+        <rdfs:label>susceptibility to legionnaire disease</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608709 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608709">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_811"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608709</oboInOwl:id>
+        <rdfs:label>susceptibility to partial acquired lipodystrophy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608742 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608742">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608742</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608762 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608762">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608762</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608765 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608765">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608765</oboInOwl:id>
+        <rdfs:label>susceptibility to isolated scoliosis 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608812 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608812">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608812</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608831 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608831">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608831</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608864 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608864">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050567"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608864</oboInOwl:id>
+        <rdfs:label>susceptibility to orofacial cleft 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608901 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608901">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608901</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_608995 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_608995">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4428"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:608995</oboInOwl:id>
+        <rdfs:label>susceptibility to dyslexia 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609048 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609048">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609048</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609148 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609148">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609148</oboInOwl:id>
+        <rdfs:label>susceptibility to mild malaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609378 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609378">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609378</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609400</oboInOwl:id>
+        <rdfs:label>susceptibility to autoimmune disease 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609423 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609423">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_635"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609423</oboInOwl:id>
+        <rdfs:label>susceptibility to human immunodeficiency virus type 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609532 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609532">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1883"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609532</oboInOwl:id>
+        <rdfs:label>susceptibility to hepatitis C virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609633 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609633</oboInOwl:id>
+        <rdfs:label>major affective disorder 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609750 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609750">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609750</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609753 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609753">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609753</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609754 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609754">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609754</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_609755 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_609755">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:609755</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610261 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610261">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610261</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610262 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610262">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610262</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610297 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610297">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>susceptibility to autosomal dominant parkinson disease 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610438 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610438">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610438</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610439 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610439">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610439</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610676 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610676">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610676</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610707 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610707">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610707</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610836 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610836">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610836</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610839 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610839">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610839</oboInOwl:id>
+        <rdfs:label>osteoarthritis susceptibility 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610908 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610908">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610908</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610927 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610927">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610927</oboInOwl:id>
+        <rdfs:label>susceptibility to systemic lupus erythematosus 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610938 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610938">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610938</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610948 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610948">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610948</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_610988 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_610988">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:610988</oboInOwl:id>
+        <rdfs:label>susceptibility to leprosy 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611014</oboInOwl:id>
+        <rdfs:label>susceptibility to essential hypertension 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611015</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611016</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611136 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611136">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611136</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611139 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611139">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611139</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611162 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611162">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12365"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611162</oboInOwl:id>
+        <rdfs:label>susceptibility to malaria</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611185 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611185">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611185</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611242 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611242">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611242</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611247 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611247">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611247</oboInOwl:id>
+        <rdfs:label>major affective disorder 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611469 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611469">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611469</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611535 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611535">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611535</oboInOwl:id>
+        <rdfs:label>major affective disorder 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611536 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611536">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611536</oboInOwl:id>
+        <rdfs:label>major affective disorder 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611598 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611598">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611598</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611644 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611644</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611934 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611934">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611934</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_611942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_611942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:611942</oboInOwl:id>
+        <rdfs:label>susceptibility to childhood absence epilepsy 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612005</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612006</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612007</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612008</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612009</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612010</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10608"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612011</oboInOwl:id>
+        <rdfs:label>susceptibility to celiac disease 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612030</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612100 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612100">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612100</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612229 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612229">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612229</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612230 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612230">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612230</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612231</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612232 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612232">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612232</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612238 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612238">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612238</oboInOwl:id>
+        <rdfs:label>susceptibility to isolated scoliosis 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612239 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612239">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0060250"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612239</oboInOwl:id>
+        <rdfs:label>susceptibility to isolated scoliosis 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612251</oboInOwl:id>
+        <rdfs:label>susceptibility to systemic lupus erythematosus 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612253 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612253">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9074"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612253</oboInOwl:id>
+        <rdfs:label>susceptibility to systemic lupus erythematosus 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612263 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612263">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612263</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612269 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612269">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1825"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612269</oboInOwl:id>
+        <rdfs:label>susceptibility to childhood absence epilepsy 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612357</oboInOwl:id>
+        <rdfs:label>major affective disorder 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612371</oboInOwl:id>
+        <rdfs:label>major affective disorder 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612372 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612372">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612372</oboInOwl:id>
+        <rdfs:label>major affective disorder 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612387 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612387">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612387</oboInOwl:id>
+        <rdfs:label>susceptibility to sarcoidosis 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612388 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612388">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_11335"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612388</oboInOwl:id>
+        <rdfs:label>susceptibility to sarcoidosis 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612400 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612400</oboInOwl:id>
+        <rdfs:label>osteoarthritis susceptibility 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8398"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612401</oboInOwl:id>
+        <rdfs:label>osteoarthritis susceptibility 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612410</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1312"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612551</oboInOwl:id>
+        <rdfs:label>susceptibility to focal segmental glomerulosclerosis 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612555 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612555">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5683"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612555</oboInOwl:id>
+        <rdfs:label>susceptibility to familial breast-ovarian cancer 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612589 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612589">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612589</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612590 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612590">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612590</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612591 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612591">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612591</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612592 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612592">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612592</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612853 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612853">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612853</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612899 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612899">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612899</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612922 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612922">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12554"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612922</oboInOwl:id>
+        <rdfs:label>susceptibility to atypical hemolytic uremic syndrome 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12554"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612923</oboInOwl:id>
+        <rdfs:label>susceptibility to atypical hemolytic uremic syndrome 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612924 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612924">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12554"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612924</oboInOwl:id>
+        <rdfs:label>susceptibility to atypical hemolytic uremic syndrome 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612925 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612925">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12554"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612925</oboInOwl:id>
+        <rdfs:label>susceptibility to atypical hemolytic uremic syndrome 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_612926 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_612926">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12554"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:612926</oboInOwl:id>
+        <rdfs:label>susceptibility to atypical hemolytic uremic syndrome 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1094"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613003</oboInOwl:id>
+        <rdfs:label>susceptibility to attention deficit-hyperactivity disorder 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613013</oboInOwl:id>
+        <rdfs:label>susceptibility to neuroblastoma 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <oboInOwl:id>MIM:613014</oboInOwl:id>
+        <rdfs:label>susceptibility to neuroblastoma 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613015</oboInOwl:id>
+        <rdfs:label>susceptibility to neuroblastoma 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_769"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613016</oboInOwl:id>
+        <rdfs:label>susceptibility to neuroblastoma 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050873"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613024</oboInOwl:id>
+        <rdfs:label>susceptibility to follicular lymphoma 1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613028</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613029</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613030</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613031</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613032</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3070"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613033</oboInOwl:id>
+        <rdfs:label>glioma susceptibility 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613058 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613058">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613058</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613059 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613059">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613059</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613060 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613060</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 10</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613061 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613061">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613061</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613062 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613062">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613062</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613063 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613063">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613063</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613067">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9952"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613067</oboInOwl:id>
+        <rdfs:label>susceptibility to acute lymphoblastic leukemia 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613099 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613099">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613099</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613223 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613223">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1024"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613223</oboInOwl:id>
+        <rdfs:label>susceptibility to leprosy 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613347 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613347">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613347</oboInOwl:id>
+        <rdfs:label>susceptibility to pancreatic cancer 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613348 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613348">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613348</oboInOwl:id>
+        <rdfs:label>susceptibility to pancreatic cancer 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613399 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613399">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5683"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613399</oboInOwl:id>
+        <rdfs:label>susceptibility to familial breast-ovarian cancer 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613410 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613410">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613410</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613436 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613436">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613436</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 17</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613551 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613551">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_417"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613551</oboInOwl:id>
+        <rdfs:label>susceptibility to autoimmune disease 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613643 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613643</oboInOwl:id>
+        <rdfs:label>susceptibility to autosomal dominant parkinson disease 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613656 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613656">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_6364"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613656</oboInOwl:id>
+        <rdfs:label>susceptibility to migraine with or without aura 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613711 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613711">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613711</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613712 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613712">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_10487"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613712</oboInOwl:id>
+        <rdfs:label>susceptibility to hirschsprung disease 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_613972 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_613972">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:613972</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2214"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614009</oboInOwl:id>
+        <rdfs:label>susceptibility to platelet-type bleeding disorder 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614070 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614070">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614070</oboInOwl:id>
+        <rdfs:label>susceptibility to psoriasis 13</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614079">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13564"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614079</oboInOwl:id>
+        <rdfs:label>susceptibility to aspergillosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614090 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614090">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13884"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614090</oboInOwl:id>
+        <rdfs:label>susceptibility to sick sinus syndrome 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614251 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614251">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614251</oboInOwl:id>
+        <rdfs:label>susceptibility to autosomal dominant parkinson disease 18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614291 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614291">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5683"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614291</oboInOwl:id>
+        <rdfs:label>susceptibility to familial breast-ovarian cancer 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614320 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614320">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1793"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614320</oboInOwl:id>
+        <rdfs:label>susceptibility to pancreatic cancer 4</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12205"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614371</oboInOwl:id>
+        <rdfs:label>susceptibility to dengue virus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614456</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614466 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614466">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_3393"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614466</oboInOwl:id>
+        <rdfs:label>susceptibility to coronary heart disease 6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8469"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614680</oboInOwl:id>
+        <rdfs:label>susceptibility to severe influenza</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614740 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614740">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2513"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614740</oboInOwl:id>
+        <rdfs:label>susceptibility to basal cell carcinoma 7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614810 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614810">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2377"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614810</oboInOwl:id>
+        <rdfs:label>susceptibility to multiple sclerosis 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_614847 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_614847">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:614847</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615032">
+        <oboInOwl:id>MIM:615032</oboInOwl:id>
+        <rdfs:comment>moved to OMIM phenotype record MIM 615032[LS]</rdfs:comment>
+        <rdfs:label>obsolete susceptibility to autism 18</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615083 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615083">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9256"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615083</oboInOwl:id>
+        <rdfs:label>susceptibility to colorectal cancer 12</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615091 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615091">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_12849"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615091</oboInOwl:id>
+        <rdfs:label>susceptibility to autism 19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615134 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615134">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8923"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615134</oboInOwl:id>
+        <rdfs:label>susceptibility to cutaneous malignant melanoma 9</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615197 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615197">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_0050425"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615197</oboInOwl:id>
+        <rdfs:label>susceptibility to restless legs syndrome 8</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615371 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615371">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_6432"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615371</oboInOwl:id>
+        <rdfs:label>susceptibility to neonatal pulmonary hypertension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615529 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615529">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2340"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615529</oboInOwl:id>
+        <rdfs:label>susceptibility to craniosynostosis 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615545 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615545">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9952"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615545</oboInOwl:id>
+        <rdfs:label>susceptibility to acute lymphoblastic leukemia 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615557 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615557">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5052"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:615557</oboInOwl:id>
+        <rdfs:label>susceptibility to melioidosis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_615848 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_615848">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:label>obsolete susceptibility to cutaneous malignant melanoma 10</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_616106 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_616106">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_8893"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:616106</oboInOwl:id>
+        <rdfs:label>pustular psoriasis susceptibility 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_616568 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_616568">
+        <oboInOwl:id>MIM:616568</oboInOwl:id>
+        <rdfs:comment>moved by OMIM MIM 616568 to phenotype record[LS]</rdfs:comment>
+        <rdfs:label>obsolete glioma susceptibility 9</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_616685 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_616685">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:616685</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 14</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_616818 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_616818">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_2986"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:616818</oboInOwl:id>
+        <rdfs:label>susceptibility to IgA nephropathy 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_616871 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_616871">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_4972"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:616871</oboInOwl:id>
+        <rdfs:label>susceptibility to familial (multiple types) myeloproliferative/lymphoproliferative neoplasms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_617075 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_617075">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_9261"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:617075</oboInOwl:id>
+        <rdfs:label>susceptibility to nasopharyngeal carcinoma 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_617349 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_617349">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14004"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:617349</oboInOwl:id>
+        <rdfs:label>susceptibility to familial thoracic aortic aneurysm  11</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_617892 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_617892">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:617892</oboInOwl:id>
+        <rdfs:label>susceptibility to amyotrophic lateral sclerosis 24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_617921 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_617921">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_332"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:617921</oboInOwl:id>
+        <rdfs:label>susceptibility to amyotrophic lateral sclerosis 25</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_618231 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_618231">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13777"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:618231</oboInOwl:id>
+        <rdfs:label>susceptibility to epidermodysplasia verruciformis 2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_618267 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_618267">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_13777"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:618267</oboInOwl:id>
+        <rdfs:label>susceptibility to epidermodysplasia verruciformis 3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_618307 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_618307">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:label>obsolete susceptibility to epidermodysplasia verruciformis 4</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_618309 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_618309">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:label>obsolete susceptibility to epidermodysplasia verruciformis 5</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_618357 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_618357">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:618357</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_618596 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_618596">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:618596</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 16</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_619491 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_619491">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:619491</oboInOwl:id>
+        <rdfs:label>susceptibility to autosomal dominant Parkinson disease 24</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_619521 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_619521">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:619521</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 18</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_620442 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_620442">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_5683"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:620442</oboInOwl:id>
+        <rdfs:label>susceptibility to familial breast-ovarian cancer 5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_620923 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_620923">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_14330"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:620923</oboInOwl:id>
+        <rdfs:label>susceptibility to autosomal dominant Parkinson disease 26</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MIM_621064 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MIM_621064">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MIM_000000"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0003304"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/DOID_1827"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <oboInOwl:id>MIM:621064</oboInOwl:id>
+        <rdfs:label>susceptibility to idiopathic generalized epilepsy 19</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

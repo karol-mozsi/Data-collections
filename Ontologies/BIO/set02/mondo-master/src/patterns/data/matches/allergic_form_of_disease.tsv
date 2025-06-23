@@ -1,0 +1,4 @@
+defined_class	defined_class_label	disease	disease_label
+http://purl.obolibrary.org/obo/MONDO_0005271	allergic disease	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder
+http://purl.obolibrary.org/obo/MONDO_0021202	allergic otitis media	http://purl.obolibrary.org/obo/MONDO_0005441	otitis media
+http://purl.obolibrary.org/obo/MONDO_0011786	allergic rhinitis	http://purl.obolibrary.org/obo/MONDO_0003014	rhinitis

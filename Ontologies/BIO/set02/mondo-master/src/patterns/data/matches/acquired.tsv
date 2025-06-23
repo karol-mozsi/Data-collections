@@ -1,0 +1,19 @@
+defined_class	defined_class_label	disease	disease_label
+http://purl.obolibrary.org/obo/MONDO_0060779	acquired Fanconi syndrome	http://purl.obolibrary.org/obo/MONDO_0001083	Fanconi renotubular syndrome
+http://purl.obolibrary.org/obo/MONDO_0045023	acquired adrenogenital syndrome	http://purl.obolibrary.org/obo/MONDO_0015898	adrenogenital syndrome
+http://purl.obolibrary.org/obo/MONDO_0019846	acquired central diabetes insipidus	http://purl.obolibrary.org/obo/MONDO_0015790	central diabetes insipidus
+http://purl.obolibrary.org/obo/MONDO_0015130	acquired chronic primary adrenal insufficiency	http://purl.obolibrary.org/obo/MONDO_0015129	chronic primary adrenal insufficiency
+http://purl.obolibrary.org/obo/MONDO_0019193	acquired generalized lipodystrophy	http://purl.obolibrary.org/obo/MONDO_0027766	generalized lipodystrophy
+http://purl.obolibrary.org/obo/MONDO_0003206	acquired hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma
+http://purl.obolibrary.org/obo/MONDO_0024305	acquired hyperprolactinemia	http://purl.obolibrary.org/obo/MONDO_0005804	hyperprolactinemia
+http://purl.obolibrary.org/obo/MONDO_0020089	acquired lipodystrophy	http://purl.obolibrary.org/obo/MONDO_0006573	lipodystrophy
+http://purl.obolibrary.org/obo/MONDO_0006504	acquired metabolic disease	http://purl.obolibrary.org/obo/MONDO_0005066	metabolic disease
+http://purl.obolibrary.org/obo/MONDO_0024301	acquired mineral metabolism disease	http://purl.obolibrary.org/obo/MONDO_0000226	mineral metabolism disease
+http://purl.obolibrary.org/obo/MONDO_0012104	acquired partial lipodystrophy	http://purl.obolibrary.org/obo/MONDO_0027767	partial lipodystrophy
+http://purl.obolibrary.org/obo/MONDO_0019832	acquired pituitary hormone deficiency	http://purl.obolibrary.org/obo/MONDO_0005152	hypopituitarism
+http://purl.obolibrary.org/obo/MONDO_0019851	acquired primary ovarian failure	http://purl.obolibrary.org/obo/MONDO_0005387	primary ovarian failure
+http://purl.obolibrary.org/obo/MONDO_0018839	acquired schizencephaly	http://purl.obolibrary.org/obo/MONDO_0010011	schizencephaly
+http://purl.obolibrary.org/obo/MONDO_0016172	acquired sensory ganglionopathy	http://purl.obolibrary.org/obo/MONDO_0021260	sensory ganglionopathy
+http://purl.obolibrary.org/obo/MONDO_0021180	acquired xanthinuria	http://purl.obolibrary.org/obo/MONDO_0000721	xanthinuria
+http://purl.obolibrary.org/obo/MONDO_0015542	secondary hemophagocytic lymphohistiocytosis	http://purl.obolibrary.org/obo/MONDO_0015540	hemophagocytic syndrome
+http://purl.obolibrary.org/obo/MONDO_0008295	sporadic porphyria cutanea tarda	http://purl.obolibrary.org/obo/MONDO_0015104	porphyria cutanea tarda

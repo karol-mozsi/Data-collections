@@ -1,0 +1,425 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/imports/ro_import.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/imports/ro_import.owl"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/imports/ro_import.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/releases/2025-05-30/imports/ro_import.owl"/>
+        <rdfs:comment>Sourced from http://purl.obolibrary.org/obo/ro/releases/2025-03-05/ro.owl</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#label -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#label"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000053 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000053">
+        <rdfs:label xml:lang="en">has characteristic</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0000087 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000087">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0000053"/>
+        <rdfs:label xml:lang="en">has role</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001000">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">derives from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001020 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001020">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+        <rdfs:label xml:lang="en">is allergic trigger for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001021 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001021">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+        <rdfs:label xml:lang="en">is autoimmune trigger for</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0001022 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0001022">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+        <rdfs:label xml:lang="en">has allergic trigger</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002163 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002163">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002323"/>
+        <rdfs:label>spatially disjoint from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002200 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002200">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0016001"/>
+        <rdfs:label xml:lang="en">has phenotype</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002202 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002202">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002254"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002258"/>
+        <rdfs:label xml:lang="en">develops from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002220 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002220">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002163"/>
+        <rdfs:label xml:lang="en">adjacent to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002241 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002241">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002309"/>
+        <rdfs:label>has exposure stressor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002244 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002244">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:label>related via exposure to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002254 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002254">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002258"/>
+        <rdfs:label xml:lang="en">has developmental contribution from</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002258 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002258">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002324"/>
+        <rdfs:label xml:lang="en">developmentally preceded by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002309 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002309">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002244"/>
+        <rdfs:label>has exposure stimulus</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002321 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002321">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">ecologically related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002323 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002323">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">mereotopologically related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002324 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002324">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">developmentally related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002410 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002410">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">causally related to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002451 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002451">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002321"/>
+        <rdfs:label>transmitted by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002452 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002452">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002200"/>
+        <rdfs:label>has symptom</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002487 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002487">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>relation between physical entity and a process or stage</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002488 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002488">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002490"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002496"/>
+        <rdfs:label>existence starts during</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002490 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002490">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002487"/>
+        <rdfs:label>existence overlaps</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002496 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002496">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002487"/>
+        <rdfs:label>existence starts during or after</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003000">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">produces</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003001">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="en">produced by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003302 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003302">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:label xml:lang="en">causes or contributes to condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003303 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003303">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+        <rdfs:label xml:lang="en">causes condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0003304 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0003304">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0003302"/>
+        <rdfs:label xml:lang="en">contributes to condition</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004000">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004017"/>
+        <rdfs:label>condition has genetic basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004005 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004005">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004000"/>
+        <rdfs:label>has major susceptibility factor</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004017 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004017">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:label>realizable has basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004019 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004019">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004017"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0004023"/>
+        <rdfs:label>disease has basis in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004023 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004023">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0002410"/>
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0040035"/>
+        <rdfs:label>causal relationship with disease as subject</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004026 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004026">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0040035"/>
+        <rdfs:label>disease has location</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0004029 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0004029">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0040035"/>
+        <rdfs:label>disease has feature</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0007000 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0007000">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>has driver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0007001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0007001">
+        <rdfs:subPropertyOf rdf:resource="http://purl.obolibrary.org/obo/RO_0007000"/>
+        <rdfs:label>has disease driver</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0016001 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0016001">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>has phenotype or disease</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0040035 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0040035">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label>disease relationship</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.w3.org/2002/07/owl#topObjectProperty -->
+
+    <owl:ObjectProperty rdf:about="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

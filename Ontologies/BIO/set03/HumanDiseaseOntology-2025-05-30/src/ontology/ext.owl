@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/doid/obo/ext.owl#"
+     xml:base="http://purl.obolibrary.org/obo/doid/obo/ext.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/doid/obo/ext.owl">
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/doid/releases/2025-05-30/ext.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/chebi_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/cl_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/disdriv_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/eco_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/foodon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/geno_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/hp_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/ncbitaxon_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/omim_susc_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/ro_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/so_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/symp_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/trans_import.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/doid/imports/uberon_import.owl"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OBI_9991118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/OBI_9991118">
+        <obo:IAO_0000115>An alternative term used by the IEDB.</obo:IAO_0000115>
+        <rdfs:label>IEDB alternative term</rdfs:label>
+    </owl:AnnotationProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/OBI_9991118"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An alternative term used by the IEDB.</owl:annotatedTarget>
+        <oboInOwl:hasDbXref>url:https://www.iedb.org</oboInOwl:hasDbXref>
+    </owl:Axiom>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#auto-generated-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#auto-generated-by"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#date -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#date"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#default-namespace -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#default-namespace"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasOBOFormatVersion"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#saved-by -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#saved-by"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/RO_0002452 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002452"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/so#has_origin -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/so#has_origin">
+        <rdfs:label>has_origin</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/doid#chebi"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/CHEBI_50906 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CHEBI_50906">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/doid#chebi"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/HP_0000118 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0000118">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/UPHENO_0001001"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCBITaxon_1 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_1">
+        <oboInOwl:id>NCBITaxon:1</oboInOwl:id>
+        <rdfs:label>ncbitaxon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/doid#sequence"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0000400 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0000400">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/doid#sequence"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001060 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001060">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/doid#sequence"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/SO_0001260 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/SO_0001260">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/doid#sequence"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/UPHENO_0001001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/UPHENO_0001001">
+        <rdfs:label>phenotype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/doid#chebi -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/doid#chebi">
+        <rdfs:label>chebi</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/doid#sequence -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/doid#sequence">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>sequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/CL_0000000">
+        <oboInOwl:id>CL:0000000</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000146">
+        <oboInOwl:hasExactSynonym>X-linked dominant inheritance</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GENO:0000146</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000148">
+        <oboInOwl:id>GENO:0000148</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000149">
+        <oboInOwl:hasExactSynonym>X-linked recessive inheritance</oboInOwl:hasExactSynonym>
+        <oboInOwl:id>GENO:0000149</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/GENO_0000150">
+        <oboInOwl:id>GENO:0000150</oboInOwl:id>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/HP_0003674">
+        <rdfs:label>onset</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2697049">
+        <oboInOwl:hasExactSynonym>2019-nCoV</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HCoV-19</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Human coronavirus 2019</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS-CoV-2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>SARS2</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Wuhan coronavirus</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Wuhan seafood market pneumonia virus</oboInOwl:hasExactSynonym>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001062">
+        <rdfs:label>anatomy</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001463">
+        <rdfs:label>thumb</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001466">
+        <rdfs:label>toe</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0001893">
+        <rdfs:label>cerebrum</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002387">
+        <rdfs:label>foot</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002389">
+        <rdfs:label>finger</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0002398">
+        <rdfs:label>hand</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/UBERON_0003631">
+        <rdfs:label>big toe</rdfs:label>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26) https://github.com/owlcs/owlapi -->
+

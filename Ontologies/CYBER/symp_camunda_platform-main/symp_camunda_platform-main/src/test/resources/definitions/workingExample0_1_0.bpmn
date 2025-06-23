@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn:definitions xmlns:bpmn="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:camunda="http://camunda.org/schema/1.0/bpmn" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" id="Definitions_1o96jld" targetNamespace="http://bpmn.io/schema/bpmn" exporter="Camunda Modeler" exporterVersion="3.5.0">
+  <bpmn:process id="Process_0rymeyz" isExecutable="true">
+    <bpmn:documentation>Complete 2: Compatibility Property</bpmn:documentation>
+    <bpmn:startEvent id="StartEvent_1" name="Working Example Start">
+      <bpmn:outgoing>SequenceFlow_0z8owdk</bpmn:outgoing>
+    </bpmn:startEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_0z8owdk" sourceRef="StartEvent_1" targetRef="ExclusiveGateway_0vh55nr" />
+    <bpmn:parallelGateway id="ExclusiveGateway_0vh55nr">
+      <bpmn:incoming>SequenceFlow_0z8owdk</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0kcfr9c</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1kgay4b</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_0kcfr9c" sourceRef="ExclusiveGateway_0vh55nr" targetRef="ExclusiveGateway_0zk0tku" />
+    <bpmn:inclusiveGateway id="ExclusiveGateway_0zk0tku">
+      <bpmn:incoming>SequenceFlow_0kcfr9c</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1emsyj7</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1r8830q</bpmn:outgoing>
+    </bpmn:inclusiveGateway>
+    <bpmn:serviceTask id="ServiceTask_1max3g9" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Clean 1: Namenlose Individuals löschen</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1emsyj7</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0e7hm2p</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1emsyj7" name="${cleanSupported == true}" sourceRef="ExclusiveGateway_0zk0tku" targetRef="ServiceTask_1max3g9" />
+    <bpmn:serviceTask id="ServiceTask_1uz7o44" name="SWRL Task" camunda:resultVariable="swrl2" camunda:type="external" camunda:topic="swrl">
+      <bpmn:documentation>Clean 2: Redundante Individuals markieren</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="SWRL" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1r8830q</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0amnmu0</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1r8830q" sourceRef="ExclusiveGateway_0zk0tku" targetRef="ServiceTask_1uz7o44" />
+    <bpmn:sequenceFlow id="SequenceFlow_0e7hm2p" sourceRef="ServiceTask_1max3g9" targetRef="ExclusiveGateway_1wryv95" />
+    <bpmn:inclusiveGateway id="ExclusiveGateway_1wryv95">
+      <bpmn:incoming>SequenceFlow_0e7hm2p</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0amnmu0</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0f9tzyf</bpmn:outgoing>
+    </bpmn:inclusiveGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_0amnmu0" sourceRef="ServiceTask_1uz7o44" targetRef="ExclusiveGateway_1wryv95" />
+    <bpmn:serviceTask id="ServiceTask_1anf2tc" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Clean 3: Redundante Individuals zusammenfuehren und loeschen</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0f9tzyf</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1b3n1x5</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0f9tzyf" sourceRef="ExclusiveGateway_1wryv95" targetRef="ServiceTask_1anf2tc" />
+    <bpmn:serviceTask id="ServiceTask_1mtbsrz" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Clean 4: Bekannte Naming Fehler beheben</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1kgay4b</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1ka8dzt</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1kgay4b" sourceRef="ExclusiveGateway_0vh55nr" targetRef="ServiceTask_1mtbsrz" />
+    <bpmn:sequenceFlow id="SequenceFlow_1b3n1x5" sourceRef="ServiceTask_1anf2tc" targetRef="ExclusiveGateway_1nir3rr" />
+    <bpmn:parallelGateway id="ExclusiveGateway_1nir3rr">
+      <bpmn:incoming>SequenceFlow_1b3n1x5</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1ka8dzt</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0sws246</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1qp8z3k</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1gzvvg6</bpmn:outgoing>
+      <bpmn:outgoing>SequenceFlow_1u09hj8</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_1ka8dzt" sourceRef="ServiceTask_1mtbsrz" targetRef="ExclusiveGateway_1nir3rr" />
+    <bpmn:serviceTask id="ServiceTask_1bzkgn7" name="SWRL Task" camunda:resultVariable="swrl2" camunda:type="external" camunda:topic="swrl">
+      <bpmn:documentation>Complete 2: Compatiblity Property</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="SWRL" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0sws246</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0hripit</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0sws246" sourceRef="ExclusiveGateway_1nir3rr" targetRef="ServiceTask_1bzkgn7" />
+    <bpmn:serviceTask id="ServiceTask_1f4o9rz" name="SWRL Task" camunda:resultVariable="swrl2" camunda:type="external" camunda:topic="swrl">
+      <bpmn:documentation>Complete 3: 1-Hop Ethernet connected</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="SWRL" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0hripit</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1kowx6t</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0hripit" sourceRef="ServiceTask_1bzkgn7" targetRef="ServiceTask_1f4o9rz" />
+    <bpmn:serviceTask id="ServiceTask_16hawcc" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Complete 9: VM-Host Mapping; Logische Verknuepfungen entfernen</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+          <camunda:property id="fraunhofer-collapsible" name="collapsible" value="true" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1qp8z3k</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0gbm71h</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1qp8z3k" sourceRef="ExclusiveGateway_1nir3rr" targetRef="ServiceTask_16hawcc" />
+    <bpmn:serviceTask id="ServiceTask_0g180kp" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Complete 4: Compatible Property fuer IPv4</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0gbm71h</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_03cipjb</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0gbm71h" sourceRef="ServiceTask_16hawcc" targetRef="ServiceTask_0g180kp" />
+    <bpmn:sequenceFlow id="SequenceFlow_1kowx6t" sourceRef="ServiceTask_1f4o9rz" targetRef="ExclusiveGateway_0ioc55n" />
+    <bpmn:parallelGateway id="ExclusiveGateway_0ioc55n">
+      <bpmn:incoming>SequenceFlow_1kowx6t</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_03cipjb</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1hze8q8</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_03cipjb" sourceRef="ServiceTask_0g180kp" targetRef="ExclusiveGateway_0ioc55n" />
+    <bpmn:serviceTask id="ServiceTask_0b0blpc" name="SWRL Task" camunda:resultVariable="swrl2" camunda:type="external" camunda:topic="swrl">
+      <bpmn:documentation>Complete 5: 1-Hop Connected Propertties fuer IPv4</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="SWRL" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1hze8q8</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1gjt351</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1hze8q8" sourceRef="ExclusiveGateway_0ioc55n" targetRef="ServiceTask_0b0blpc" />
+    <bpmn:serviceTask id="ServiceTask_0528ycy" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Coimplete 8: Netzwerkhierarchie berechnen</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+          <camunda:property id="fraunhofer-collapsible" name="collapsible" value="true" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1gzvvg6</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_1vigfhv</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:serviceTask id="ServiceTask_0lw8sfn" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Complete 1: Firewall</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1vigfhv</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_06rhn99</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1gzvvg6" sourceRef="ExclusiveGateway_1nir3rr" targetRef="ServiceTask_0528ycy" />
+    <bpmn:sequenceFlow id="SequenceFlow_1vigfhv" sourceRef="ServiceTask_0528ycy" targetRef="ServiceTask_0lw8sfn" />
+    <bpmn:sequenceFlow id="SequenceFlow_06rhn99" sourceRef="ServiceTask_0lw8sfn" targetRef="ExclusiveGateway_0hbrbfj" />
+    <bpmn:parallelGateway id="ExclusiveGateway_0hbrbfj">
+      <bpmn:incoming>SequenceFlow_06rhn99</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_1gjt351</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0cbna5f</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_1gjt351" sourceRef="ServiceTask_0b0blpc" targetRef="ExclusiveGateway_0hbrbfj" />
+    <bpmn:serviceTask id="ServiceTask_1vd1unv" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Complete 6: Multihop</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_0cbna5f</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0zmexky</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_0cbna5f" sourceRef="ExclusiveGateway_0hbrbfj" targetRef="ServiceTask_1vd1unv" />
+    <bpmn:serviceTask id="ServiceTask_09cuhk2" name="JENA Task" camunda:resultVariable="jena1" camunda:type="external" camunda:topic="jena">
+      <bpmn:documentation>Complete 7: CPE berechnen</bpmn:documentation>
+      <bpmn:extensionElements>
+        <camunda:properties>
+          <camunda:property id="fraunhofer-type" name="type" value="JENA" />
+          <camunda:property id="fraunhofer-collapsible" name="collapsible" value="true" />
+        </camunda:properties>
+      </bpmn:extensionElements>
+      <bpmn:incoming>SequenceFlow_1u09hj8</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_0p7qyd3</bpmn:outgoing>
+    </bpmn:serviceTask>
+    <bpmn:sequenceFlow id="SequenceFlow_1u09hj8" sourceRef="ExclusiveGateway_1nir3rr" targetRef="ServiceTask_09cuhk2" />
+    <bpmn:sequenceFlow id="SequenceFlow_0zmexky" sourceRef="ServiceTask_1vd1unv" targetRef="ExclusiveGateway_19lzy6u" />
+    <bpmn:parallelGateway id="ExclusiveGateway_19lzy6u">
+      <bpmn:incoming>SequenceFlow_0zmexky</bpmn:incoming>
+      <bpmn:incoming>SequenceFlow_0p7qyd3</bpmn:incoming>
+      <bpmn:outgoing>SequenceFlow_19iyyds</bpmn:outgoing>
+    </bpmn:parallelGateway>
+    <bpmn:sequenceFlow id="SequenceFlow_0p7qyd3" sourceRef="ServiceTask_09cuhk2" targetRef="ExclusiveGateway_19lzy6u" />
+    <bpmn:endEvent id="EndEvent_1mqleb2" name="Working Example Completion">
+      <bpmn:incoming>SequenceFlow_19iyyds</bpmn:incoming>
+    </bpmn:endEvent>
+    <bpmn:sequenceFlow id="SequenceFlow_19iyyds" sourceRef="ExclusiveGateway_19lzy6u" targetRef="EndEvent_1mqleb2" />
+  </bpmn:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Process_0rymeyz">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1">
+        <dc:Bounds x="179" y="309" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="155" y="352" width="85" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0z8owdk_di" bpmnElement="SequenceFlow_0z8owdk">
+        <di:waypoint x="215" y="327" />
+        <di:waypoint x="265" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_1xca1gu_di" bpmnElement="ExclusiveGateway_0vh55nr">
+        <dc:Bounds x="265" y="302" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0kcfr9c_di" bpmnElement="SequenceFlow_0kcfr9c">
+        <di:waypoint x="315" y="327" />
+        <di:waypoint x="365" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="InclusiveGateway_1i900dg_di" bpmnElement="ExclusiveGateway_0zk0tku">
+        <dc:Bounds x="365" y="302" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_1max3g9_di" bpmnElement="ServiceTask_1max3g9">
+        <dc:Bounds x="480" y="287" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1emsyj7_di" bpmnElement="SequenceFlow_1emsyj7">
+        <di:waypoint x="415" y="327" />
+        <di:waypoint x="480" y="327" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="404" y="309" width="87" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1uz7o44_di" bpmnElement="ServiceTask_1uz7o44">
+        <dc:Bounds x="480" y="80" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1r8830q_di" bpmnElement="SequenceFlow_1r8830q">
+        <di:waypoint x="390" y="302" />
+        <di:waypoint x="390" y="120" />
+        <di:waypoint x="480" y="120" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0e7hm2p_di" bpmnElement="SequenceFlow_0e7hm2p">
+        <di:waypoint x="580" y="327" />
+        <di:waypoint x="645" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="InclusiveGateway_1syutkn_di" bpmnElement="ExclusiveGateway_1wryv95">
+        <dc:Bounds x="645" y="302" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0amnmu0_di" bpmnElement="SequenceFlow_0amnmu0">
+        <di:waypoint x="580" y="120" />
+        <di:waypoint x="670" y="120" />
+        <di:waypoint x="670" y="302" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1anf2tc_di" bpmnElement="ServiceTask_1anf2tc">
+        <dc:Bounds x="780" y="287" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0f9tzyf_di" bpmnElement="SequenceFlow_0f9tzyf">
+        <di:waypoint x="695" y="327" />
+        <di:waypoint x="780" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1mtbsrz_di" bpmnElement="ServiceTask_1mtbsrz">
+        <dc:Bounds x="780" y="450" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1kgay4b_di" bpmnElement="SequenceFlow_1kgay4b">
+        <di:waypoint x="290" y="352" />
+        <di:waypoint x="290" y="490" />
+        <di:waypoint x="780" y="490" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1b3n1x5_di" bpmnElement="SequenceFlow_1b3n1x5">
+        <di:waypoint x="880" y="327" />
+        <di:waypoint x="995" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_10wyi13_di" bpmnElement="ExclusiveGateway_1nir3rr">
+        <dc:Bounds x="995" y="302" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1ka8dzt_di" bpmnElement="SequenceFlow_1ka8dzt">
+        <di:waypoint x="880" y="490" />
+        <di:waypoint x="940" y="490" />
+        <di:waypoint x="940" y="327" />
+        <di:waypoint x="995" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1bzkgn7_di" bpmnElement="ServiceTask_1bzkgn7">
+        <dc:Bounds x="1110" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0sws246_di" bpmnElement="SequenceFlow_0sws246">
+        <di:waypoint x="1020" y="302" />
+        <di:waypoint x="1020" y="180" />
+        <di:waypoint x="1110" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1f4o9rz_di" bpmnElement="ServiceTask_1f4o9rz">
+        <dc:Bounds x="1300" y="140" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0hripit_di" bpmnElement="SequenceFlow_0hripit">
+        <di:waypoint x="1210" y="180" />
+        <di:waypoint x="1300" y="180" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_16hawcc_di" bpmnElement="ServiceTask_16hawcc">
+        <dc:Bounds x="1120" y="287" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1qp8z3k_di" bpmnElement="SequenceFlow_1qp8z3k">
+        <di:waypoint x="1045" y="327" />
+        <di:waypoint x="1120" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0g180kp_di" bpmnElement="ServiceTask_0g180kp">
+        <dc:Bounds x="1300" y="287" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0gbm71h_di" bpmnElement="SequenceFlow_0gbm71h">
+        <di:waypoint x="1220" y="327" />
+        <di:waypoint x="1300" y="327" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1kowx6t_di" bpmnElement="SequenceFlow_1kowx6t">
+        <di:waypoint x="1400" y="180" />
+        <di:waypoint x="1460" y="180" />
+        <di:waypoint x="1460" y="235" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_0vrr2hs_di" bpmnElement="ExclusiveGateway_0ioc55n">
+        <dc:Bounds x="1435" y="235" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_03cipjb_di" bpmnElement="SequenceFlow_03cipjb">
+        <di:waypoint x="1400" y="327" />
+        <di:waypoint x="1460" y="327" />
+        <di:waypoint x="1460" y="285" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0b0blpc_di" bpmnElement="ServiceTask_0b0blpc">
+        <dc:Bounds x="1550" y="220" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1hze8q8_di" bpmnElement="SequenceFlow_1hze8q8">
+        <di:waypoint x="1485" y="260" />
+        <di:waypoint x="1550" y="260" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_0528ycy_di" bpmnElement="ServiceTask_0528ycy">
+        <dc:Bounds x="1120" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="ServiceTask_0lw8sfn_di" bpmnElement="ServiceTask_0lw8sfn">
+        <dc:Bounds x="1300" y="420" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1gzvvg6_di" bpmnElement="SequenceFlow_1gzvvg6">
+        <di:waypoint x="1020" y="352" />
+        <di:waypoint x="1020" y="460" />
+        <di:waypoint x="1120" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_1vigfhv_di" bpmnElement="SequenceFlow_1vigfhv">
+        <di:waypoint x="1220" y="460" />
+        <di:waypoint x="1300" y="460" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_06rhn99_di" bpmnElement="SequenceFlow_06rhn99">
+        <di:waypoint x="1400" y="460" />
+        <di:waypoint x="1700" y="460" />
+        <di:waypoint x="1700" y="415" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_09an733_di" bpmnElement="ExclusiveGateway_0hbrbfj">
+        <dc:Bounds x="1675" y="365" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1gjt351_di" bpmnElement="SequenceFlow_1gjt351">
+        <di:waypoint x="1650" y="260" />
+        <di:waypoint x="1700" y="260" />
+        <di:waypoint x="1700" y="365" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_1vd1unv_di" bpmnElement="ServiceTask_1vd1unv">
+        <dc:Bounds x="1770" y="350" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0cbna5f_di" bpmnElement="SequenceFlow_0cbna5f">
+        <di:waypoint x="1725" y="390" />
+        <di:waypoint x="1770" y="390" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ServiceTask_09cuhk2_di" bpmnElement="ServiceTask_09cuhk2">
+        <dc:Bounds x="1120" y="550" width="100" height="80" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_1u09hj8_di" bpmnElement="SequenceFlow_1u09hj8">
+        <di:waypoint x="1020" y="352" />
+        <di:waypoint x="1020" y="590" />
+        <di:waypoint x="1120" y="590" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0zmexky_di" bpmnElement="SequenceFlow_0zmexky">
+        <di:waypoint x="1870" y="390" />
+        <di:waypoint x="1915" y="390" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="ParallelGateway_13220lj_di" bpmnElement="ExclusiveGateway_19lzy6u">
+        <dc:Bounds x="1915" y="365" width="50" height="50" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0p7qyd3_di" bpmnElement="SequenceFlow_0p7qyd3">
+        <di:waypoint x="1220" y="590" />
+        <di:waypoint x="1940" y="590" />
+        <di:waypoint x="1940" y="415" />
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_1mqleb2_di" bpmnElement="EndEvent_1mqleb2">
+        <dc:Bounds x="2012" y="372" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="1988" y="415" width="85" height="27" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_19iyyds_di" bpmnElement="SequenceFlow_19iyyds">
+        <di:waypoint x="1965" y="390" />
+        <di:waypoint x="2012" y="390" />
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn:definitions>

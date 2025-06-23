@@ -1,0 +1,21 @@
+# verify all 'disease has feature' axioms use DOID
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX obo: <http://purl.obolibrary.org/obo/>
+PREFIX oboInOwl: <http://www.geneontology.org/formats/oboInOwl#>
+
+SELECT ?class ?type ?not_disease
+WHERE {
+    ?anonymous a owl:Restriction ;
+        owl:onProperty obo:RO_0004029 ;
+        owl:someValuesFrom ?not_disease .
+
+    FILTER(isBlank(?anonymous))
+    FILTER(!isBlank(?not_disease) && !CONTAINS(str(?not_disease), "DOID"))
+
+    OPTIONAL {
+        VALUES ?type { rdfs:subClassOf owl:equivalentClass }
+        ?class a owl:Class ;
+            ?type ?anonymous .
+    }
+}

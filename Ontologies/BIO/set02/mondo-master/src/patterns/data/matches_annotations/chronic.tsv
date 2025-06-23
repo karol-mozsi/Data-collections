@@ -1,0 +1,4 @@
+defined_class	defined_class_label	disease	disease_label	disease_match_property
+http://purl.obolibrary.org/obo/MONDO_0001575	chronic gonococcal salpingitis	http://purl.obolibrary.org/obo/MONDO_0021159	gonococcal salpingitis	http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/MONDO_0021206	chronic non-suppurative otitis media	http://purl.obolibrary.org/obo/MONDO_0001212	non-suppurative otitis media	http://www.w3.org/2000/01/rdf-schema#label
+http://purl.obolibrary.org/obo/MONDO_0001474	chronic salpingo-oophoritis	http://purl.obolibrary.org/obo/MONDO_0001172	salpingo-oophoritis	http://www.w3.org/2000/01/rdf-schema#label

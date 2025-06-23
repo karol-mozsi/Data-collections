@@ -1,0 +1,79 @@
+CL:0000019	# sperm
+CL:0000066	# epithelial cell
+CL:0000084	# T cell
+CL:0000100	# motor neuron
+CL:0000127	# astrocyte
+CL:0000233	# platelet
+CL:0000236	# B cell
+CL:0000242	# Merkel cell
+CL:0000398	# polygonal cell
+CL:0000442	# follicular dendritic cell
+CL:0000451	# dendritic cell
+CL:0000453	# Langerhans cell
+CL:0000586	# germ cell
+CL:0000622	# acinar cell
+CL:0000623	# natural killer cell
+CL:0000646	# basal cell
+CL:0000738	# leukocyte
+CL:0000767	# basophil
+CL:0000771	# eosinophil
+CL:0000786	# plasma cell
+CL:0000845	# marginal zone B cell
+CL:0002064	# pancreatic acinar cell
+CL:0002303	# pigmented ciliary epithelial cell
+CL:0002309	# corticotroph
+CL:0009004	# retinal cell
+CL:0000148	# melanocyte
+CL:0000055	# non-terminally differentiated cell
+CL:0002190	# squamous cell of epidermis
+CL:0008019	# mesenchymal cell
+CL:0000222	# mesodermal cell
+CL:0000223	# endodermal cell
+CL:0000221	# ectodermal cell
+CL:0002321	# embryonic cell
+CL:0000000	# cell
+CL:0000540	# neuron
+CL:0000076	# squamous epithelial cell
+CL:0000570	# parafollicular cell
+CL:0000500	# follicular epithelial cell
+CL:0000185	# myoepithelial cell
+CL:0000165	# neuroendocrine cell
+CL:0000646	# basal cell
+CL:0000351	# trophoblast cell
+CL:0000019	# sperm
+CL:0000025	# egg
+CL:0001064	# malignant cell
+CL:0000065	# ependymal cell
+CL:0002150	# epithelioid macrophage
+CL:0000097	# mast cell
+CL:0000499	# stromal cell
+CL:0000066	# epithelial cell
+CL:0000182	# hepatocyte
+CL:0000136	# fat cell
+CL:0000446	# chief cell of parathyroid gland
+CL:0000641	# chromophobe cell
+CL:0000138	# chondrocyte
+CL:0000115	# endothelial cell
+CL:0000192	# smooth muscle cell
+CL:0000244	# transitional epithelial cell
+CL:0000151	# secretory cell
+CL:0000150	# glandular epithelial cell
+CL:0002320	# connective tissue cell
+CL:0000062	# osteoblast
+CL:0000058	# chondroblast
+CL:0000057	# fibroblast
+CL:0000669	# pericyte cell
+CL:0000235	# macrophage
+CL:0000077	# mesothelial cell
+CL:0000670	# primordial germ cell
+CL:0000216	# Sertoli cell
+CL:0000501	# granulosa cell
+CL:0000503	# theca cell
+CL:0000135	# fibrocyte
+CL:0000128	# oligodendrocyte
+CL:0002418	# hemangioblast
+CL:2000064	# ovarian surface epithelial cell
+CL:0002573	# Schwann cell
+CL:0000232	# erythrocyte
+
+

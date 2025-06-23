@@ -1,0 +1,537 @@
+defined_class	defined_class_label	disease	disease_label	location	location_label
+http://purl.obolibrary.org/obo/MONDO_0004120	Bartholin gland small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0000460	major vestibular gland
+http://purl.obolibrary.org/obo/MONDO_0024283	Demodex folliculitis	http://purl.obolibrary.org/obo/MONDO_0017280	demodicidosis	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
+http://purl.obolibrary.org/obo/MONDO_0006576	Ludwig's angina	http://purl.obolibrary.org/obo/MONDO_0005230	cellulitis	http://purl.obolibrary.org/obo/UBERON_0003679	mouth floor
+http://purl.obolibrary.org/obo/MONDO_0001858	Tietze syndrome	http://purl.obolibrary.org/obo/MONDO_0002254	syndromic disease	http://purl.obolibrary.org/obo/UBERON_0002293	costochondral joint
+http://purl.obolibrary.org/obo/MONDO_0021726	abdominal cystic lymphangioma	http://purl.obolibrary.org/obo/MONDO_0009761	cystic hygroma	http://purl.obolibrary.org/obo/UBERON_0000916	abdomen
+http://purl.obolibrary.org/obo/MONDO_0000369	abdominal tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000916	abdomen
+http://purl.obolibrary.org/obo/MONDO_0020594	abducens nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001646	abducens nerve
+http://purl.obolibrary.org/obo/MONDO_0002636	accessory nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002019	accessory XI nerve
+http://purl.obolibrary.org/obo/MONDO_0100110	adenovirus renal infection	http://purl.obolibrary.org/obo/MONDO_0043479	adenoviridae infectious disease	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0002816	adrenal cortex disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001235	adrenal cortex
+http://purl.obolibrary.org/obo/MONDO_0005495	adrenal gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002369	adrenal gland
+http://purl.obolibrary.org/obo/MONDO_0006551	alopecia mucinosa	http://purl.obolibrary.org/obo/MONDO_0021653	cutaneous focal mucinosis	http://purl.obolibrary.org/obo/UBERON_0002073	hair follicle
+http://purl.obolibrary.org/obo/MONDO_0005208	amelanotic skin melanoma	http://purl.obolibrary.org/obo/MONDO_0002971	amelanotic melanoma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0017438	amelia of lower limb	http://purl.obolibrary.org/obo/MONDO_0017419	non-syndromic amelia	http://purl.obolibrary.org/obo/UBERON_0002103	hindlimb
+http://purl.obolibrary.org/obo/MONDO_0017437	amelia of upper limb	http://purl.obolibrary.org/obo/MONDO_0017419	non-syndromic amelia	http://purl.obolibrary.org/obo/UBERON_0002102	forelimb
+http://purl.obolibrary.org/obo/MONDO_0003504	anal canal neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000159	anal canal
+http://purl.obolibrary.org/obo/MONDO_0006081	anal melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001245	anus
+http://purl.obolibrary.org/obo/MONDO_0004882	angioid streaks of choroid	http://purl.obolibrary.org/obo/MONDO_0011782	angioid streaks	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0020597	angiokeratoma of scrotum	http://purl.obolibrary.org/obo/MONDO_0003143	angiokeratoma	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
+http://purl.obolibrary.org/obo/MONDO_0043895	ankle injury	http://purl.obolibrary.org/obo/MONDO_0021178	injury	http://purl.obolibrary.org/obo/UBERON_0004454	tarsal region
+http://purl.obolibrary.org/obo/MONDO_0003182	anterior horn disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002257	ventral horn of spinal cord
+http://purl.obolibrary.org/obo/MONDO_0024468	anterior pituitary gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002196	adenohypophysis
+http://purl.obolibrary.org/obo/MONDO_0006650	anterior spinal artery syndrome	http://purl.obolibrary.org/obo/MONDO_0002254	syndromic disease	http://purl.obolibrary.org/obo/UBERON_0005431	anterior spinal artery
+http://purl.obolibrary.org/obo/MONDO_0002519	anus disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001245	anus
+http://purl.obolibrary.org/obo/MONDO_0005561	aortic disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000947	aorta
+http://purl.obolibrary.org/obo/MONDO_0003803	aortic valve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002137	aortic valve
+http://purl.obolibrary.org/obo/MONDO_0024467	apocrine sweat gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000382	apocrine sweat gland
+http://purl.obolibrary.org/obo/MONDO_0021101	appendix L-cell glucagon-like peptide-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0004211	L-cell glucagon-like peptide-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/UBERON_0001154	vermiform appendix
+http://purl.obolibrary.org/obo/MONDO_0024501	appendix neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001154	vermiform appendix
+http://purl.obolibrary.org/obo/MONDO_0000473	arterial disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001637	artery
+http://purl.obolibrary.org/obo/MONDO_0006816	arthropathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000982	skeletal joint
+http://purl.obolibrary.org/obo/MONDO_0003816	articular cartilage disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0010996	articular cartilage of joint
+http://purl.obolibrary.org/obo/MONDO_0005476	atrioventricular node disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002352	atrioventricular node
+http://purl.obolibrary.org/obo/MONDO_0002409	auditory system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0016490	auditory system
+http://purl.obolibrary.org/obo/MONDO_0001292	autonomic nervous system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002410	autonomic nervous system
+http://purl.obolibrary.org/obo/MONDO_0000974	axillary lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0009472	axilla
+http://purl.obolibrary.org/obo/MONDO_0005247	bacterial urinary tract infection	http://purl.obolibrary.org/obo/MONDO_0005113	bacterial infectious disease	http://purl.obolibrary.org/obo/UBERON_0001008	renal system
+http://purl.obolibrary.org/obo/MONDO_0003996	basal ganglia disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0010011	collection of basal ganglia
+http://purl.obolibrary.org/obo/MONDO_0044983	benign lipomatous neoplasm	http://purl.obolibrary.org/obo/MONDO_0000654	benign connective and soft tissue neoplasm	http://purl.obolibrary.org/obo/UBERON_0001013	adipose tissue
+http://purl.obolibrary.org/obo/MONDO_0002887	bile duct disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002394	bile duct
+http://purl.obolibrary.org/obo/MONDO_0004868	biliary tract disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001173	biliary tree
+http://purl.obolibrary.org/obo/MONDO_0000515	bone chondrosarcoma	http://purl.obolibrary.org/obo/MONDO_0008977	chondrosarcoma	http://purl.obolibrary.org/obo/UBERON_0002481	bone tissue
+http://purl.obolibrary.org/obo/MONDO_0005381	bone disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002481	bone tissue
+http://purl.obolibrary.org/obo/MONDO_0003225	bone marrow disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002371	bone marrow
+http://purl.obolibrary.org/obo/MONDO_0005560	brain disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MONDO_0043510	brain injury	http://purl.obolibrary.org/obo/MONDO_0021178	injury	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MONDO_0003902	brain stem hemangioblastoma	http://purl.obolibrary.org/obo/MONDO_0016748	hemangioblastoma	http://purl.obolibrary.org/obo/UBERON_0002298	brainstem
+http://purl.obolibrary.org/obo/MONDO_0003896	breast capillary hemangioma	http://purl.obolibrary.org/obo/MONDO_0002407	capillary hemangioma	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0002657	breast disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0003897	breast epithelioid hemangioma	http://purl.obolibrary.org/obo/MONDO_0021169	epithelioid hemangioma	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0003126	breast hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0003959	breast large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0005057	large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0000970	breast lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0002485	breast neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0001358	bronchial disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002185	bronchus
+http://purl.obolibrary.org/obo/MONDO_0019963	bronchial endocrine tumor	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002185	bronchus
+http://purl.obolibrary.org/obo/MONDO_0001112	bubonic plague	http://purl.obolibrary.org/obo/MONDO_0019095	plague	http://purl.obolibrary.org/obo/UBERON_0006558	lymphatic part of lymphoid system
+http://purl.obolibrary.org/obo/MONDO_0001574	capillary disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001982	capillary
+http://purl.obolibrary.org/obo/MONDO_0002262	capillary lymphangioma	http://purl.obolibrary.org/obo/MONDO_0002013	lymphangioma	http://purl.obolibrary.org/obo/UBERON_0001982	capillary
+http://purl.obolibrary.org/obo/MONDO_0001707	cardiac sarcoidosis	http://purl.obolibrary.org/obo/MONDO_0019338	sarcoidosis	http://purl.obolibrary.org/obo/UBERON_0000948	heart
+http://purl.obolibrary.org/obo/MONDO_0000813	cardiac tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000948	heart
+http://purl.obolibrary.org/obo/MONDO_0045001	cardiac ventricle disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002082	cardiac ventricle
+http://purl.obolibrary.org/obo/MONDO_0004995	cardiovascular disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0004535	cardiovascular system
+http://purl.obolibrary.org/obo/MONDO_0005269	carotid artery disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0005396	carotid artery segment
+http://purl.obolibrary.org/obo/MONDO_0021053	carotid body paraganglioma	http://purl.obolibrary.org/obo/MONDO_0000448	paraganglioma	http://purl.obolibrary.org/obo/UBERON_0001629	carotid body
+http://purl.obolibrary.org/obo/MONDO_0005693	cauda equina syndrome	http://purl.obolibrary.org/obo/MONDO_0002254	syndromic disease	http://purl.obolibrary.org/obo/UBERON_0012337	cauda equina
+http://purl.obolibrary.org/obo/MONDO_0003644	cavernous hemangioma of colon	http://purl.obolibrary.org/obo/MONDO_0003155	cavernous hemangioma	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0003645	cavernous hemangioma of face	http://purl.obolibrary.org/obo/MONDO_0003155	cavernous hemangioma	http://purl.obolibrary.org/obo/UBERON_0001456	face
+http://purl.obolibrary.org/obo/MONDO_0021281	cavernous hemangioma of retina	http://purl.obolibrary.org/obo/MONDO_0003155	cavernous hemangioma	http://purl.obolibrary.org/obo/UBERON_0000966	retina
+http://purl.obolibrary.org/obo/MONDO_0002031	cecal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001153	caecum
+http://purl.obolibrary.org/obo/MONDO_0004914	celiac artery stenosis from compression by median arcuate ligament of diaphragm	http://purl.obolibrary.org/obo/MONDO_0002254	syndromic disease	http://purl.obolibrary.org/obo/UBERON_0015215	median arcuate ligament
+http://purl.obolibrary.org/obo/MONDO_0002602	central nervous system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0003241	central nervous system hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0003943	central nervous system hibernoma	http://purl.obolibrary.org/obo/MONDO_0021168	hibernoma	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0024619	central nervous system infectious disorder	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0003844	central nervous system lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0005696	central nervous system tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0003346	central nervous system vasculitis	http://purl.obolibrary.org/obo/MONDO_0018882	vasculitis	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0002427	cerebellar disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
+http://purl.obolibrary.org/obo/MONDO_0003901	cerebellar hemangioblastoma	http://purl.obolibrary.org/obo/MONDO_0016748	hemangioblastoma	http://purl.obolibrary.org/obo/UBERON_0002037	cerebellum
+http://purl.obolibrary.org/obo/MONDO_0044996	cerebral cortex disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000956	cerebral cortex
+http://purl.obolibrary.org/obo/MONDO_0003948	cerebral hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001893	telencephalon
+http://purl.obolibrary.org/obo/MONDO_0003843	cerebral hemisphere lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001869	cerebral hemisphere
+http://purl.obolibrary.org/obo/MONDO_0005625	cerebral malaria	http://purl.obolibrary.org/obo/MONDO_0005136	malaria	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MONDO_0019213	cerebral organic aciduria	http://purl.obolibrary.org/obo/MONDO_0000688	inborn organic aciduria	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MONDO_0001706	cerebral sarcoidosis	http://purl.obolibrary.org/obo/MONDO_0019338	sarcoidosis	http://purl.obolibrary.org/obo/UBERON_0001893	telencephalon
+http://purl.obolibrary.org/obo/MONDO_0044343	cervical disc degenerative disorder	http://purl.obolibrary.org/obo/MONDO_0011385	intervertebral disc degenerative disorder	http://purl.obolibrary.org/obo/UBERON_0006072	cervical region of vertebral column
+http://purl.obolibrary.org/obo/MONDO_0006142	cervical small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0000002	uterine cervix
+http://purl.obolibrary.org/obo/MONDO_0002256	cervix disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000002	uterine cervix
+http://purl.obolibrary.org/obo/MONDO_0003933	chest wall bone cancer	http://purl.obolibrary.org/obo/MONDO_0002129	bone cancer	http://purl.obolibrary.org/obo/UBERON_0016435	chest wall
+http://purl.obolibrary.org/obo/MONDO_0000971	chest wall lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0016435	chest wall
+http://purl.obolibrary.org/obo/MONDO_0006699	choledocholithiasis	http://purl.obolibrary.org/obo/MONDO_0005346	gallstones	http://purl.obolibrary.org/obo/UBERON_0001174	common bile duct
+http://purl.obolibrary.org/obo/MONDO_0004085	choroid epithelioid cell melanoma	http://purl.obolibrary.org/obo/MONDO_0002973	epithelioid cell melanoma	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0003913	choroid mixed cell melanoma	http://purl.obolibrary.org/obo/MONDO_0003910	mixed cell uveal melanoma	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0003745	choroid spindle cell melanoma	http://purl.obolibrary.org/obo/MONDO_0006427	spindle cell melanoma	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0002970	ciliary body disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
+http://purl.obolibrary.org/obo/MONDO_0004086	ciliary body epithelioid cell melanoma	http://purl.obolibrary.org/obo/MONDO_0002973	epithelioid cell melanoma	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
+http://purl.obolibrary.org/obo/MONDO_0003911	ciliary body mixed cell melanoma	http://purl.obolibrary.org/obo/MONDO_0003910	mixed cell uveal melanoma	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
+http://purl.obolibrary.org/obo/MONDO_0003746	ciliary body spindle cell melanoma	http://purl.obolibrary.org/obo/MONDO_0006427	spindle cell melanoma	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
+http://purl.obolibrary.org/obo/MONDO_0003850	clivus chondroid chordoma	http://purl.obolibrary.org/obo/MONDO_0006145	chondroid chordoma	http://purl.obolibrary.org/obo/UBERON_0004108	clivus of occipital bone
+http://purl.obolibrary.org/obo/MONDO_0003849	clivus chordoma	http://purl.obolibrary.org/obo/MONDO_0008978	chordoma	http://purl.obolibrary.org/obo/UBERON_0004108	clivus of occipital bone
+http://purl.obolibrary.org/obo/MONDO_0003452	cochlear disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001844	cochlea
+http://purl.obolibrary.org/obo/MONDO_0002882	colon neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0003978	colon small cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0004210	colonic L-cell glucagon-like peptide producing tumor	http://purl.obolibrary.org/obo/MONDO_0004211	L-cell glucagon-like peptide-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0003409	colonic disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0001093	colonic lymphangioma	http://purl.obolibrary.org/obo/MONDO_0002013	lymphangioma	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0003885	colorectal lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000059	large intestine
+http://purl.obolibrary.org/obo/MONDO_0015381	commissural lip fistula	http://purl.obolibrary.org/obo/MONDO_0015476	cysts and fistulae of the face and oral cavity	http://purl.obolibrary.org/obo/UBERON_1000011	labial commissure
+http://purl.obolibrary.org/obo/MONDO_0002886	common bile duct disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001174	common bile duct
+http://purl.obolibrary.org/obo/MONDO_0005449	conduction system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002350	conducting system of heart
+http://purl.obolibrary.org/obo/MONDO_0006170	conjunctival disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001811	conjunctiva
+http://purl.obolibrary.org/obo/MONDO_0001174	conjunctival vascular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0010366	conjunctival vasculature
+http://purl.obolibrary.org/obo/MONDO_0000942	corneal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
+http://purl.obolibrary.org/obo/MONDO_0023865	corneal infection	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
+http://purl.obolibrary.org/obo/MONDO_0004577	corneal ulcer	http://purl.obolibrary.org/obo/MONDO_0043839	ulcer disease	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
+http://purl.obolibrary.org/obo/MONDO_0005010	coronary artery disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001621	coronary artery
+http://purl.obolibrary.org/obo/MONDO_0003845	corpus callosum lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002336	corpus callosum
+http://purl.obolibrary.org/obo/MONDO_0001625	corpus luteum cyst	http://purl.obolibrary.org/obo/MONDO_0003282	ovarian cyst	http://purl.obolibrary.org/obo/UBERON_0002512	corpus luteum
+http://purl.obolibrary.org/obo/MONDO_0003569	cranial nerve neuropathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0034713	cranial neuron projection bundle
+http://purl.obolibrary.org/obo/MONDO_0004186	cranial nodular fasciitis	http://purl.obolibrary.org/obo/MONDO_0004187	nodular fasciitis	http://purl.obolibrary.org/obo/UBERON_0003128	cranium
+http://purl.obolibrary.org/obo/MONDO_0004215	cutaneous anthrax	http://purl.obolibrary.org/obo/MONDO_0005119	anthrax infection	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0045038	cutaneous basidiobolomycosis	http://purl.obolibrary.org/obo/MONDO_0000302	basidiobolomycosis	http://purl.obolibrary.org/obo/UBERON_0002416	integumental system
+http://purl.obolibrary.org/obo/MONDO_0000879	cutaneous candidiasis	http://purl.obolibrary.org/obo/MONDO_0002026	candidiasis	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0005446	cutaneous leishmaniasis	http://purl.obolibrary.org/obo/MONDO_0011989	leishmaniasis	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0005012	cutaneous melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0000254	cutaneous mycosis	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0002416	integumental system
+http://purl.obolibrary.org/obo/MONDO_0021948	cutaneous tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0002141	cutaneous undifferentiated pleomorphic sarcoma	http://purl.obolibrary.org/obo/MONDO_0002142	undifferentiated pleomorphic sarcoma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0024284	demodicidosis of sebaceous gland	http://purl.obolibrary.org/obo/MONDO_0017280	demodicidosis	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
+http://purl.obolibrary.org/obo/MONDO_0003394	dental pulp disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001754	dental pulp
+http://purl.obolibrary.org/obo/MONDO_0002967	dermatophytosis of scalp or beard	http://purl.obolibrary.org/obo/MONDO_0004678	dermatophytosis	http://purl.obolibrary.org/obo/UBERON_0000403	scalp
+http://purl.obolibrary.org/obo/MONDO_0021154	dermis disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002067	dermis
+http://purl.obolibrary.org/obo/MONDO_0005728	diaphragm disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001103	diaphragm
+http://purl.obolibrary.org/obo/MONDO_0015384	digestive duplication cyst of the tongue	http://purl.obolibrary.org/obo/MONDO_0015476	cysts and fistulae of the face and oral cavity	http://purl.obolibrary.org/obo/UBERON_0001723	tongue
+http://purl.obolibrary.org/obo/MONDO_0004335	digestive system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0005409	alimentary part of gastrointestinal system
+http://purl.obolibrary.org/obo/MONDO_0043424	digestive system infectious disorder	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0005409	alimentary part of gastrointestinal system
+http://purl.obolibrary.org/obo/MONDO_0045070	digestive system melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001007	digestive system
+http://purl.obolibrary.org/obo/MONDO_0024503	digestive system neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0005409	alimentary part of gastrointestinal system
+http://purl.obolibrary.org/obo/MONDO_0056798	disorder of appendix	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001154	vermiform appendix
+http://purl.obolibrary.org/obo/MONDO_0021205	disorder of ear	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001690	ear
+http://purl.obolibrary.org/obo/MONDO_0045013	disorder of extraembryonic membrane	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0005631	extraembryonic membrane
+http://purl.obolibrary.org/obo/MONDO_0023369	disorder of facial skeleton	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0011156	facial skeleton
+http://purl.obolibrary.org/obo/MONDO_0024625	disorder of lacrimal gland	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001817	lacrimal gland
+http://purl.obolibrary.org/obo/MONDO_0015141	disorder of medulla oblongata	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001896	medulla oblongata
+http://purl.obolibrary.org/obo/MONDO_0041154	disorder of neck of urinary bladder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001258	neck of urinary bladder
+http://purl.obolibrary.org/obo/MONDO_0003568	disorder of optic chiasm	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000959	optic chiasma
+http://purl.obolibrary.org/obo/MONDO_0002022	disorder of orbital region	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0004088	orbital region
+http://purl.obolibrary.org/obo/MONDO_0020592	disorder of pharynx	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001042	chordate pharynx
+http://purl.obolibrary.org/obo/MONDO_0002917	disorder of pilosebaceous unit	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0011932	pilosebaceous unit
+http://purl.obolibrary.org/obo/MONDO_0045043	disorder of uterine broad ligament	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0012332	broad ligament of uterus
+http://purl.obolibrary.org/obo/MONDO_0024458	disorder of visual system	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002104	visual system
+http://purl.obolibrary.org/obo/MONDO_0024182	dry beriberi	http://purl.obolibrary.org/obo/MONDO_0006676	beriberi	http://purl.obolibrary.org/obo/UBERON_0001009	circulatory system
+http://purl.obolibrary.org/obo/MONDO_0002866	duodenal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002114	duodenum
+http://purl.obolibrary.org/obo/MONDO_0004411	duodenal gastrin-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0003523	gastrin-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/UBERON_0002114	duodenum
+http://purl.obolibrary.org/obo/MONDO_0024500	duodenal neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002114	duodenum
+http://purl.obolibrary.org/obo/MONDO_0021666	ear infection	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0001690	ear
+http://purl.obolibrary.org/obo/MONDO_0000470	endocardium disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002165	endocardium
+http://purl.obolibrary.org/obo/MONDO_0001933	endocrine pancreas disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000016	endocrine pancreas
+http://purl.obolibrary.org/obo/MONDO_0005151	endocrine system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000949	endocrine system
+http://purl.obolibrary.org/obo/MONDO_0006743	endocrine tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0002368	endocrine gland
+http://purl.obolibrary.org/obo/MONDO_0000931	endometrial disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001295	endometrium
+http://purl.obolibrary.org/obo/MONDO_0006197	endometrial small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0001295	endometrium
+http://purl.obolibrary.org/obo/MONDO_0002183	enthesopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0035845	enthesis
+http://purl.obolibrary.org/obo/MONDO_0044972	eosinophil disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CL_0000771	eosinophil
+http://purl.obolibrary.org/obo/MONDO_0003840	epicardium lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002348	epicardium
+http://purl.obolibrary.org/obo/MONDO_0002712	epidural spinal canal angiolipoma	http://purl.obolibrary.org/obo/MONDO_0006085	angiolipoma	http://purl.obolibrary.org/obo/UBERON_0003691	epidural space
+http://purl.obolibrary.org/obo/MONDO_0006200	epithelioid cell uveal melanoma	http://purl.obolibrary.org/obo/MONDO_0002973	epithelioid cell melanoma	http://purl.obolibrary.org/obo/UBERON_0001768	uvea
+http://purl.obolibrary.org/obo/MONDO_0044347	erythrocyte disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CL_0000232	erythrocyte
+http://purl.obolibrary.org/obo/MONDO_0003749	esophageal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0000963	esophageal lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0001192	esophageal melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0003649	esophageal neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0004116	esophageal small cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0004189	esophageal tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0044782	esophageal ulcer	http://purl.obolibrary.org/obo/MONDO_0043839	ulcer disease	http://purl.obolibrary.org/obo/UBERON_0001043	esophagus
+http://purl.obolibrary.org/obo/MONDO_0005756	ethmoid sinusitis	http://purl.obolibrary.org/obo/MONDO_0005961	sinusitis	http://purl.obolibrary.org/obo/UBERON_0001679	ethmoid bone
+http://purl.obolibrary.org/obo/MONDO_0004866	eustachian tube disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002393	pharyngotympanic tube
+http://purl.obolibrary.org/obo/MONDO_0002776	external ear disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
+http://purl.obolibrary.org/obo/MONDO_0000973	external ear lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
+http://purl.obolibrary.org/obo/MONDO_0000978	extrahepatic bile duct lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0003703	extrahepatic bile duct
+http://purl.obolibrary.org/obo/MONDO_0000462	eye adnexa disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0035639	ocular adnexa
+http://purl.obolibrary.org/obo/MONDO_0005328	eye disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0010230	eyeball of camera-type eye
+http://purl.obolibrary.org/obo/MONDO_0043885	eye infectious disorder	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0000970	eye
+http://purl.obolibrary.org/obo/MONDO_0021627	eyelid capillary hemangioma	http://purl.obolibrary.org/obo/MONDO_0002407	capillary hemangioma	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/MONDO_0003382	eyelid disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/MONDO_0000928	eyelid melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/MONDO_0021607	eyelid seborrheic keratosis	http://purl.obolibrary.org/obo/MONDO_0008420	seborrheic keratosis	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/MONDO_0002098	facial nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001647	facial nerve
+http://purl.obolibrary.org/obo/MONDO_0002156	fallopian tube disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
+http://purl.obolibrary.org/obo/MONDO_0004489	fallopian tube gestational choriocarcinoma	http://purl.obolibrary.org/obo/MONDO_0020550	gestational choriocarcinoma	http://purl.obolibrary.org/obo/UBERON_0003889	fallopian tube
+http://purl.obolibrary.org/obo/MONDO_0020860	faucial diphtheria	http://purl.obolibrary.org/obo/MONDO_0005504	diphtheria	http://purl.obolibrary.org/obo/UBERON_0000341	throat
+http://purl.obolibrary.org/obo/MONDO_0002263	female reproductive system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000474	female reproductive system
+http://purl.obolibrary.org/obo/MONDO_0043589	femoral neck fracture	http://purl.obolibrary.org/obo/MONDO_0005315	bone fracture	http://purl.obolibrary.org/obo/UBERON_0007119	neck of femur
+http://purl.obolibrary.org/obo/MONDO_0003604	functioning pituitary gland neoplasm	http://purl.obolibrary.org/obo/MONDO_0021120	functioning endocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
+http://purl.obolibrary.org/obo/MONDO_0020944	fungal infection of eye	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0000970	eye
+http://purl.obolibrary.org/obo/MONDO_0100504	fungal infection of the toenail	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0009567	nail of pedal digit
+http://purl.obolibrary.org/obo/MONDO_0005281	gallbladder disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MONDO_0000972	gallbladder lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MONDO_0004484	gallbladder melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MONDO_0024502	gallbladder neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MONDO_0006219	gallbladder small cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0002110	gall bladder
+http://purl.obolibrary.org/obo/MONDO_0003524	gastric gastrin-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0003523	gastrin-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0002414	gastric hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0003111	gastric neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0006229	gastric small cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0001126	gastric ulcer	http://purl.obolibrary.org/obo/MONDO_0004247	peptic ulcer disease	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0001701	gastrointestinal anthrax	http://purl.obolibrary.org/obo/MONDO_0005119	anthrax infection	http://purl.obolibrary.org/obo/UBERON_0001007	digestive system
+http://purl.obolibrary.org/obo/MONDO_0005768	gastrointestinal tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0005409	alimentary part of gastrointestinal system
+http://purl.obolibrary.org/obo/MONDO_0100364	genital herpes simplex type 1 infectious disorder	http://purl.obolibrary.org/obo/MONDO_0100359	herpes simplex type 1 infectious disease	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
+http://purl.obolibrary.org/obo/MONDO_0100363	genital herpes simplex type 2 infectious disorder	http://purl.obolibrary.org/obo/MONDO_0100360	herpes simplex type 2 infectious disease	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
+http://purl.obolibrary.org/obo/MONDO_0004294	gestational ovarian choriocarcinoma	http://purl.obolibrary.org/obo/MONDO_0020550	gestational choriocarcinoma	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0004490	gestational uterine corpus choriocarcinoma	http://purl.obolibrary.org/obo/MONDO_0020550	gestational choriocarcinoma	http://purl.obolibrary.org/obo/UBERON_0009853	body of uterus
+http://purl.obolibrary.org/obo/MONDO_0002021	gingival disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001828	gingiva
+http://purl.obolibrary.org/obo/MONDO_0000320	glandular tularemia	http://purl.obolibrary.org/obo/MONDO_0018077	tularemia	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
+http://purl.obolibrary.org/obo/MONDO_0019722	glomerular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000074	renal glomerulus
+http://purl.obolibrary.org/obo/MONDO_0002639	glossopharyngeal nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001649	glossopharyngeal nerve
+http://purl.obolibrary.org/obo/MONDO_0002259	gonadal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000991	gonad
+http://purl.obolibrary.org/obo/MONDO_0006239	head and neck paraganglioma	http://purl.obolibrary.org/obo/MONDO_0000448	paraganglioma	http://purl.obolibrary.org/obo/UBERON_0007811	craniocervical region
+http://purl.obolibrary.org/obo/MONDO_0005267	heart disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0015410	heart plus pericardium
+http://purl.obolibrary.org/obo/MONDO_0003841	heart lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000948	heart
+http://purl.obolibrary.org/obo/MONDO_0002869	heart valve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000946	cardial valve
+http://purl.obolibrary.org/obo/MONDO_0021542	hemangioma of choroid	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0021543	hemangioma of gingiva	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001828	gingiva
+http://purl.obolibrary.org/obo/MONDO_0003194	hemangioma of lung	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0003154	hemangioma of peripheral nerve	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001021	nerve
+http://purl.obolibrary.org/obo/MONDO_0021541	hemangioma of retina	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0000966	retina
+http://purl.obolibrary.org/obo/MONDO_0006557	hemangioma of subcutaneous tissue	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0011818	superficial fascia
+http://purl.obolibrary.org/obo/MONDO_0007707	hemangiomas of small intestine	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
+http://purl.obolibrary.org/obo/MONDO_0005570	hematologic disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002390	hematopoietic system
+http://purl.obolibrary.org/obo/MONDO_0002520	hepatic porphyria	http://purl.obolibrary.org/obo/MONDO_0037939	porphyria	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0002515	hepatobiliary disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002423	hepatobiliary system
+http://purl.obolibrary.org/obo/MONDO_0021032	herpes zoster with dermatitis of eyelid	http://purl.obolibrary.org/obo/MONDO_0021033	herpes zoster dermatitis	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/MONDO_0001810	hypoglossal nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001650	hypoglossal nerve
+http://purl.obolibrary.org/obo/MONDO_0002150	hypothalamic disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001898	hypothalamus
+http://purl.obolibrary.org/obo/MONDO_0005046	immune system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002405	immune system
+http://purl.obolibrary.org/obo/MONDO_0020010	infectious disorder of the nervous system	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0001016	nervous system
+http://purl.obolibrary.org/obo/MONDO_0002467	inner ear disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001846	internal ear
+http://purl.obolibrary.org/obo/MONDO_0002051	integumentary system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002416	integumental system
+http://purl.obolibrary.org/obo/MONDO_0004065	intermediate cell type choroid melanoma	http://purl.obolibrary.org/obo/MONDO_0004062	intermediate cell type uveal melanoma	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0004066	intermediate cell type ciliary body melanoma	http://purl.obolibrary.org/obo/MONDO_0004062	intermediate cell type uveal melanoma	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
+http://purl.obolibrary.org/obo/MONDO_0004063	intermediate cell type iris melanoma	http://purl.obolibrary.org/obo/MONDO_0004062	intermediate cell type uveal melanoma	http://purl.obolibrary.org/obo/UBERON_0001769	iris
+http://purl.obolibrary.org/obo/MONDO_0003984	internal auditory canal lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0011859	internal acoustic meatus
+http://purl.obolibrary.org/obo/MONDO_0005020	intestinal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MONDO_0024271	intestinal helminthiasis	http://purl.obolibrary.org/obo/MONDO_0004664	helminthiasis	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MONDO_0002883	intestinal neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MONDO_0008412	intestinal schistosomiasis	http://purl.obolibrary.org/obo/MONDO_0015254	schistosomiasis	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MONDO_0002337	intra-abdominal hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0003684	abdominal cavity
+http://purl.obolibrary.org/obo/MONDO_0002328	intracranial hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0000955	brain
+http://purl.obolibrary.org/obo/MONDO_0002289	iris disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001769	iris
+http://purl.obolibrary.org/obo/MONDO_0004064	iris melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001769	iris
+http://purl.obolibrary.org/obo/MONDO_0004188	iris spindle cell melanoma	http://purl.obolibrary.org/obo/MONDO_0006427	spindle cell melanoma	http://purl.obolibrary.org/obo/UBERON_0001769	iris
+http://purl.obolibrary.org/obo/MONDO_0021064	jugulotympanic paraganglioma	http://purl.obolibrary.org/obo/MONDO_0021052	parasympathetic paraganglioma	http://purl.obolibrary.org/obo/UBERON_0002517	basicranium
+http://purl.obolibrary.org/obo/MONDO_0005240	kidney disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0000968	kidney lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0001854	lacrimal apparatus disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001750	lacrimal apparatus
+http://purl.obolibrary.org/obo/MONDO_0024634	large intestine disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000059	large intestine
+http://purl.obolibrary.org/obo/MONDO_0020863	laryngeal diphtheria	http://purl.obolibrary.org/obo/MONDO_0005504	diphtheria	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
+http://purl.obolibrary.org/obo/MONDO_0004382	laryngeal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
+http://purl.obolibrary.org/obo/MONDO_0015070	laryngeal neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
+http://purl.obolibrary.org/obo/MONDO_0006265	laryngeal small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
+http://purl.obolibrary.org/obo/MONDO_0005819	laryngeal tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0001737	larynx
+http://purl.obolibrary.org/obo/MONDO_0001176	lens disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000965	lens of camera-type eye
+http://purl.obolibrary.org/obo/MONDO_0003761	leptomeningeal melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000391	leptomeninx
+http://purl.obolibrary.org/obo/MONDO_0004805	leukocyte disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CL_0000738	leukocyte
+http://purl.obolibrary.org/obo/MONDO_0045044	ligament disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000211	ligament
+http://purl.obolibrary.org/obo/MONDO_0004748	lip disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001833	lip
+http://purl.obolibrary.org/obo/MONDO_0100361	lip herpes simplex type 1 infectious disorder	http://purl.obolibrary.org/obo/MONDO_0100359	herpes simplex type 1 infectious disease	http://purl.obolibrary.org/obo/UBERON_0001833	lip
+http://purl.obolibrary.org/obo/MONDO_0100362	lip herpes simplex type 2 infectious disorder	http://purl.obolibrary.org/obo/MONDO_0100360	herpes simplex type 2 infectious disease	http://purl.obolibrary.org/obo/UBERON_0001833	lip
+http://purl.obolibrary.org/obo/MONDO_0001091	lipoma of colon	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001155	colon
+http://purl.obolibrary.org/obo/MONDO_0021630	lipoma of face	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001456	face
+http://purl.obolibrary.org/obo/MONDO_0000975	lipoma of spermatic cord	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0005352	spermatic cord
+http://purl.obolibrary.org/obo/MONDO_0021437	lipoma of stomach	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0003884	lipoma of the rectum	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0001052	rectum
+http://purl.obolibrary.org/obo/MONDO_0700051	liver abscess (disease)	http://purl.obolibrary.org/obo/MONDO_0005227	abscess	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0006267	liver cavernous hemangioma	http://purl.obolibrary.org/obo/MONDO_0003155	cavernous hemangioma	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0005154	liver disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0002404	liver hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0000965	liver lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0015072	liver neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0002120	neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0002107	liver
+http://purl.obolibrary.org/obo/MONDO_0015382	lower lip fistula	http://purl.obolibrary.org/obo/MONDO_0015476	cysts and fistulae of the face and oral cavity	http://purl.obolibrary.org/obo/UBERON_0001835	lower lip
+http://purl.obolibrary.org/obo/MONDO_0000270	lower respiratory tract disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001558	lower respiratory tract
+http://purl.obolibrary.org/obo/MONDO_0044339	lumbar disc degenerative disorder	http://purl.obolibrary.org/obo/MONDO_0011385	intervertebral disc degenerative disorder	http://purl.obolibrary.org/obo/UBERON_0006074	lumbar region of vertebral column
+http://purl.obolibrary.org/obo/MONDO_0004077	lumbosacral lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0006075	sacral region of vertebral column
+http://purl.obolibrary.org/obo/MONDO_0006041	lung carcinoid tumor	http://purl.obolibrary.org/obo/MONDO_0005369	carcinoid tumor	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0005275	lung disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0005454	lung neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0004928	lymph node disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
+http://purl.obolibrary.org/obo/MONDO_0005831	lymph node tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000029	lymph node
+http://purl.obolibrary.org/obo/MONDO_0005833	lymphatic system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0006558	lymphatic part of lymphoid system
+http://purl.obolibrary.org/obo/MONDO_0005834	lymphogranuloma venereum	http://purl.obolibrary.org/obo/MONDO_0005777	granuloma inguinale	http://purl.obolibrary.org/obo/UBERON_0002391	lymph
+http://purl.obolibrary.org/obo/MONDO_0044986	lymphoid system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002465	lymphoid system
+http://purl.obolibrary.org/obo/MONDO_0006845	male genital tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000079	male reproductive system
+http://purl.obolibrary.org/obo/MONDO_0003150	male reproductive system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000079	male reproductive system
+http://purl.obolibrary.org/obo/MONDO_0002975	malignant breast melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000310	breast
+http://purl.obolibrary.org/obo/MONDO_0003878	malignant choroid melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0003912	malignant ciliary body melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001775	ciliary body
+http://purl.obolibrary.org/obo/MONDO_0002096	malignant conjunctival melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001811	conjunctiva
+http://purl.obolibrary.org/obo/MONDO_0004550	malignant cornea melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000964	cornea
+http://purl.obolibrary.org/obo/MONDO_0015694	malignant melanoma of the mucosa	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000344	mucosa
+http://purl.obolibrary.org/obo/MONDO_0004457	maxillary sinus Schneiderian papilloma	http://purl.obolibrary.org/obo/MONDO_0006353	paranasal sinus Schneiderian papilloma	http://purl.obolibrary.org/obo/UBERON_0001764	maxillary sinus
+http://purl.obolibrary.org/obo/MONDO_0004512	meningeal melanomatosis	http://purl.obolibrary.org/obo/MONDO_0004141	melanomatosis	http://purl.obolibrary.org/obo/UBERON_0010743	meningeal cluster
+http://purl.obolibrary.org/obo/MONDO_0017079	meningoencephalocele	http://purl.obolibrary.org/obo/MONDO_0017078	cephalocele	http://purl.obolibrary.org/obo/UBERON_0003547	brain meninx
+http://purl.obolibrary.org/obo/MONDO_0044997	midbrain disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001891	midbrain
+http://purl.obolibrary.org/obo/MONDO_0003276	middle ear disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
+http://purl.obolibrary.org/obo/MONDO_0015071	middle ear neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001756	middle ear
+http://purl.obolibrary.org/obo/MONDO_0003767	mitral valve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
+http://purl.obolibrary.org/obo/MONDO_0020128	motor neuron disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/CL_0000100	motor neuron
+http://purl.obolibrary.org/obo/MONDO_0006858	mouth disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
+http://purl.obolibrary.org/obo/MONDO_0044992	mouth mucosa disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0003729	mouth mucosa
+http://purl.obolibrary.org/obo/MONDO_0003939	muscle tissue disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002385	muscle tissue
+http://purl.obolibrary.org/obo/MONDO_0005218	muscular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001630	muscle organ
+http://purl.obolibrary.org/obo/MONDO_0002081	musculoskeletal system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002204	musculoskeletal system
+http://purl.obolibrary.org/obo/MONDO_0024643	myocardial disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002349	myocardium
+http://purl.obolibrary.org/obo/MONDO_0002884	nail disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001705	nail
+http://purl.obolibrary.org/obo/MONDO_0024487	nail infection	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0001705	nail
+http://purl.obolibrary.org/obo/MONDO_0002232	nasal cavity disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001707	nasal cavity
+http://purl.obolibrary.org/obo/MONDO_0002436	nasal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000004	nose
+http://purl.obolibrary.org/obo/MONDO_0044984	nasolacrimal duct disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002392	nasolacrimal duct
+http://purl.obolibrary.org/obo/MONDO_0020866	nasopharyngeal diphtheria	http://purl.obolibrary.org/obo/MONDO_0005504	diphtheria	http://purl.obolibrary.org/obo/UBERON_0001728	nasopharynx
+http://purl.obolibrary.org/obo/MONDO_0004821	nasopharyngeal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001728	nasopharynx
+http://purl.obolibrary.org/obo/MONDO_0022409	nephropathy-associated ciliopathy	http://purl.obolibrary.org/obo/MONDO_0005308	ciliopathy	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0024432	nerve plexus disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001810	nerve plexus
+http://purl.obolibrary.org/obo/MONDO_0005071	nervous system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001016	nervous system
+http://purl.obolibrary.org/obo/MONDO_0044745	nervous system injury	http://purl.obolibrary.org/obo/MONDO_0021178	injury	http://purl.obolibrary.org/obo/UBERON_0001016	nervous system
+http://purl.obolibrary.org/obo/MONDO_0100070	neuroendocrine disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0010133	neuroendocrine gland
+http://purl.obolibrary.org/obo/MONDO_0045047	neurosarcoidosis	http://purl.obolibrary.org/obo/MONDO_0019338	sarcoidosis	http://purl.obolibrary.org/obo/UBERON_0001016	nervous system
+http://purl.obolibrary.org/obo/MONDO_0005874	neuroschistosomiasis	http://purl.obolibrary.org/obo/MONDO_0015254	schistosomiasis	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0006321	non-functioning adrenal cortex adenoma	http://purl.obolibrary.org/obo/MONDO_0021119	non-functioning endocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001235	adrenal cortex
+http://purl.obolibrary.org/obo/MONDO_0003603	non-functioning pituitary gland neoplasm	http://purl.obolibrary.org/obo/MONDO_0021119	non-functioning endocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
+http://purl.obolibrary.org/obo/MONDO_0017451	non-syndromic brachydactyly of fingers	http://purl.obolibrary.org/obo/MONDO_0017424	non-syndromic brachydactyly	http://purl.obolibrary.org/obo/UBERON_0002398	manus
+http://purl.obolibrary.org/obo/MONDO_0017452	non-syndromic brachydactyly of toes	http://purl.obolibrary.org/obo/MONDO_0017424	non-syndromic brachydactyly	http://purl.obolibrary.org/obo/UBERON_0002387	pes
+http://purl.obolibrary.org/obo/MONDO_0006325	ocular melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0010230	eyeball of camera-type eye
+http://purl.obolibrary.org/obo/MONDO_0005878	ocular onchocerciasis	http://purl.obolibrary.org/obo/MONDO_0017137	onchocerciasis	http://purl.obolibrary.org/obo/UBERON_0010230	eyeball of camera-type eye
+http://purl.obolibrary.org/obo/MONDO_0001355	ocular siderosis	http://purl.obolibrary.org/obo/MONDO_0001436	hemosiderosis	http://purl.obolibrary.org/obo/UBERON_0000019	camera-type eye
+http://purl.obolibrary.org/obo/MONDO_0005879	ocular toxoplasmosis	http://purl.obolibrary.org/obo/MONDO_0005989	toxoplasmosis	http://purl.obolibrary.org/obo/UBERON_0010230	eyeball of camera-type eye
+http://purl.obolibrary.org/obo/MONDO_0006876	ocular tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000970	eye
+http://purl.obolibrary.org/obo/MONDO_0005552	ocular vascular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002203	vasculature of eye
+http://purl.obolibrary.org/obo/MONDO_0002727	olfactory nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001579	olfactory nerve
+http://purl.obolibrary.org/obo/MONDO_0001898	optic choroid disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001776	optic choroid
+http://purl.obolibrary.org/obo/MONDO_0002135	optic nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000941	cranial nerve II
+http://purl.obolibrary.org/obo/MONDO_0005886	oral candidiasis	http://purl.obolibrary.org/obo/MONDO_0002026	candidiasis	http://purl.obolibrary.org/obo/UBERON_0000165	mouth
+http://purl.obolibrary.org/obo/MONDO_0000236	oropharyngeal anthrax	http://purl.obolibrary.org/obo/MONDO_0005119	anthrax infection	http://purl.obolibrary.org/obo/UBERON_0001729	oropharynx
+http://purl.obolibrary.org/obo/MONDO_0000262	otomycosis	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0001691	external ear
+http://purl.obolibrary.org/obo/MONDO_0005558	ovarian disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0002697	ovarian gonadoblastoma	http://purl.obolibrary.org/obo/MONDO_0010768	gonadoblastoma	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0023283	ovarian granulosa cell tumor	http://purl.obolibrary.org/obo/MONDO_0006036	granulosa cell tumor	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0003049	ovarian large-cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0005057	large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0000543	ovarian melanoma	http://purl.obolibrary.org/obo/MONDO_0005191	metastatic melanoma	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0002481	ovarian neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0003795	ovarian small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0000992	ovary
+http://purl.obolibrary.org/obo/MONDO_0020178	palpebral lentiginosis	http://purl.obolibrary.org/obo/MONDO_0021582	lentigo	http://purl.obolibrary.org/obo/UBERON_0001457	skin of eyelid
+http://purl.obolibrary.org/obo/MONDO_0002356	pancreas disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/MONDO_0003525	pancreatic gastrin-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0003523	gastrin-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/MONDO_0006347	pancreatic large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0005057	large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0001264	pancreas
+http://purl.obolibrary.org/obo/MONDO_0006348	pancreatic small cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0000016	endocrine pancreas
+http://purl.obolibrary.org/obo/MONDO_0001735	paranasal sinus disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001825	paranasal sinus
+http://purl.obolibrary.org/obo/MONDO_0018215	paraneoplastic neurologic syndrome	http://purl.obolibrary.org/obo/MONDO_0021073	paraneoplastic syndrome	http://purl.obolibrary.org/obo/UBERON_0001016	nervous system
+http://purl.obolibrary.org/obo/MONDO_0020947	parasitic eye infection	http://purl.obolibrary.org/obo/MONDO_0005135	parasitic infectious disease	http://purl.obolibrary.org/obo/UBERON_0000970	eye
+http://purl.obolibrary.org/obo/MONDO_0001812	parasitic eyelid infestation	http://purl.obolibrary.org/obo/MONDO_0005135	parasitic infectious disease	http://purl.obolibrary.org/obo/UBERON_0001711	eyelid
+http://purl.obolibrary.org/obo/MONDO_0024270	parasitic intestinal disorder	http://purl.obolibrary.org/obo/MONDO_0005135	parasitic infectious disease	http://purl.obolibrary.org/obo/UBERON_0000160	intestine
+http://purl.obolibrary.org/obo/MONDO_0024610	parasitic skin disorder	http://purl.obolibrary.org/obo/MONDO_0005135	parasitic infectious disease	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0044995	parasympathetic nervous system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000011	parasympathetic nervous system
+http://purl.obolibrary.org/obo/MONDO_0021052	parasympathetic paraganglioma	http://purl.obolibrary.org/obo/MONDO_0000448	paraganglioma	http://purl.obolibrary.org/obo/UBERON_0000011	parasympathetic nervous system
+http://purl.obolibrary.org/obo/MONDO_0001223	parathyroid gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001132	parathyroid gland
+http://purl.obolibrary.org/obo/MONDO_0005899	parotid disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001831	parotid gland
+http://purl.obolibrary.org/obo/MONDO_0001042	patellar tendinitis	http://purl.obolibrary.org/obo/MONDO_0004857	tendinitis	http://purl.obolibrary.org/obo/UBERON_0002446	patella
+http://purl.obolibrary.org/obo/MONDO_0002036	penile disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000989	penis
+http://purl.obolibrary.org/obo/MONDO_0000474	pericardium disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002407	pericardium
+http://purl.obolibrary.org/obo/MONDO_0002635	periodontal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001758	periodontium
+http://purl.obolibrary.org/obo/MONDO_0003680	periosteal chondrosarcoma	http://purl.obolibrary.org/obo/MONDO_0008977	chondrosarcoma	http://purl.obolibrary.org/obo/UBERON_0002515	periosteum
+http://purl.obolibrary.org/obo/MONDO_0003620	peripheral nervous system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000010	peripheral nervous system
+http://purl.obolibrary.org/obo/MONDO_0005906	peritonsillar abscess	http://purl.obolibrary.org/obo/MONDO_0005227	abscess	http://purl.obolibrary.org/obo/UBERON_0002373	palatine tonsil
+http://purl.obolibrary.org/obo/MONDO_0000253	piedra	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0002074	hair shaft
+http://purl.obolibrary.org/obo/MONDO_0003381	pituitary gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000007	pituitary gland
+http://purl.obolibrary.org/obo/MONDO_0005917	placenta disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001987	placenta
+http://purl.obolibrary.org/obo/MONDO_0006375	placental hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001987	placenta
+http://purl.obolibrary.org/obo/MONDO_0002037	pleural disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000977	pleura
+http://purl.obolibrary.org/obo/MONDO_0000969	pleural lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000977	pleura
+http://purl.obolibrary.org/obo/MONDO_0005922	pleural tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000977	pleura
+http://purl.obolibrary.org/obo/MONDO_0001024	pneumonic plague	http://purl.obolibrary.org/obo/MONDO_0019095	plague	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0018561	precocious puberty in female	http://purl.obolibrary.org/obo/MONDO_0000088	precocious puberty	http://purl.obolibrary.org/obo/UBERON_0003100	female organism
+http://purl.obolibrary.org/obo/MONDO_0016747	primary melanoma of the central nervous system	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001017	central nervous system
+http://purl.obolibrary.org/obo/MONDO_0003105	prostate disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
+http://purl.obolibrary.org/obo/MONDO_0002477	prostate neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
+http://purl.obolibrary.org/obo/MONDO_0006390	prostate small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0002367	prostate gland
+http://purl.obolibrary.org/obo/MONDO_0000266	pulmonary aspergilloma	http://purl.obolibrary.org/obo/MONDO_0005657	aspergillosis	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0003960	pulmonary large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0005057	large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0001708	pulmonary sarcoidosis	http://purl.obolibrary.org/obo/MONDO_0019338	sarcoidosis	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0003628	pulmonary valve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
+http://purl.obolibrary.org/obo/MONDO_0002285	pupil disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001771	pupil
+http://purl.obolibrary.org/obo/MONDO_0001593	rectal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001052	rectum
+http://purl.obolibrary.org/obo/MONDO_0002167	rectum malignant melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001052	rectum
+http://purl.obolibrary.org/obo/MONDO_0003646	rectum neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0001052	rectum
+http://purl.obolibrary.org/obo/MONDO_0005938	renal tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0002113	kidney
+http://purl.obolibrary.org/obo/MONDO_0021568	renal tubule disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0009773	renal tubule
+http://purl.obolibrary.org/obo/MONDO_0005039	reproductive system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000990	reproductive system
+http://purl.obolibrary.org/obo/MONDO_0005087	respiratory system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001004	respiratory system
+http://purl.obolibrary.org/obo/MONDO_0024355	respiratory tract infectious disorder	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0000065	respiratory tract
+http://purl.obolibrary.org/obo/MONDO_0022410	retinal ciliopathy	http://purl.obolibrary.org/obo/MONDO_0005308	ciliopathy	http://purl.obolibrary.org/obo/UBERON_0000966	retina
+http://purl.obolibrary.org/obo/MONDO_0003343	retinal hemangioblastoma	http://purl.obolibrary.org/obo/MONDO_0016748	hemangioblastoma	http://purl.obolibrary.org/obo/UBERON_0004864	vasculature of retina
+http://purl.obolibrary.org/obo/MONDO_0004561	retinal melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000966	retina
+http://purl.obolibrary.org/obo/MONDO_0003579	retinal nerve fibre layer disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001793	nerve fiber layer of retina
+http://purl.obolibrary.org/obo/MONDO_0042967	rheumatic disease of mitral valve	http://purl.obolibrary.org/obo/MONDO_0005554	rheumatic disorder	http://purl.obolibrary.org/obo/UBERON_0002135	mitral valve
+http://purl.obolibrary.org/obo/MONDO_0003627	rheumatic pulmonary valve disease	http://purl.obolibrary.org/obo/MONDO_0005554	rheumatic disorder	http://purl.obolibrary.org/obo/UBERON_0002146	pulmonary valve
+http://purl.obolibrary.org/obo/MONDO_0024454	sacral nerve plexus disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0034986	sacral nerve plexus
+http://purl.obolibrary.org/obo/MONDO_0000518	sacrum chordoma	http://purl.obolibrary.org/obo/MONDO_0008978	chordoma	http://purl.obolibrary.org/obo/UBERON_0003690	fused sacrum
+http://purl.obolibrary.org/obo/MONDO_0001142	salivary gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland
+http://purl.obolibrary.org/obo/MONDO_0006405	salivary gland small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0001044	saliva-secreting gland
+http://purl.obolibrary.org/obo/MONDO_0001269	scleral disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001773	sclera
+http://purl.obolibrary.org/obo/MONDO_0045003	scrotal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
+http://purl.obolibrary.org/obo/MONDO_0003951	scrotal hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
+http://purl.obolibrary.org/obo/MONDO_0001652	scrotum melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001300	scrotum
+http://purl.obolibrary.org/obo/MONDO_0006607	sebaceous gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001821	sebaceous gland
+http://purl.obolibrary.org/obo/MONDO_0021260	sensory ganglionopathy	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001800	sensory ganglion
+http://purl.obolibrary.org/obo/MONDO_0005956	septicemic plague	http://purl.obolibrary.org/obo/MONDO_0019095	plague	http://purl.obolibrary.org/obo/UBERON_0000178	blood
+http://purl.obolibrary.org/obo/MONDO_0000469	sinoatrial node disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002351	sinoatrial node
+http://purl.obolibrary.org/obo/MONDO_0045004	skeletal ligament disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0008846	skeletal ligament
+http://purl.obolibrary.org/obo/MONDO_0020120	skeletal muscle disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001134	skeletal muscle tissue
+http://purl.obolibrary.org/obo/MONDO_0005172	skeletal system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001434	skeletal system
+http://purl.obolibrary.org/obo/MONDO_0005962	skeletal tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0001434	skeletal system
+http://purl.obolibrary.org/obo/MONDO_0024481	skin appendage disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000021	cutaneous appendage
+http://purl.obolibrary.org/obo/MONDO_0005093	skin disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0024294	skin disorder caused by infection	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0001939	skin epithelioid hemangioma	http://purl.obolibrary.org/obo/MONDO_0021169	epithelioid hemangioma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0003110	skin hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0000964	skin lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0024673	skin lymphangioma	http://purl.obolibrary.org/obo/MONDO_0002013	lymphangioma	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0006611	skin sarcoidosis	http://purl.obolibrary.org/obo/MONDO_0019338	sarcoidosis	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0024654	skull disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0003129	skull
+http://purl.obolibrary.org/obo/MONDO_0008433	small cell lung carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0002048	lung
+http://purl.obolibrary.org/obo/MONDO_0004252	small intestinal L-cell glucagon-like peptide producing tumor	http://purl.obolibrary.org/obo/MONDO_0004211	L-cell glucagon-like peptide-producing neuroendocrine tumor	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
+http://purl.obolibrary.org/obo/MONDO_0024635	small intestine disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
+http://purl.obolibrary.org/obo/MONDO_0018510	small intestine neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002108	small intestine
+http://purl.obolibrary.org/obo/MONDO_0005964	sphenoid sinusitis	http://purl.obolibrary.org/obo/MONDO_0005961	sinusitis	http://purl.obolibrary.org/obo/UBERON_0001677	sphenoid bone
+http://purl.obolibrary.org/obo/MONDO_0002545	spinal cord disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/MONDO_0043797	spinal cord injury	http://purl.obolibrary.org/obo/MONDO_0021178	injury	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/MONDO_0001790	spinal cord lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/MONDO_0001893	spinal cord melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0002240	spinal cord
+http://purl.obolibrary.org/obo/MONDO_0005309	spinal fracture	http://purl.obolibrary.org/obo/MONDO_0005315	bone fracture	http://purl.obolibrary.org/obo/UBERON_0001130	vertebral column
+http://purl.obolibrary.org/obo/MONDO_0037747	spinal injury	http://purl.obolibrary.org/obo/MONDO_0021178	injury	http://purl.obolibrary.org/obo/UBERON_0001130	vertebral column
+http://purl.obolibrary.org/obo/MONDO_0002333	splenic abscess	http://purl.obolibrary.org/obo/MONDO_0005227	abscess	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
+http://purl.obolibrary.org/obo/MONDO_0002332	splenic disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
+http://purl.obolibrary.org/obo/MONDO_0002343	splenic hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
+http://purl.obolibrary.org/obo/MONDO_0005967	splenic tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0002106	spleen
+http://purl.obolibrary.org/obo/MONDO_0004298	stomach disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000945	stomach
+http://purl.obolibrary.org/obo/MONDO_0000255	subcutaneous mycosis	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0002072	hypodermis
+http://purl.obolibrary.org/obo/MONDO_0019296	subcutaneous tissue disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0011818	superficial fascia
+http://purl.obolibrary.org/obo/MONDO_0003115	subglottic hemangioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0036068	subglottis
+http://purl.obolibrary.org/obo/MONDO_0001597	submandibular gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001736	submandibular gland
+http://purl.obolibrary.org/obo/MONDO_0024268	superficial mycosis	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0002027	stratum corneum of epidermis
+http://purl.obolibrary.org/obo/MONDO_0002687	superior mesenteric artery syndrome	http://purl.obolibrary.org/obo/MONDO_0002254	syndromic disease	http://purl.obolibrary.org/obo/UBERON_0001182	superior mesenteric artery
+http://purl.obolibrary.org/obo/MONDO_0015550	suprabasal epidermolysis bullosa simplex	http://purl.obolibrary.org/obo/MONDO_0017610	epidermolysis bullosa simplex	http://purl.obolibrary.org/obo/UBERON_0010402	epidermis suprabasal layer
+http://purl.obolibrary.org/obo/MONDO_0006615	sweat gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001820	sweat gland
+http://purl.obolibrary.org/obo/MONDO_0044993	sympathetic nervous system disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000013	sympathetic nervous system
+http://purl.obolibrary.org/obo/MONDO_0021072	sympathetic paraganglioma	http://purl.obolibrary.org/obo/MONDO_0000448	paraganglioma	http://purl.obolibrary.org/obo/UBERON_0000013	sympathetic nervous system
+http://purl.obolibrary.org/obo/MONDO_0004519	synovial angioma	http://purl.obolibrary.org/obo/MONDO_0006500	hemangioma	http://purl.obolibrary.org/obo/UBERON_0007616	layer of synovial tissue
+http://purl.obolibrary.org/obo/MONDO_0056802	synovial bursa disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0003668	synovial bursa
+http://purl.obolibrary.org/obo/MONDO_0056799	synovium disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0007616	layer of synovial tissue
+http://purl.obolibrary.org/obo/MONDO_0100010	tendinopathy	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000043	tendon
+http://purl.obolibrary.org/obo/MONDO_0024876	tendon sheath disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000304	tendon sheath
+http://purl.obolibrary.org/obo/MONDO_0004076	tendon sheath lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0000304	tendon sheath
+http://purl.obolibrary.org/obo/MONDO_0002329	testicular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000473	testis
+http://purl.obolibrary.org/obo/MONDO_0002698	testicular gonadoblastoma	http://purl.obolibrary.org/obo/MONDO_0010768	gonadoblastoma	http://purl.obolibrary.org/obo/UBERON_0000473	testis
+http://purl.obolibrary.org/obo/MONDO_0003395	testicular granulosa cell tumor	http://purl.obolibrary.org/obo/MONDO_0006036	granulosa cell tumor	http://purl.obolibrary.org/obo/UBERON_0000473	testis
+http://purl.obolibrary.org/obo/MONDO_0003081	thalamic disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001897	dorsal plus ventral thalamus
+http://purl.obolibrary.org/obo/MONDO_0003546	third cranial nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001643	oculomotor nerve
+http://purl.obolibrary.org/obo/MONDO_0044342	thoracic disc degenerative disorder	http://purl.obolibrary.org/obo/MONDO_0011385	intervertebral disc degenerative disorder	http://purl.obolibrary.org/obo/UBERON_0006073	thoracic region of vertebral column
+http://purl.obolibrary.org/obo/MONDO_0003047	thymic large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0005057	large cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/MONDO_0020516	thymic neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0002120	neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/MONDO_0019964	thymic neuroendocrine tumor	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/MONDO_0003393	thymus gland disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/MONDO_0002163	thymus lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/MONDO_0004122	thymus small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0002370	thymus
+http://purl.obolibrary.org/obo/MONDO_0003240	thyroid gland disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002046	thyroid gland
+http://purl.obolibrary.org/obo/MONDO_0005320	tibia fracture	http://purl.obolibrary.org/obo/MONDO_0005315	bone fracture	http://purl.obolibrary.org/obo/UBERON_0000979	tibia
+http://purl.obolibrary.org/obo/MONDO_0006469	tibial adamantinoma	http://purl.obolibrary.org/obo/MONDO_0002422	adamantinoma	http://purl.obolibrary.org/obo/UBERON_0000979	tibia
+http://purl.obolibrary.org/obo/MONDO_0001127	tibialis tendinitis	http://purl.obolibrary.org/obo/MONDO_0004857	tendinitis	http://purl.obolibrary.org/obo/UBERON_0008230	tibialis
+http://purl.obolibrary.org/obo/MONDO_0000242	tinea barbae	http://purl.obolibrary.org/obo/MONDO_0004678	dermatophytosis	http://purl.obolibrary.org/obo/UBERON_0010167	beard
+http://purl.obolibrary.org/obo/MONDO_0005982	tinea infection	http://purl.obolibrary.org/obo/MONDO_0002041	fungal infectious disease	http://purl.obolibrary.org/obo/UBERON_0000014	zone of skin
+http://purl.obolibrary.org/obo/MONDO_0001699	tinea manuum	http://purl.obolibrary.org/obo/MONDO_0004678	dermatophytosis	http://purl.obolibrary.org/obo/UBERON_0002398	manus
+http://purl.obolibrary.org/obo/MONDO_0005984	tinea pedis	http://purl.obolibrary.org/obo/MONDO_0004678	dermatophytosis	http://purl.obolibrary.org/obo/UBERON_0002387	pes
+http://purl.obolibrary.org/obo/MONDO_0001628	tinea unguium	http://purl.obolibrary.org/obo/MONDO_0004678	dermatophytosis	http://purl.obolibrary.org/obo/UBERON_0001705	nail
+http://purl.obolibrary.org/obo/MONDO_0001165	tongue disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001723	tongue
+http://purl.obolibrary.org/obo/MONDO_0044885	tonsillar lipoma	http://purl.obolibrary.org/obo/MONDO_0005106	lipoma	http://purl.obolibrary.org/obo/UBERON_0002372	tonsil
+http://purl.obolibrary.org/obo/MONDO_0006999	tooth disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001091	calcareous tooth
+http://purl.obolibrary.org/obo/MONDO_0002567	tracheal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0003126	trachea
+http://purl.obolibrary.org/obo/MONDO_0000471	tricuspid valve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002134	tricuspid valve
+http://purl.obolibrary.org/obo/MONDO_0003543	trigeminal nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001645	trigeminal nerve
+http://purl.obolibrary.org/obo/MONDO_0007002	trochlear nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001644	trochlear nerve
+http://purl.obolibrary.org/obo/MONDO_0043836	tuberculosis, spinal	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0001130	vertebral column
+http://purl.obolibrary.org/obo/MONDO_0003648	tympanic membrane disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002364	tympanic membrane
+http://purl.obolibrary.org/obo/MONDO_0023682	tympanic paraganglioma	http://purl.obolibrary.org/obo/MONDO_0000448	paraganglioma	http://purl.obolibrary.org/obo/UBERON_0004114	tympanic cavity
+http://purl.obolibrary.org/obo/MONDO_0005322	ulna fracture	http://purl.obolibrary.org/obo/MONDO_0005315	bone fracture	http://purl.obolibrary.org/obo/UBERON_0001424	ulna
+http://purl.obolibrary.org/obo/MONDO_0044991	upper digestive tract disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0004908	upper digestive tract
+http://purl.obolibrary.org/obo/MONDO_0004867	upper respiratory tract disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001557	upper respiratory tract
+http://purl.obolibrary.org/obo/MONDO_0006482	ureter small cell carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
+http://purl.obolibrary.org/obo/MONDO_0004517	ureter tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
+http://purl.obolibrary.org/obo/MONDO_0001926	ureteral disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000056	ureter
+http://purl.obolibrary.org/obo/MONDO_0004184	urethral disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000057	urethra
+http://purl.obolibrary.org/obo/MONDO_0006026	urinary bladder disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder
+http://purl.obolibrary.org/obo/MONDO_0004114	urinary bladder small cell neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0000402	small cell carcinoma	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder
+http://purl.obolibrary.org/obo/MONDO_0004272	urinary bladder tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder
+http://purl.obolibrary.org/obo/MONDO_0006001	urinary schistosomiasis	http://purl.obolibrary.org/obo/MONDO_0015254	schistosomiasis	http://purl.obolibrary.org/obo/UBERON_0001255	urinary bladder
+http://purl.obolibrary.org/obo/MONDO_0002118	urinary system disorder	http://purl.obolibrary.org/obo/MONDO_0700096	human disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001008	renal system
+http://purl.obolibrary.org/obo/MONDO_0100338	urinary tract infection	http://purl.obolibrary.org/obo/MONDO_0005550	infectious disease	http://purl.obolibrary.org/obo/UBERON_0001008	renal system
+http://purl.obolibrary.org/obo/MONDO_0006002	urogenital tuberculosis	http://purl.obolibrary.org/obo/MONDO_0018076	tuberculosis	http://purl.obolibrary.org/obo/UBERON_0004122	genitourinary system
+http://purl.obolibrary.org/obo/MONDO_0021650	uterine corpus neuroendocrine neoplasm	http://purl.obolibrary.org/obo/MONDO_0019496	neuroendocrine neoplasm	http://purl.obolibrary.org/obo/UBERON_0009853	body of uterus
+http://purl.obolibrary.org/obo/MONDO_0002654	uterine disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000995	uterus
+http://purl.obolibrary.org/obo/MONDO_0002661	uveal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001768	uvea
+http://purl.obolibrary.org/obo/MONDO_0006486	uveal melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0001768	uvea
+http://purl.obolibrary.org/obo/MONDO_0001433	vaginal disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000996	vagina
+http://purl.obolibrary.org/obo/MONDO_0006489	vaginal melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000996	vagina
+http://purl.obolibrary.org/obo/MONDO_0001535	vagus nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
+http://purl.obolibrary.org/obo/MONDO_0044768	vagus nerve paraganglioma	http://purl.obolibrary.org/obo/MONDO_0000448	paraganglioma	http://purl.obolibrary.org/obo/UBERON_0001759	vagus nerve
+http://purl.obolibrary.org/obo/MONDO_0005385	vascular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002049	vasculature
+http://purl.obolibrary.org/obo/MONDO_0022293	vascular disorder of penis	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0036269	penis blood vessel
+http://purl.obolibrary.org/obo/MONDO_0004634	vein disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001638	vein
+http://purl.obolibrary.org/obo/MONDO_0000812	vertebral column disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001130	vertebral column
+http://purl.obolibrary.org/obo/MONDO_0045002	vertebral disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0002412	vertebra
+http://purl.obolibrary.org/obo/MONDO_0037847	vertebral joint disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001468	intervertebral joint
+http://purl.obolibrary.org/obo/MONDO_0002643	vestibular disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001862	vestibular labyrinth
+http://purl.obolibrary.org/obo/MONDO_0001563	vestibulocochlear nerve disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001648	vestibulocochlear nerve
+http://purl.obolibrary.org/obo/MONDO_0020950	viral eye infection	http://purl.obolibrary.org/obo/MONDO_0005108	viral infectious disease	http://purl.obolibrary.org/obo/UBERON_0000970	eye
+http://purl.obolibrary.org/obo/MONDO_0024352	viral respiratory tract infection	http://purl.obolibrary.org/obo/MONDO_0005108	viral infectious disease	http://purl.obolibrary.org/obo/UBERON_0000065	respiratory tract
+http://purl.obolibrary.org/obo/MONDO_0003584	visual cortex disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0000411	visual cortex
+http://purl.obolibrary.org/obo/MONDO_0001834	visual pathway disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001908	optic tract
+http://purl.obolibrary.org/obo/MONDO_0044137	vitreous body disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001798	vitreous body
+http://purl.obolibrary.org/obo/MONDO_0004860	vitreous disorder	http://purl.obolibrary.org/obo/MONDO_0000001	disease or disorder	http://purl.obolibrary.org/obo/UBERON_0001797	vitreous humor
+http://purl.obolibrary.org/obo/MONDO_0002192	vulvar angiokeratoma	http://purl.obolibrary.org/obo/MONDO_0003143	angiokeratoma	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
+http://purl.obolibrary.org/obo/MONDO_0006621	vulvar inverted follicular keratosis	http://purl.obolibrary.org/obo/MONDO_0006563	inverted follicular keratosis	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
+http://purl.obolibrary.org/obo/MONDO_0006491	vulvar lichen sclerosus	http://purl.obolibrary.org/obo/MONDO_0007899	lichen sclerosus et atrophicus	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
+http://purl.obolibrary.org/obo/MONDO_0002205	vulvar melanoma	http://purl.obolibrary.org/obo/MONDO_0005105	melanoma	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
+http://purl.obolibrary.org/obo/MONDO_0056816	vulvar neuroendocrine carcinoma	http://purl.obolibrary.org/obo/MONDO_0002120	neuroendocrine carcinoma	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
+http://purl.obolibrary.org/obo/MONDO_0006622	vulvar seborrheic keratosis	http://purl.obolibrary.org/obo/MONDO_0008420	seborrheic keratosis	http://purl.obolibrary.org/obo/UBERON_0000997	mammalian vulva
+http://purl.obolibrary.org/obo/MONDO_0024183	wet beriberi	http://purl.obolibrary.org/obo/MONDO_0006676	beriberi	http://purl.obolibrary.org/obo/UBERON_0001016	nervous system

@@ -1,0 +1,9 @@
+target/
+out/
+.idea/libraries
+.idea/
+docs/
+.classpath
+.project
+.settings/
+.idea/

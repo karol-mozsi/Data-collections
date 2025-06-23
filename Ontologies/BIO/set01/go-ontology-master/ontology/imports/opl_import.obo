@@ -1,0 +1,148 @@
+format-version: 1.2
+data-version: go/releases/2025-01-23/imports/opl_import.owl
+ontology: go/imports/opl_import
+
+[Term]
+id: OPL:0000006
+name: metacyclic promastigote stage
+def: "A promastigote stage of some kinetoplastids." []
+is_a: OPL:0000151 ! promastigote stage
+is_a: OPL:0000322 ! Trypanosomatida metacyclic stage
+relationship: BFO:0000055 IDO:0000404
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+property_value: IAO:0000119 "PMID:13129524" xsd:string
+
+[Term]
+id: OPL:0000022
+name: bloodstream trypomastigote stage
+def: "A trypomastigote stage where trypmastigote form of parasites are found in mammalian host blood stream." []
+is_a: OPL:0000033 ! trypomastigote stage
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000033
+name: trypomastigote stage
+def: "A parasite lifecycle stage of trypanosomes. In trypomastigote stage, the kinetoplast is near the posterior end of the body, and the flagellum lies attached to the cell body for most of its length by an undulating membrane." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+relationship: RO:0002162 NCBITaxon:5690
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+property_value: IAO:0000119 "Wikipedia: Trypanosomatid" xsd:string
+
+[Term]
+id: OPL:0000076
+name: procyclic trypomastigote stage
+def: "A trypomastigote stage where trypomastigote form of parasites are in dividing form. This stage occurs in fly vector." []
+is_a: OPL:0000033 ! trypomastigote stage
+is_a: OPL:0000323 ! Trypanosomatida procyclic stage
+relationship: BFO:0000051 GO:0051301
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000114
+name: amastigote stage
+def: "A parasite lifecycle stage is a nonflagellate intracellular developmental stage in the trypanosomatid parasites lifecycle that occurs in mammalian host." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+relationship: RO:0002162 OPL:0000232 ! parasite organism
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000149
+name: metacyclic trypomastigote stage
+def: "A trypomastigote stage of Trypanosoma species which are nondividing forms resistant to mammalian complement that have the capacity to infect mammalian cells." []
+is_a: OPL:0000033 ! trypomastigote stage
+is_a: OPL:0000322 ! Trypanosomatida metacyclic stage
+relationship: BFO:0000055 IDO:0000404
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000151
+name: promastigote stage
+def: "A parasite lifecycle stage of Trypanosomatids. In this stage, the flagellum is found anterior of nucleus and flagellum not attached to the cell body. The kinetoplast is located in front of the nucleus, near the anterior end of the body. (Wikipedia: Trypanosomatid)" []
+is_a: OPL:0000181 ! parasite lifecycle stage
+relationship: RO:0002162 NCBITaxon:5654
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000181
+name: parasite lifecycle stage
+def: "A life cycle stage of a parasite." []
+is_a: UBERON:0000105
+intersection_of: UBERON:0000105
+intersection_of: RO:0002162 OPL:0000232 ! parasite organism
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000194
+name: Phlebotominae midgut
+def: "A midgut that is a part of or originated from a sand fly of genus Phlebotominae." []
+is_a: UBERON:0001045
+intersection_of: UBERON:0001045
+intersection_of: BFO:0000050 NCBITaxon:7198
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000215
+name: Glossina midgut
+def: "A midgut that is a part of or originated from a tsetse fly of genus Glossina." []
+is_a: UBERON:0001045
+intersection_of: UBERON:0001045
+intersection_of: BFO:0000050 NCBITaxon:7393
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+
+[Term]
+id: OPL:0000232
+name: parasite organism
+def: "An organism living in, with, or on another organism in parasitism. Individual members of parasite species, such as Leishmania, Plasmodium, Trypanosoma, etc. are members of this class." []
+is_a: OBI:0100026
+intersection_of: OBI:0100026
+intersection_of: RO:0000087 IDO:0000403
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000117 "Priti Parikh" xsd:string
+property_value: IAO:0000119 "http://www.merriam-webster.com/dictionary/parasite?show=0&t=1310398415" xsd:string
+
+[Term]
+id: OPL:0000322
+name: Trypanosomatida metacyclic stage
+def: "A parasite lifecycle stage of trypanosomatidae in which the organism is infectious and does not multiply." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: BFO:0000055 IDO:0000404
+intersection_of: RO:0002162 NCBITaxon:5654
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000118 "metacyclic stage" xsd:string
+property_value: IAO:0000119 "https://microbewiki.kenyon.edu/index.php/Trypanosome_Life_Cycle" xsd:string
+property_value: IAO:0000119 "https://web.stanford.edu/group/parasites/ParaSites2003/Leishmania/Leish%20Biology.html" xsd:string
+property_value: IAO:0000233 "https://github.com/OPL-ontology/OPL/issues/9" xsd:string
+
+[Term]
+id: OPL:0000323
+name: Trypanosomatida procyclic stage
+def: "A parasite lifecycle stage of trypanosomatidae in which the organism is in dividing form and it occurs in fly vector." []
+is_a: OPL:0000181 ! parasite lifecycle stage
+intersection_of: OPL:0000181 ! parasite lifecycle stage
+intersection_of: BFO:0000051 GO:0051301
+intersection_of: RO:0002162 NCBITaxon:5654
+property_value: IAO:0000117 "Achchuthan Shanmugasundram" xsd:string
+property_value: IAO:0000117 "Chris Stoeckert" xsd:string
+property_value: IAO:0000117 "Jie Zheng" xsd:string
+property_value: IAO:0000118 "procyclic stage" xsd:string
+property_value: IAO:0000119 "VEuPathDB" xsd:string
+property_value: IAO:0000233 "https://github.com/OPL-ontology/OPL/issues/10" xsd:string
+

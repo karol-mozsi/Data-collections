@@ -1,0 +1,74 @@
+DO Ontology files in the DiseaseOntology/HumanDiseaseOntology/src/ontology directory
+
+DO production work, conducted by the University of Maryland team, is done on the 
+doid-edit.owl file.
+
+The DO team will update the other files in this directly on a bi-weekly basis 
+as part of our DO release. This creates several OWL and OBO version of DO. 
+
+The DO project produces BOTH our traditional single parentage ontology (based on disease etiology) as well as a 
+logically defined multiple parentage ontology (since 2015), which builds on DO's disease etiology classification providing multiple parentage
+defined by the anatomical location of the disease and cell type of origin through extensive logical definitions based on OBO Foundry
+ontologies. 
+
+DO Single Parentage ontology. 
+The DO's disease classification is represented as both a single is_a hierarchy (doid-non-classified.obo). 
+This file is equivalent to DO's HumanDO.obo file. We will continue to produce both files as the HumanDO naming 
+schema was utilized and published for the first decade of the project. 
+
+Multi-parent Disease Classification in DO
+DO's logically inferred multiple parentage classification is produced as our doid.owl file. 
+This file integrates logical definitions defining the anatomical location or cell or origin of a disease. 
+
+    
+This README is to document and describe what is found in each file/set of files.
+
+The DO production file was previously named: HumanDO.obo. 
+Previous versions of this are archived in DO's SVN directory. 
+In the current DO production environment, the HumanDO.obo and HumanDO.owl files are equivalent to the
+doid-non-classified.obo and doid-non-classified.owl files produced in this GitHub repository. 
+
+DO Production Ontology Files:
+doid-edit.owl           :  DO team editing environment 
+                          -- this file is ONLY edited by the DO team. 
+                          -- this file includes logical definitions to ontology files in the IMPORTS directory.
+                          -- DO includes logical definition to: 
+                             Anatomy: UBERON; Cell type of origin: Cell Ontology (CL); Taxonomy: NCBITaxon; 
+                             Symptoms: Symptom Ontology: SYMP; Phenotype: Human Phenotype Ontology (HPO);
+                             Transmission Process: Pathogen Transmission Methods (TRANS);
+                             Sequence features: Sequence Ontology (SO); RO (Relations Ontology)
+                             
+                             And are next adding: 
+                             FoodON: allergic triggers; CHEBI: chemical triggers/environmental triggers/drivers; 
+                             BRENDA tissue/ enzyme source (BTO): allergic triggers 
+
+DO data releases in GitHub: produces a suite of files.
+
+        
+(contain inferred links)
+    doid.obo                : --Disease Ontology, OBO format. This file omits the equivalent axioms
+    doid.owl                : --Disease Ontology, OWL format. This reasoned OWL file contains DO's is_a asserted hierarchy plus 
+                                                              equivalent axioms to other OBO Foundry ontologies.
+    
+<u>DO merged files</u>: created for the Alliance of Genome Resources (AGR) that includes OMIM to DO associations as xrefs plus defined relationships between OMIM susceptibility IDs and DO terms.
+
+
+    doid-merged.obo : includes the inferred branches, includes ontology imported. 
+    doid-merged.owl : includes the inferred brances, includes ontology imported 'susceptibility to' OMIM terms.
+
+(contain ONLY asserted links)
+    doid-non-classified.obo :  DO's single asserted is_a hierarchy (HumanDO.obo), this file does not contain logical definitions
+    doid-non-classified.owl :  DO's OWL version, of single asserted is_a hierarchy, this file does not contain logical definitions
+    
+
+    
+DO files in the OBO Foundry: 
+
+OBO Foundry products:
+- doid.owl: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/doid.owl
+- doid.obo: https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/doid.obo
+
+
+DO Production Non-Ontology Files
+- doid-idranges.owl
+- ext.owl
