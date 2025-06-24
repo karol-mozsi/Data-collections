@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://iosb.fraunhofer.de/ICS-Security/ics-attAck_iec62443_mapping#"
+     xml:base="https://iosb.fraunhofer.de/ICS-Security/ics-attAck_iec62443_mapping"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:iec62443="http://iosb.fraunhofer.de/security/iec62443#"
+     xmlns:ics-attAck="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#"
+     xmlns:ics-attAck1="http://iosb.fraunhofer.de/ICS-Security/ics-attAck#">
+    <owl:Ontology rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck_iec62443_mapping">
+        <owl:versionIRI rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck_iec62443_mapping/0.0.1"/>
+        <owl:imports rdf:resource="http://iosb.fraunhofer.de/security/iec62443/0.1.0"/>
+        <owl:imports rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck"/>
+        <iec62443:license>GNU Lesser General Public License v2.1</iec62443:license>
+        <ics-attAck:creator>Florian Patzer</ics-attAck:creator>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#creator -->
+
+    <owl:AnnotationProperty rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#creator"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-1.1 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-1.1">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_1.1"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-3.1 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-3.1">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.1"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-3.2 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-3.2">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.2"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-3.4 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-3.4">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.4"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-4.1 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-4.1">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_4.1"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-5.1 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-5.1">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_5.1"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://iosb.fraunhofer.de/security/iec62443#SR-5.4 -->
+
+    <rdf:Description rdf:about="http://iosb.fraunhofer.de/security/iec62443#SR-5.4">
+        <owl:sameAs rdf:resource="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_5.4"/>
+    </rdf:Description>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_1.1 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_1.1"/>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.1 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.1"/>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.2 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.2"/>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.4 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_3.4"/>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_4.1 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_4.1"/>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_5.1 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_5.1"/>
+    
+
+
+    <!-- https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_5.4 -->
+
+    <owl:NamedIndividual rdf:about="https://iosb.fraunhofer.de/ICS-Security/ics-attAck#IEC_62443-3-3:2013_SR_5.4"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
